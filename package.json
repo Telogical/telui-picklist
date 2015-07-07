@@ -37,5 +37,15 @@
     "@telogical/telui-button": "1.x.x",
     "@telogical/telui-menu": "1.x.x"
   },
-  "homepage": "https://github.com/Telogical/telui-picklist"
+  "homepage": "https://github.com/Telogical/telui-picklist",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-coveralls": "^0.1.4",
+    "gulp-gh-pages": "^0.5.2",
+    "gulp-istanbul": "^0.10.0",
+    "gulp-mocha": "^2.1.2",
+    "gulp-plato": "^1.0.2",
+    "gulp-task-listing": "^1.0.1",
+    "run-sequence": "^1.1.1"
+  }
 }

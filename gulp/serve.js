@@ -5,10 +5,10 @@ var webserver = require('gulp-webserver');
 
 function serve() {
   gulp
-    .src('docs')
+    .src('./docs')
     .pipe(webserver({
       livereload: true,
-      directoryListing: true,
+      //directoryListing: true,
       open: true
     }));
 }

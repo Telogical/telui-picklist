@@ -1,0 +1,41 @@
+{
+  "name": "@telogical/telui-picklist",
+  "version": "0.0.1",
+  "description": "A component that takes in input list of items and produces a sublist or subset from the input, built with the telui component system",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Telogical/telui-picklist.git"
+  },
+  "keywords": [
+    "picklist",
+    "list select",
+    "list",
+    "telui",
+    "Telogical",
+    "angular",
+    "react",
+    "lodash",
+    "telui-text",
+    "telui-radio"
+  ],
+  "author": "Jesse Harlin <jharlin@telogical.com>",
+  "maintainers": [
+    "Joe Hare <jhare@telogical.com>"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Telogical/telui-picklist/issues"
+  },
+  "peerDependencies": {
+    "@telogical/telui-core": "1.x.x",
+    "@telogical/telui-text": "1.x.x",
+    "@telogical/telui-checkbox": "1.x.x",
+    "@telogical/telui-button": "1.x.x",
+    "@telogical/telui-menu": "1.x.x"
+  },
+  "homepage": "https://github.com/Telogical/telui-picklist"
+}

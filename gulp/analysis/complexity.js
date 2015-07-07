@@ -16,9 +16,9 @@ var defaultComplexity = {
   newmi: true
 };
 
-var outputDir = './artifacts/plato';
+var outputDir = './docs/artifacts/plato';
 
-var src = './src/**/*.js';
+var src = ['./src/**/*.js', './index.js', './react/**/*.js'];
 
 
 var platoArgs = {

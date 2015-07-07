@@ -19,6 +19,7 @@ function ci(cb) {
 require('./gulp/deploy');
 require('./gulp/analysis');
 require('./gulp/test');
+require('./gulp/serve');
 
 gulp
   .task('help', tasklisting)

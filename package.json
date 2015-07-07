@@ -44,8 +44,9 @@
     "gulp-gh-pages": "^0.5.2",
     "gulp-istanbul": "^0.10.0",
     "gulp-mocha": "^2.1.2",
-    "gulp-plato": "^1.0.2",
     "gulp-task-listing": "^1.0.1",
+    "gulp-webserver": "^0.9.1",
+    "plato": "^1.5.0",
     "run-sequence": "^1.1.1"
   }
 }

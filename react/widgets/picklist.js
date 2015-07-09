@@ -7,7 +7,7 @@ function PickList(ui) {
 
   return React.createClass({
     displayName: 'PickList',
-    mixins: [ui.Mixins.Widget, ui.Mixins.Appearance],
+    mixins: [ui.Mixins.Widget],
     propTypes: {
 
     },
@@ -26,7 +26,6 @@ function PickList(ui) {
       var cx = React.addons.classSet,
        domx = React.DOM,
        model = this.props,
-       row = 'w-12 w-alpha w-omega',
        key = model.id;
 
       //build component
@@ -40,11 +39,11 @@ function PickList(ui) {
       frameClasses = this.__applyUiStates.call(this, frameClasses);
 
       var frameAttrs = {
+          id: key,
           className: cx(frameClasses),
         };
 
-
-      var contents = [];
+      var contents = [domx.span({},'example')];
 
       return domx.div(frameAttrs, contents);
     }

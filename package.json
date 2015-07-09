@@ -24,6 +24,7 @@
   ],
   "author": "Jesse Harlin <jharlin@telogical.com>",
   "maintainers": [
+    "Jesse Harlin <jharlin@telogical.com>",
     "Joe Hare <jhare@telogical.com>"
   ],
   "license": "ISC",
@@ -35,18 +36,30 @@
     "@telogical/telui-text": "1.x.x",
     "@telogical/telui-checkbox": "1.x.x",
     "@telogical/telui-button": "1.x.x",
+    "@telogical/telui-label": "1.x.x",
     "@telogical/telui-menu": "1.x.x"
   },
   "homepage": "https://github.com/Telogical/telui-picklist",
   "devDependencies": {
+    "@telogical/telui-combobox": "1.x.x",
+    "@telogical/telui-radio": "1.x.x",
+    "angular": "^1.2.28",
+    "angular-ui-router": "^0.2.15",
+    "browserify": "^10.2.4",
     "gulp": "^3.9.0",
     "gulp-coveralls": "^0.1.4",
     "gulp-gh-pages": "^0.5.2",
     "gulp-istanbul": "^0.10.0",
     "gulp-mocha": "^2.1.2",
+    "gulp-ng-annotate": "^1.0.0",
+    "gulp-size": "^1.2.3",
+    "gulp-streamify": "0.0.5",
     "gulp-task-listing": "^1.0.1",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.6",
     "gulp-webserver": "^0.9.1",
     "plato": "^1.5.0",
-    "run-sequence": "^1.1.1"
+    "run-sequence": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
   }
 }

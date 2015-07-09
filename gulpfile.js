@@ -20,6 +20,7 @@ require('./gulp/deploy');
 require('./gulp/analysis');
 require('./gulp/test');
 require('./gulp/serve');
+require('./gulp/build');
 
 gulp
   .task('help', tasklisting)

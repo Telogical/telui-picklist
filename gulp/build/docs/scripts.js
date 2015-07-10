@@ -16,22 +16,22 @@ var gulp = require('gulp'),
     appOutput: './docs/build/'
   };
 
+  var uglyOpts = {
+    mangle: true,
+    global_defs: {
+      DEBUG: false
+    }
+  };
+
+  var bundleOpts = {
+    debug: !gutil.env.production
+  };
+
   function generateCoreJs() {
-
-    var uglyOpts = {
-      mangle: true,
-      global_defs: {
-        DEBUG: false
-      }
-    };
-
-    var bundleOpts = {
-      debug: !gutil.env.production
-    };
 
     return browserify('./docs/scripts/core.js', bundleOpts)
       .bundle()
-      .pipe(source('./docs/out/core.js'))
+      .pipe(source('core.js'))
       .pipe(streamify(size({title: 'raw core.js'})))
       .pipe(options.argv.minify ? streamify(ngAnnotate()) : gutil.noop())
       .pipe(options.argv.minify ? streamify(uglify(uglyOpts)) : gutil.noop())
@@ -39,4 +39,16 @@ var gulp = require('gulp'),
       .pipe(gulp.dest(options.appOutput));
   }
 
+  function generateAppJs(){
+    return browserify('./docs/scripts/app.js', bundleOpts)
+      .bundle()
+      .pipe(source('app.js'))
+      .pipe(streamify(size({title: 'raw app.js'})))
+      .pipe(options.argv.minify ? streamify(ngAnnotate()) : gutil.noop())
+      .pipe(options.argv.minify ? streamify(uglify(uglyOpts)) : gutil.noop())
+      .pipe(options.argv.minify ? streamify(size({title: 'min app.js'})) : gutil.noop())
+      .pipe(gulp.dest(options.appOutput));
+  }
+
   gulp.task('build-docs-scripts-core', generateCoreJs);
+  gulp.task('build-docs-scripts-app', generateAppJs);

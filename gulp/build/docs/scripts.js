@@ -52,3 +52,4 @@ var gulp = require('gulp'),
 
   gulp.task('build-docs-scripts-core', generateCoreJs);
   gulp.task('build-docs-scripts-app', generateAppJs);
+  gulp.task('build-docs-scripts', ['build-docs-scripts-core','build-docs-scripts-app'])

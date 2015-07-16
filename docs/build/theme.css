@@ -2558,1809 +2558,6 @@ input:focus:disabled,
 textarea:focus:disabled {
   border-color: $color-stateless;
 }
-.ui-tooltip-content strong {
-  font-weight: bold;
-}
-.ui-tooltip-content em {
-  font-style: italic;
-}
-.ui-tooltip-right {
-  color: #222;
-  position: absolute;
-  z-index: 999;
-  width: 0;
-  height: 0;
-  overflow: visible;
-}
-.ui-tooltip-right .ui-tooltip-content {
-  box-shadow: -2px 2px 4px 1px rgba(0,0,0,0.2);
-  position: relative;
-  background: #fff;
-  border: 1px solid #bdc3c7;
-  width: 350px;
-  height: 180px;
-  top: -100px;
-  left: 36px;
-  padding: 13px;
-}
-.ui-tooltip-right .ui-tooltip-content ul li {
-  height: auto;
-  padding: 6.5px;
-}
-.ui-tooltip-right .ui-tooltip-content:after,
-.ui-tooltip-right .ui-tooltip-content:before {
-  right: 100%;
-  top: 50%;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-}
-.ui-tooltip-right .ui-tooltip-content:after {
-  border-color: rgba(255,255,255,0);
-  border-right-color: #fff;
-  border-width: 17px;
-  margin-top: -17px;
-}
-.ui-tooltip-right .ui-tooltip-content:before {
-  border-color: rgba(165,176,184,0);
-  border-right-color: #bdc3c7;
-  border-width: 18px;
-  margin-top: -18px;
-}
-.ui-tooltip-left {
-  color: #222;
-  position: absolute;
-  z-index: 999;
-  width: 0;
-  height: 0;
-  overflow: visible;
-}
-.ui-tooltip-left .ui-tooltip-content {
-  box-shadow: -2px 2px 4px 1px rgba(0,0,0,0.2);
-  position: relative;
-  background: #fff;
-  border: 1px solid #bdc3c7;
-  width: 350px;
-  height: 180px;
-  top: -100px;
-  left: 36px;
-  padding: 13px;
-}
-.ui-tooltip-left .ui-tooltip-content ul li {
-  height: auto;
-  padding: 6.5px;
-}
-.ui-tooltip-left .ui-tooltip-content:after,
-.ui-tooltip-left .ui-tooltip-content:before {
-  left: 100%;
-  top: 50%;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-}
-.ui-tooltip-left .ui-tooltip-content:after {
-  border-color: rgba(255,255,255,0);
-  border-left-color: #fff;
-  border-width: 17px;
-  margin-top: -17px;
-}
-.ui-tooltip-left .ui-tooltip-content:before {
-  border-color: rgba(165,176,184,0);
-  border-left-color: #bdc3c7;
-  border-width: 18px;
-  margin-top: -18px;
-}
-.ui-text .ui-text-label {
-  min-height: 26px;
-  line-height: 25px;
-  font-size: 16.068px;
-}
-.ui-text .ui-text-input {
-  min-height: 26px;
-}
-.ui-text .ui-text-closeicon-frame {
-  overflow: visible;
-  position: relative;
-  width: 16.068px;
-  right: 4.465999999999999px;
-  top: 5.465999999999999px;
-  float: right;
-  bottom: 4.465999999999999px;
-  height: 0;
-}
-.ui-text .ui-text-closeicon-frame .ui-icon {
-  cursor: pointer;
-}
-.ui-text.ui-state-default .ui-text-label.ui-state-default {
-  color: #000;
-}
-.ui-text.ui-state-default .ui-text-label.ui-state-disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-text.ui-state-default .ui-text-label:disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-text.ui-state-error .ui-text-label.ui-state-default {
-  color: #9d2b20;
-}
-.ui-text.ui-state-error .ui-text-label.ui-state-disabled {
-  color: #9d2b20;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-text.ui-state-error .ui-text-label:disabled {
-  color: #9d2b20;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-text.ui-state-highlight .ui-text-label.ui-state-default {
-  color: #927914;
-}
-.ui-text.ui-state-highlight .ui-text-label.ui-state-disabled {
-  color: #927914;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-text.ui-state-highlight .ui-text-label:disabled {
-  color: #927914;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-text.ui-state-success .ui-text-label.ui-state-default {
-  color: #267d4b;
-}
-.ui-text.ui-state-success .ui-text-label.ui-state-disabled {
-  color: #267d4b;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-text.ui-state-success .ui-text-label:disabled {
-  color: #267d4b;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-text.ui-state-advantage .ui-text-label.ui-state-default {
-  color: #24638c;
-}
-.ui-text.ui-state-advantage .ui-text-label.ui-state-disabled {
-  color: #24638c;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-text.ui-state-advantage .ui-text-label:disabled {
-  color: #24638c;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-text.ui-state-default .ui-text-closeicon.ui-state-default {
-  color: #000;
-}
-.ui-text.ui-state-default .ui-text-closeicon.ui-state-disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-text.ui-state-default .ui-text-closeicon:disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-text.ui-state-error .ui-text-closeicon.ui-state-default {
-  color: #9d2b20;
-}
-.ui-text.ui-state-error .ui-text-closeicon.ui-state-disabled {
-  color: #9d2b20;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-text.ui-state-error .ui-text-closeicon:disabled {
-  color: #9d2b20;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-text.ui-state-highlight .ui-text-closeicon.ui-state-default {
-  color: #927914;
-}
-.ui-text.ui-state-highlight .ui-text-closeicon.ui-state-disabled {
-  color: #927914;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-text.ui-state-highlight .ui-text-closeicon:disabled {
-  color: #927914;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-text.ui-state-success .ui-text-closeicon.ui-state-default {
-  color: #267d4b;
-}
-.ui-text.ui-state-success .ui-text-closeicon.ui-state-disabled {
-  color: #267d4b;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-text.ui-state-success .ui-text-closeicon:disabled {
-  color: #267d4b;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-text.ui-state-advantage .ui-text-closeicon.ui-state-default {
-  color: #24638c;
-}
-.ui-text.ui-state-advantage .ui-text-closeicon.ui-state-disabled {
-  color: #24638c;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-text.ui-state-advantage .ui-text-closeicon:disabled {
-  color: #24638c;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-text.ui-state-default .ui-text-input.ui-state-default {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #bdc3c7;
-}
-.ui-text.ui-state-default .ui-text-input.ui-state-hover {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #c9ccce;
-}
-.ui-text.ui-state-default .ui-text-input:hover {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #c9ccce;
-}
-.ui-text.ui-state-default .ui-text-input.ui-state-active {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #a5b0b8;
-}
-.ui-text.ui-state-default .ui-text-input:active {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #a5b0b8;
-}
-.ui-text.ui-state-default .ui-text-input:focus {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #a5b0b8;
-}
-.ui-text.ui-state-default .ui-text-input.ui-state-disabled {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #bdc3c7;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-text.ui-state-default .ui-text-input:disabled {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #bdc3c7;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-text.ui-state-error .ui-text-input.ui-state-default {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #e74c3c;
-}
-.ui-text.ui-state-error .ui-text-input.ui-state-hover {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #d17b73;
-}
-.ui-text.ui-state-error .ui-text-input:hover {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #d17b73;
-}
-.ui-text.ui-state-error .ui-text-input.ui-state-active {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #fd1800;
-}
-.ui-text.ui-state-error .ui-text-input:active {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #fd1800;
-}
-.ui-text.ui-state-error .ui-text-input:focus {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #fd1800;
-}
-.ui-text.ui-state-error .ui-text-input.ui-state-disabled {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #e74c3c;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-text.ui-state-error .ui-text-input:disabled {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #e74c3c;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-text.ui-state-highlight .ui-text-input.ui-state-default {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #f1c40f;
-}
-.ui-text.ui-state-highlight .ui-text-input.ui-state-hover {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #d1b855;
-}
-.ui-text.ui-state-highlight .ui-text-input:hover {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #d1b855;
-}
-.ui-text.ui-state-highlight .ui-text-input.ui-state-active {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #e6c900;
-}
-.ui-text.ui-state-highlight .ui-text-input:active {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #e6c900;
-}
-.ui-text.ui-state-highlight .ui-text-input:focus {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #e6c900;
-}
-.ui-text.ui-state-highlight .ui-text-input.ui-state-disabled {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #f1c40f;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-text.ui-state-highlight .ui-text-input:disabled {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #f1c40f;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-text.ui-state-success .ui-text-input.ui-state-default {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #2ecc71;
-}
-.ui-text.ui-state-success .ui-text-input.ui-state-hover {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #63be89;
-}
-.ui-text.ui-state-success .ui-text-input:hover {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #63be89;
-}
-.ui-text.ui-state-success .ui-text-input.ui-state-active {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #0dd461;
-}
-.ui-text.ui-state-success .ui-text-input:active {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #0dd461;
-}
-.ui-text.ui-state-success .ui-text-input:focus {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #0dd461;
-}
-.ui-text.ui-state-success .ui-text-input.ui-state-disabled {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #2ecc71;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-text.ui-state-success .ui-text-input:disabled {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #2ecc71;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-text.ui-state-advantage .ui-text-input.ui-state-default {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #3498db;
-}
-.ui-text.ui-state-advantage .ui-text-input.ui-state-hover {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #6ba2c8;
-}
-.ui-text.ui-state-advantage .ui-text-input:hover {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #6ba2c8;
-}
-.ui-text.ui-state-advantage .ui-text-input.ui-state-active {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #0392f1;
-}
-.ui-text.ui-state-advantage .ui-text-input:active {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #0392f1;
-}
-.ui-text.ui-state-advantage .ui-text-input:focus {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #0392f1;
-}
-.ui-text.ui-state-advantage .ui-text-input.ui-state-disabled {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #3498db;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-text.ui-state-advantage .ui-text-input:disabled {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
-  color: #111;
-  background: #fff;
-  border-color: #3498db;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-menu {
-  background: rgba(255,255,255,0.85);
-  list-style: none;
-  display: block;
-  outline: none;
-  box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.4);
-  border-bottom-radius: 4px;
-  border-style: solid;
-  border-color: #bdc3c7;
-  border-width: 1px;
-}
-.ui-menu:hover {
-  background: #fff;
-}
-.ui-menu-item {
-  min-height: 26px;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-size: 16.068px;
-  font-family: 'Open Sans', sans-serif;
-}
-.ui-menu-item a {
-  box-sizing: border-box;
-  line-height: 25px;
-  font-size: 16.068px;
-  min-height: 25px;
-  display: block;
-  padding: 4.465999999999999px;
-  margin: 0;
-  cursor: pointer;
-  vertical-align: middle;
-  text-indent: 4.465999999999999px;
-}
-.ui-menu .ui-menu-item > a:hover,
-.ui-menu .ui-menu-item > a.ui-state-hover {
-  background-color: #bdc3c7;
-  color: #eee;
-}
-.ui-menu .ui-menu-item > a:focus,
-.ui-menu .ui-menu-item > a.ui-state-focus,
-.ui-menu .ui-menu-item > a.ui-state-active {
-  background-color: #bdc3c7;
-  color: #eee;
-}
-.ui-appearance-menuitem {
-  min-height: 26px;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-size: 16.068px;
-  font-family: 'Open Sans', sans-serif;
-}
-.ui-appearance-menuitem .ui-appearance-menuitem-text {
-  box-sizing: border-box;
-  line-height: 25px;
-  font-size: 16.068px;
-  min-height: 25px;
-  display: block;
-  padding: 4.465999999999999px;
-  margin: 0;
-  cursor: pointer;
-  vertical-align: middle;
-  text-indent: 4.465999999999999px;
-}
-.ui-appearance-menuitem:hover,
-.ui-appearance-menuitem.ui-state-hover {
-  background-color: #bdc3c7;
-  color: #eee;
-}
-.ui-appearance-menuitem:focus,
-.ui-appearance-menuitem.ui-state-focus,
-.ui-appearance-menuitem.ui-state-active {
-  background-color: #a5b0b8;
-  color: #eee;
-}
-.ui-menu.ui-list-menuitem .ui-radio {
-  display: block;
-}
-.ui-menu.ui-list-menuitem .ui-appearance-menuitem:last-child {
-  margin-bottom: 1px;
-}
-.ui-appearance-menuitem.ui-state-default.ui-state-default {
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  border-color: #a5b0b8;
-}
-.ui-appearance-menuitem.ui-state-default.ui-state-hover {
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #c9ccce;
-  border-color: #a5b0b8;
-}
-.ui-appearance-menuitem.ui-state-default:hover {
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #c9ccce;
-  border-color: #a5b0b8;
-}
-.ui-appearance-menuitem.ui-state-default.ui-state-active {
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #a5b0b8;
-  border-color: #a5b0b8;
-}
-.ui-appearance-menuitem.ui-state-default:active {
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #a5b0b8;
-  border-color: #a5b0b8;
-}
-.ui-appearance-menuitem.ui-state-default.ui-state-disabled {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #bdc3c7;
-  border-color: #a5b0b8;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-menuitem.ui-state-default:disabled {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #bdc3c7;
-  border-color: #a5b0b8;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-menuitem.ui-state-error.ui-state-default {
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  border-color: #fd1800;
-}
-.ui-appearance-menuitem.ui-state-error.ui-state-hover {
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #d17b73;
-  border-color: #fd1800;
-}
-.ui-appearance-menuitem.ui-state-error:hover {
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #d17b73;
-  border-color: #fd1800;
-}
-.ui-appearance-menuitem.ui-state-error.ui-state-active {
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #eee;
-  background: #fd1800;
-  border-color: #fd1800;
-}
-.ui-appearance-menuitem.ui-state-error:active {
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #eee;
-  background: #fd1800;
-  border-color: #fd1800;
-}
-.ui-appearance-menuitem.ui-state-error.ui-state-disabled {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #e74c3c;
-  border-color: #fd1800;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-menuitem.ui-state-error:disabled {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #e74c3c;
-  border-color: #fd1800;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-menuitem.ui-state-highlight.ui-state-default {
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  border-color: #e6c900;
-}
-.ui-appearance-menuitem.ui-state-highlight.ui-state-hover {
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #d1b855;
-  border-color: #e6c900;
-}
-.ui-appearance-menuitem.ui-state-highlight:hover {
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #d1b855;
-  border-color: #e6c900;
-}
-.ui-appearance-menuitem.ui-state-highlight.ui-state-active {
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #eee;
-  background: #e6c900;
-  border-color: #e6c900;
-}
-.ui-appearance-menuitem.ui-state-highlight:active {
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #eee;
-  background: #e6c900;
-  border-color: #e6c900;
-}
-.ui-appearance-menuitem.ui-state-highlight.ui-state-disabled {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #f1c40f;
-  border-color: #e6c900;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-menuitem.ui-state-highlight:disabled {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #f1c40f;
-  border-color: #e6c900;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-menuitem.ui-state-success.ui-state-default {
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  border-color: #0dd461;
-}
-.ui-appearance-menuitem.ui-state-success.ui-state-hover {
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #63be89;
-  border-color: #0dd461;
-}
-.ui-appearance-menuitem.ui-state-success:hover {
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #63be89;
-  border-color: #0dd461;
-}
-.ui-appearance-menuitem.ui-state-success.ui-state-active {
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #eee;
-  background: #0dd461;
-  border-color: #0dd461;
-}
-.ui-appearance-menuitem.ui-state-success:active {
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #eee;
-  background: #0dd461;
-  border-color: #0dd461;
-}
-.ui-appearance-menuitem.ui-state-success.ui-state-disabled {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #eee;
-  background: #2ecc71;
-  border-color: #0dd461;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-menuitem.ui-state-success:disabled {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #eee;
-  background: #2ecc71;
-  border-color: #0dd461;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-menuitem.ui-state-advantage.ui-state-default {
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  border-color: #0392f1;
-}
-.ui-appearance-menuitem.ui-state-advantage.ui-state-hover {
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #6ba2c8;
-  border-color: #0392f1;
-}
-.ui-appearance-menuitem.ui-state-advantage:hover {
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #6ba2c8;
-  border-color: #0392f1;
-}
-.ui-appearance-menuitem.ui-state-advantage.ui-state-active {
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #eee;
-  background: #0392f1;
-  border-color: #0392f1;
-}
-.ui-appearance-menuitem.ui-state-advantage:active {
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #eee;
-  background: #0392f1;
-  border-color: #0392f1;
-}
-.ui-appearance-menuitem.ui-state-advantage.ui-state-disabled {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #3498db;
-  border-color: #0392f1;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-menuitem.ui-state-advantage:disabled {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #3498db;
-  border-color: #0392f1;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-checkbox {
-  width: 100%;
-  display: inline-block;
-  position: relative;
-  padding: 0;
-  line-height: normal;
-  margin: 0 auto;
-  cursor: pointer;
-  vertical-align: middle;
-  text-align: center;
-  overflow: visible;
-}
-.ui-appearance-checkbox {
-  line-height: 25px;
-  font-size: 16.068px;
-}
-.ui-appearance-checkbox .ui-appearance-checkbox-label-frame.w-auto {
-  margin-left: 26px;
-  width: auto !important;
-}
-.ui-appearance-checkbox .ui-appearance-checkbox-label-frame.w-auto .ui-appearance-checkbox-label {
-  text-align: left;
-}
-.ui-appearance-checkbox .ui-appearance-checkbox-sprite-frame {
-  width: 26px;
-  height: 26px;
-  float: left;
-  margin-left: 0px;
-  margin-right: 0px;
-}
-.ui-appearance-checkbox .ui-appearance-checkbox-sprite-frame .ui-appearance-checkbox-sprite {
-  width: 16.068px;
-  height: 16.068px;
-  border-radius: 4px;
-  margin: 4.465999999999999px auto;
-}
-.ui-appearance-checkbox .ui-appearance-checkbox-sprite-frame .ui-appearance-checkbox-sprite .ui-appearance-checkbox-sprite-glyph {
-  font-size: 9.930024000000001px;
-}
-.ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-label.ui-state-default {
-  color: #000;
-}
-.ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-label.ui-state-disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-label:disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-label.ui-state-default {
-  color: #9d2b20;
-}
-.ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-label.ui-state-disabled {
-  color: #9d2b20;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-label:disabled {
-  color: #9d2b20;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-label.ui-state-default {
-  color: #927914;
-}
-.ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-label.ui-state-disabled {
-  color: #927914;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-label:disabled {
-  color: #927914;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-label.ui-state-default {
-  color: #267d4b;
-}
-.ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-label.ui-state-disabled {
-  color: #267d4b;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-label:disabled {
-  color: #267d4b;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-label.ui-state-default {
-  color: #24638c;
-}
-.ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-label.ui-state-disabled {
-  color: #24638c;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-label:disabled {
-  color: #24638c;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-sprite.ui-state-default {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #bdc3c7;
-  border-color: #a5b0b8;
-}
-.ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-sprite.ui-state-hover {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #c9ccce;
-  border-color: #a5b0b8;
-}
-.ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-sprite:hover {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #c9ccce;
-  border-color: #a5b0b8;
-}
-.ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-sprite.ui-state-active {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #a5b0b8;
-  border-color: #a5b0b8;
-}
-.ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-sprite:active {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #a5b0b8;
-  border-color: #a5b0b8;
-}
-.ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-sprite.ui-state-disabled {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #bdc3c7;
-  border-color: #a5b0b8;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-sprite:disabled {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #bdc3c7;
-  border-color: #a5b0b8;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-sprite.ui-state-default {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #e74c3c;
-  border-color: #fd1800;
-}
-.ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-sprite.ui-state-hover {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #d17b73;
-  border-color: #fd1800;
-}
-.ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-sprite:hover {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #d17b73;
-  border-color: #fd1800;
-}
-.ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-sprite.ui-state-active {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #eee;
-  background: #fd1800;
-  border-color: #fd1800;
-}
-.ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-sprite:active {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #eee;
-  background: #fd1800;
-  border-color: #fd1800;
-}
-.ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-sprite.ui-state-disabled {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #e74c3c;
-  border-color: #fd1800;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-sprite:disabled {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #e74c3c;
-  border-color: #fd1800;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-sprite.ui-state-default {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #f1c40f;
-  border-color: #e6c900;
-}
-.ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-sprite.ui-state-hover {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #d1b855;
-  border-color: #e6c900;
-}
-.ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-sprite:hover {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #d1b855;
-  border-color: #e6c900;
-}
-.ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-sprite.ui-state-active {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #eee;
-  background: #e6c900;
-  border-color: #e6c900;
-}
-.ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-sprite:active {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #eee;
-  background: #e6c900;
-  border-color: #e6c900;
-}
-.ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-sprite.ui-state-disabled {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #f1c40f;
-  border-color: #e6c900;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-sprite:disabled {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #f1c40f;
-  border-color: #e6c900;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-sprite.ui-state-default {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #eee;
-  background: #2ecc71;
-  border-color: #0dd461;
-}
-.ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-sprite.ui-state-hover {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #63be89;
-  border-color: #0dd461;
-}
-.ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-sprite:hover {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #63be89;
-  border-color: #0dd461;
-}
-.ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-sprite.ui-state-active {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #eee;
-  background: #0dd461;
-  border-color: #0dd461;
-}
-.ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-sprite:active {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #eee;
-  background: #0dd461;
-  border-color: #0dd461;
-}
-.ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-sprite.ui-state-disabled {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #eee;
-  background: #2ecc71;
-  border-color: #0dd461;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-sprite:disabled {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #eee;
-  background: #2ecc71;
-  border-color: #0dd461;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-sprite.ui-state-default {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #3498db;
-  border-color: #0392f1;
-}
-.ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-sprite.ui-state-hover {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #6ba2c8;
-  border-color: #0392f1;
-}
-.ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-sprite:hover {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #6ba2c8;
-  border-color: #0392f1;
-}
-.ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-sprite.ui-state-active {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #eee;
-  background: #0392f1;
-  border-color: #0392f1;
-}
-.ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-sprite:active {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #eee;
-  background: #0392f1;
-  border-color: #0392f1;
-}
-.ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-sprite.ui-state-disabled {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #3498db;
-  border-color: #0392f1;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-sprite:disabled {
-  border-width: 1px;
-  border-style: $border-style;
-  transition: color 0.5s, border 0.5s, background 0.5s;
-  color: #111;
-  background: #3498db;
-  border-color: #0392f1;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-/*widget*/
-.ui-radio {
-  width: 100%;
-  display: inline-block;
-  position: relative;
-  padding: 0;
-  line-height: normal;
-  margin: 0 auto;
-  cursor: pointer;
-  vertical-align: middle;
-  text-align: center;
-  overflow: visible;
-}
-.ui-appearance-radio {
-  line-height: 25px;
-  font-size: 16.068px;
-}
-.ui-appearance-radio .ui-appearance-radio-label-frame.w-auto {
-  margin-left: 26px;
-  width: auto;
-}
-.ui-appearance-radio .ui-appearance-radio-label-frame.w-auto .ui-appearance-radio-label {
-  text-align: left;
-}
-.ui-appearance-radio .ui-appearance-radio-sprite-frame {
-  width: 26px;
-  height: 26px;
-  float: left;
-  margin-left: 0px;
-  margin-right: 0px;
-}
-.ui-appearance-radio .ui-appearance-radio-sprite-frame .ui-appearance-radio-sprite {
-  display: block;
-  width: 16.068px;
-  height: 16.068px;
-  border-radius: 4px;
-  margin: 4.465999999999999px auto;
-}
-.ui-appearance-radio.ui-state-default .ui-appearance-radio-label.ui-state-default {
-  color: #000;
-}
-.ui-appearance-radio.ui-state-default .ui-appearance-radio-label.ui-state-disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-default .ui-appearance-radio-label:disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-error .ui-appearance-radio-label.ui-state-default {
-  color: #9d2b20;
-}
-.ui-appearance-radio.ui-state-error .ui-appearance-radio-label.ui-state-disabled {
-  color: #9d2b20;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-error .ui-appearance-radio-label:disabled {
-  color: #9d2b20;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-label.ui-state-default {
-  color: #927914;
-}
-.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-label.ui-state-disabled {
-  color: #927914;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-label:disabled {
-  color: #927914;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-success .ui-appearance-radio-label.ui-state-default {
-  color: #267d4b;
-}
-.ui-appearance-radio.ui-state-success .ui-appearance-radio-label.ui-state-disabled {
-  color: #267d4b;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-success .ui-appearance-radio-label:disabled {
-  color: #267d4b;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-label.ui-state-default {
-  color: #24638c;
-}
-.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-label.ui-state-disabled {
-  color: #24638c;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-label:disabled {
-  color: #24638c;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite.ui-state-default {
-  color: #000;
-}
-.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite.ui-state-hover {
-  color: #c9ccce;
-}
-.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite:hover {
-  color: #c9ccce;
-}
-.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite.ui-state-active {
-  color: #a5b0b8;
-}
-.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite:active {
-  color: #a5b0b8;
-}
-.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite.ui-state-disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite:disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite.ui-state-default {
-  color: #9d2b20;
-}
-.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite.ui-state-hover {
-  color: #d17b73;
-}
-.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite:hover {
-  color: #d17b73;
-}
-.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite.ui-state-active {
-  color: #fd1800;
-}
-.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite:active {
-  color: #fd1800;
-}
-.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite.ui-state-disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite:disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite.ui-state-default {
-  color: #927914;
-}
-.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite.ui-state-hover {
-  color: #d1b855;
-}
-.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite:hover {
-  color: #d1b855;
-}
-.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite.ui-state-active {
-  color: #e6c900;
-}
-.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite:active {
-  color: #e6c900;
-}
-.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite.ui-state-disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite:disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite.ui-state-default {
-  color: #267d4b;
-}
-.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite.ui-state-hover {
-  color: #63be89;
-}
-.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite:hover {
-  color: #63be89;
-}
-.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite.ui-state-active {
-  color: #0dd461;
-}
-.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite:active {
-  color: #0dd461;
-}
-.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite.ui-state-disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite:disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite.ui-state-default {
-  color: #24638c;
-}
-.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite.ui-state-hover {
-  color: #6ba2c8;
-}
-.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite:hover {
-  color: #6ba2c8;
-}
-.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite.ui-state-active {
-  color: #0392f1;
-}
-.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite:active {
-  color: #0392f1;
-}
-.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite.ui-state-disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite:disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
 /*
 TelUI-button
 authors: Jesse Harlin, Joe Hare
@@ -4763,6 +2960,1809 @@ authors: Jesse Harlin, Joe Hare
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
   filter: alpha(opacity=50);
   cursor: default;
+}
+.ui-checkbox {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  padding: 0;
+  line-height: normal;
+  margin: 0 auto;
+  cursor: pointer;
+  vertical-align: middle;
+  text-align: center;
+  overflow: visible;
+}
+.ui-appearance-checkbox {
+  line-height: 25px;
+  font-size: 16.068px;
+}
+.ui-appearance-checkbox .ui-appearance-checkbox-label-frame.w-auto {
+  margin-left: 26px;
+  width: auto !important;
+}
+.ui-appearance-checkbox .ui-appearance-checkbox-label-frame.w-auto .ui-appearance-checkbox-label {
+  text-align: left;
+}
+.ui-appearance-checkbox .ui-appearance-checkbox-sprite-frame {
+  width: 26px;
+  height: 26px;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.ui-appearance-checkbox .ui-appearance-checkbox-sprite-frame .ui-appearance-checkbox-sprite {
+  width: 16.068px;
+  height: 16.068px;
+  border-radius: 4px;
+  margin: 4.465999999999999px auto;
+}
+.ui-appearance-checkbox .ui-appearance-checkbox-sprite-frame .ui-appearance-checkbox-sprite .ui-appearance-checkbox-sprite-glyph {
+  font-size: 9.930024000000001px;
+}
+.ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-label.ui-state-default {
+  color: #000;
+}
+.ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-label.ui-state-disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-label:disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-label.ui-state-default {
+  color: #9d2b20;
+}
+.ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-label.ui-state-disabled {
+  color: #9d2b20;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-label:disabled {
+  color: #9d2b20;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-label.ui-state-default {
+  color: #927914;
+}
+.ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-label.ui-state-disabled {
+  color: #927914;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-label:disabled {
+  color: #927914;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-label.ui-state-default {
+  color: #267d4b;
+}
+.ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-label.ui-state-disabled {
+  color: #267d4b;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-label:disabled {
+  color: #267d4b;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-label.ui-state-default {
+  color: #24638c;
+}
+.ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-label.ui-state-disabled {
+  color: #24638c;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-label:disabled {
+  color: #24638c;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-sprite.ui-state-default {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #bdc3c7;
+  border-color: #a5b0b8;
+}
+.ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-sprite.ui-state-hover {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #c9ccce;
+  border-color: #a5b0b8;
+}
+.ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-sprite:hover {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #c9ccce;
+  border-color: #a5b0b8;
+}
+.ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-sprite.ui-state-active {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #a5b0b8;
+  border-color: #a5b0b8;
+}
+.ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-sprite:active {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #a5b0b8;
+  border-color: #a5b0b8;
+}
+.ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-sprite.ui-state-disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #bdc3c7;
+  border-color: #a5b0b8;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-sprite:disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #bdc3c7;
+  border-color: #a5b0b8;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-sprite.ui-state-default {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #e74c3c;
+  border-color: #fd1800;
+}
+.ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-sprite.ui-state-hover {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #d17b73;
+  border-color: #fd1800;
+}
+.ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-sprite:hover {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #d17b73;
+  border-color: #fd1800;
+}
+.ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-sprite.ui-state-active {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #eee;
+  background: #fd1800;
+  border-color: #fd1800;
+}
+.ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-sprite:active {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #eee;
+  background: #fd1800;
+  border-color: #fd1800;
+}
+.ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-sprite.ui-state-disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #e74c3c;
+  border-color: #fd1800;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-sprite:disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #e74c3c;
+  border-color: #fd1800;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-sprite.ui-state-default {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #f1c40f;
+  border-color: #e6c900;
+}
+.ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-sprite.ui-state-hover {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #d1b855;
+  border-color: #e6c900;
+}
+.ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-sprite:hover {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #d1b855;
+  border-color: #e6c900;
+}
+.ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-sprite.ui-state-active {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #eee;
+  background: #e6c900;
+  border-color: #e6c900;
+}
+.ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-sprite:active {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #eee;
+  background: #e6c900;
+  border-color: #e6c900;
+}
+.ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-sprite.ui-state-disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #f1c40f;
+  border-color: #e6c900;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-sprite:disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #f1c40f;
+  border-color: #e6c900;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-sprite.ui-state-default {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #eee;
+  background: #2ecc71;
+  border-color: #0dd461;
+}
+.ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-sprite.ui-state-hover {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #63be89;
+  border-color: #0dd461;
+}
+.ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-sprite:hover {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #63be89;
+  border-color: #0dd461;
+}
+.ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-sprite.ui-state-active {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #eee;
+  background: #0dd461;
+  border-color: #0dd461;
+}
+.ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-sprite:active {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #eee;
+  background: #0dd461;
+  border-color: #0dd461;
+}
+.ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-sprite.ui-state-disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #eee;
+  background: #2ecc71;
+  border-color: #0dd461;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-sprite:disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #eee;
+  background: #2ecc71;
+  border-color: #0dd461;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-sprite.ui-state-default {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #3498db;
+  border-color: #0392f1;
+}
+.ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-sprite.ui-state-hover {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #6ba2c8;
+  border-color: #0392f1;
+}
+.ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-sprite:hover {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #6ba2c8;
+  border-color: #0392f1;
+}
+.ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-sprite.ui-state-active {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #eee;
+  background: #0392f1;
+  border-color: #0392f1;
+}
+.ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-sprite:active {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #eee;
+  background: #0392f1;
+  border-color: #0392f1;
+}
+.ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-sprite.ui-state-disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #3498db;
+  border-color: #0392f1;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-sprite:disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #3498db;
+  border-color: #0392f1;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-menu {
+  background: rgba(255,255,255,0.85);
+  list-style: none;
+  display: block;
+  outline: none;
+  box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.4);
+  border-bottom-radius: 4px;
+  border-style: solid;
+  border-color: #bdc3c7;
+  border-width: 1px;
+}
+.ui-menu:hover {
+  background: #fff;
+}
+.ui-menu-item {
+  min-height: 26px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16.068px;
+  font-family: 'Open Sans', sans-serif;
+}
+.ui-menu-item a {
+  box-sizing: border-box;
+  line-height: 25px;
+  font-size: 16.068px;
+  min-height: 25px;
+  display: block;
+  padding: 4.465999999999999px;
+  margin: 0;
+  cursor: pointer;
+  vertical-align: middle;
+  text-indent: 4.465999999999999px;
+}
+.ui-menu .ui-menu-item > a:hover,
+.ui-menu .ui-menu-item > a.ui-state-hover {
+  background-color: #bdc3c7;
+  color: #eee;
+}
+.ui-menu .ui-menu-item > a:focus,
+.ui-menu .ui-menu-item > a.ui-state-focus,
+.ui-menu .ui-menu-item > a.ui-state-active {
+  background-color: #bdc3c7;
+  color: #eee;
+}
+.ui-appearance-menuitem {
+  min-height: 26px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16.068px;
+  font-family: 'Open Sans', sans-serif;
+}
+.ui-appearance-menuitem .ui-appearance-menuitem-text {
+  box-sizing: border-box;
+  line-height: 25px;
+  font-size: 16.068px;
+  min-height: 25px;
+  display: block;
+  padding: 4.465999999999999px;
+  margin: 0;
+  cursor: pointer;
+  vertical-align: middle;
+  text-indent: 4.465999999999999px;
+}
+.ui-appearance-menuitem:hover,
+.ui-appearance-menuitem.ui-state-hover {
+  background-color: #bdc3c7;
+  color: #eee;
+}
+.ui-appearance-menuitem:focus,
+.ui-appearance-menuitem.ui-state-focus,
+.ui-appearance-menuitem.ui-state-active {
+  background-color: #a5b0b8;
+  color: #eee;
+}
+.ui-menu.ui-list-menuitem .ui-radio {
+  display: block;
+}
+.ui-menu.ui-list-menuitem .ui-appearance-menuitem:last-child {
+  margin-bottom: 1px;
+}
+.ui-appearance-menuitem.ui-state-default.ui-state-default {
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  border-color: #a5b0b8;
+}
+.ui-appearance-menuitem.ui-state-default.ui-state-hover {
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #c9ccce;
+  border-color: #a5b0b8;
+}
+.ui-appearance-menuitem.ui-state-default:hover {
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #c9ccce;
+  border-color: #a5b0b8;
+}
+.ui-appearance-menuitem.ui-state-default.ui-state-active {
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #a5b0b8;
+  border-color: #a5b0b8;
+}
+.ui-appearance-menuitem.ui-state-default:active {
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #a5b0b8;
+  border-color: #a5b0b8;
+}
+.ui-appearance-menuitem.ui-state-default.ui-state-disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #bdc3c7;
+  border-color: #a5b0b8;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-menuitem.ui-state-default:disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #bdc3c7;
+  border-color: #a5b0b8;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-menuitem.ui-state-error.ui-state-default {
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  border-color: #fd1800;
+}
+.ui-appearance-menuitem.ui-state-error.ui-state-hover {
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #d17b73;
+  border-color: #fd1800;
+}
+.ui-appearance-menuitem.ui-state-error:hover {
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #d17b73;
+  border-color: #fd1800;
+}
+.ui-appearance-menuitem.ui-state-error.ui-state-active {
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #eee;
+  background: #fd1800;
+  border-color: #fd1800;
+}
+.ui-appearance-menuitem.ui-state-error:active {
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #eee;
+  background: #fd1800;
+  border-color: #fd1800;
+}
+.ui-appearance-menuitem.ui-state-error.ui-state-disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #e74c3c;
+  border-color: #fd1800;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-menuitem.ui-state-error:disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #e74c3c;
+  border-color: #fd1800;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-menuitem.ui-state-highlight.ui-state-default {
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  border-color: #e6c900;
+}
+.ui-appearance-menuitem.ui-state-highlight.ui-state-hover {
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #d1b855;
+  border-color: #e6c900;
+}
+.ui-appearance-menuitem.ui-state-highlight:hover {
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #d1b855;
+  border-color: #e6c900;
+}
+.ui-appearance-menuitem.ui-state-highlight.ui-state-active {
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #eee;
+  background: #e6c900;
+  border-color: #e6c900;
+}
+.ui-appearance-menuitem.ui-state-highlight:active {
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #eee;
+  background: #e6c900;
+  border-color: #e6c900;
+}
+.ui-appearance-menuitem.ui-state-highlight.ui-state-disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #f1c40f;
+  border-color: #e6c900;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-menuitem.ui-state-highlight:disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #f1c40f;
+  border-color: #e6c900;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-menuitem.ui-state-success.ui-state-default {
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  border-color: #0dd461;
+}
+.ui-appearance-menuitem.ui-state-success.ui-state-hover {
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #63be89;
+  border-color: #0dd461;
+}
+.ui-appearance-menuitem.ui-state-success:hover {
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #63be89;
+  border-color: #0dd461;
+}
+.ui-appearance-menuitem.ui-state-success.ui-state-active {
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #eee;
+  background: #0dd461;
+  border-color: #0dd461;
+}
+.ui-appearance-menuitem.ui-state-success:active {
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #eee;
+  background: #0dd461;
+  border-color: #0dd461;
+}
+.ui-appearance-menuitem.ui-state-success.ui-state-disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #eee;
+  background: #2ecc71;
+  border-color: #0dd461;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-menuitem.ui-state-success:disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #eee;
+  background: #2ecc71;
+  border-color: #0dd461;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-menuitem.ui-state-advantage.ui-state-default {
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  border-color: #0392f1;
+}
+.ui-appearance-menuitem.ui-state-advantage.ui-state-hover {
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #6ba2c8;
+  border-color: #0392f1;
+}
+.ui-appearance-menuitem.ui-state-advantage:hover {
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #6ba2c8;
+  border-color: #0392f1;
+}
+.ui-appearance-menuitem.ui-state-advantage.ui-state-active {
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #eee;
+  background: #0392f1;
+  border-color: #0392f1;
+}
+.ui-appearance-menuitem.ui-state-advantage:active {
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #eee;
+  background: #0392f1;
+  border-color: #0392f1;
+}
+.ui-appearance-menuitem.ui-state-advantage.ui-state-disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #3498db;
+  border-color: #0392f1;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-menuitem.ui-state-advantage:disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s;
+  color: #111;
+  background: #3498db;
+  border-color: #0392f1;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+/*widget*/
+.ui-radio {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  padding: 0;
+  line-height: normal;
+  margin: 0 auto;
+  cursor: pointer;
+  vertical-align: middle;
+  text-align: center;
+  overflow: visible;
+}
+.ui-appearance-radio {
+  line-height: 25px;
+  font-size: 16.068px;
+}
+.ui-appearance-radio .ui-appearance-radio-label-frame.w-auto {
+  margin-left: 26px;
+  width: auto;
+}
+.ui-appearance-radio .ui-appearance-radio-label-frame.w-auto .ui-appearance-radio-label {
+  text-align: left;
+}
+.ui-appearance-radio .ui-appearance-radio-sprite-frame {
+  width: 26px;
+  height: 26px;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.ui-appearance-radio .ui-appearance-radio-sprite-frame .ui-appearance-radio-sprite {
+  display: block;
+  width: 16.068px;
+  height: 16.068px;
+  border-radius: 4px;
+  margin: 4.465999999999999px auto;
+}
+.ui-appearance-radio.ui-state-default .ui-appearance-radio-label.ui-state-default {
+  color: #000;
+}
+.ui-appearance-radio.ui-state-default .ui-appearance-radio-label.ui-state-disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-default .ui-appearance-radio-label:disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-error .ui-appearance-radio-label.ui-state-default {
+  color: #9d2b20;
+}
+.ui-appearance-radio.ui-state-error .ui-appearance-radio-label.ui-state-disabled {
+  color: #9d2b20;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-error .ui-appearance-radio-label:disabled {
+  color: #9d2b20;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-label.ui-state-default {
+  color: #927914;
+}
+.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-label.ui-state-disabled {
+  color: #927914;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-label:disabled {
+  color: #927914;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-success .ui-appearance-radio-label.ui-state-default {
+  color: #267d4b;
+}
+.ui-appearance-radio.ui-state-success .ui-appearance-radio-label.ui-state-disabled {
+  color: #267d4b;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-success .ui-appearance-radio-label:disabled {
+  color: #267d4b;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-label.ui-state-default {
+  color: #24638c;
+}
+.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-label.ui-state-disabled {
+  color: #24638c;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-label:disabled {
+  color: #24638c;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite.ui-state-default {
+  color: #000;
+}
+.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite.ui-state-hover {
+  color: #c9ccce;
+}
+.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite:hover {
+  color: #c9ccce;
+}
+.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite.ui-state-active {
+  color: #a5b0b8;
+}
+.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite:active {
+  color: #a5b0b8;
+}
+.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite.ui-state-disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite:disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite.ui-state-default {
+  color: #9d2b20;
+}
+.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite.ui-state-hover {
+  color: #d17b73;
+}
+.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite:hover {
+  color: #d17b73;
+}
+.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite.ui-state-active {
+  color: #fd1800;
+}
+.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite:active {
+  color: #fd1800;
+}
+.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite.ui-state-disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite:disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite.ui-state-default {
+  color: #927914;
+}
+.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite.ui-state-hover {
+  color: #d1b855;
+}
+.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite:hover {
+  color: #d1b855;
+}
+.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite.ui-state-active {
+  color: #e6c900;
+}
+.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite:active {
+  color: #e6c900;
+}
+.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite.ui-state-disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite:disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite.ui-state-default {
+  color: #267d4b;
+}
+.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite.ui-state-hover {
+  color: #63be89;
+}
+.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite:hover {
+  color: #63be89;
+}
+.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite.ui-state-active {
+  color: #0dd461;
+}
+.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite:active {
+  color: #0dd461;
+}
+.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite.ui-state-disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite:disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite.ui-state-default {
+  color: #24638c;
+}
+.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite.ui-state-hover {
+  color: #6ba2c8;
+}
+.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite:hover {
+  color: #6ba2c8;
+}
+.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite.ui-state-active {
+  color: #0392f1;
+}
+.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite:active {
+  color: #0392f1;
+}
+.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite.ui-state-disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite:disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-text .ui-text-label {
+  min-height: 26px;
+  line-height: 25px;
+  font-size: 16.068px;
+}
+.ui-text .ui-text-input {
+  min-height: 26px;
+}
+.ui-text .ui-text-closeicon-frame {
+  overflow: visible;
+  position: relative;
+  width: 16.068px;
+  right: 4.465999999999999px;
+  top: 5.465999999999999px;
+  float: right;
+  bottom: 4.465999999999999px;
+  height: 0;
+}
+.ui-text .ui-text-closeicon-frame .ui-icon {
+  cursor: pointer;
+}
+.ui-text.ui-state-default .ui-text-label.ui-state-default {
+  color: #000;
+}
+.ui-text.ui-state-default .ui-text-label.ui-state-disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-text.ui-state-default .ui-text-label:disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-text.ui-state-error .ui-text-label.ui-state-default {
+  color: #9d2b20;
+}
+.ui-text.ui-state-error .ui-text-label.ui-state-disabled {
+  color: #9d2b20;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-text.ui-state-error .ui-text-label:disabled {
+  color: #9d2b20;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-text.ui-state-highlight .ui-text-label.ui-state-default {
+  color: #927914;
+}
+.ui-text.ui-state-highlight .ui-text-label.ui-state-disabled {
+  color: #927914;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-text.ui-state-highlight .ui-text-label:disabled {
+  color: #927914;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-text.ui-state-success .ui-text-label.ui-state-default {
+  color: #267d4b;
+}
+.ui-text.ui-state-success .ui-text-label.ui-state-disabled {
+  color: #267d4b;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-text.ui-state-success .ui-text-label:disabled {
+  color: #267d4b;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-text.ui-state-advantage .ui-text-label.ui-state-default {
+  color: #24638c;
+}
+.ui-text.ui-state-advantage .ui-text-label.ui-state-disabled {
+  color: #24638c;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-text.ui-state-advantage .ui-text-label:disabled {
+  color: #24638c;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-text.ui-state-default .ui-text-closeicon.ui-state-default {
+  color: #000;
+}
+.ui-text.ui-state-default .ui-text-closeicon.ui-state-disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-text.ui-state-default .ui-text-closeicon:disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-text.ui-state-error .ui-text-closeicon.ui-state-default {
+  color: #9d2b20;
+}
+.ui-text.ui-state-error .ui-text-closeicon.ui-state-disabled {
+  color: #9d2b20;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-text.ui-state-error .ui-text-closeicon:disabled {
+  color: #9d2b20;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-text.ui-state-highlight .ui-text-closeicon.ui-state-default {
+  color: #927914;
+}
+.ui-text.ui-state-highlight .ui-text-closeicon.ui-state-disabled {
+  color: #927914;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-text.ui-state-highlight .ui-text-closeicon:disabled {
+  color: #927914;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-text.ui-state-success .ui-text-closeicon.ui-state-default {
+  color: #267d4b;
+}
+.ui-text.ui-state-success .ui-text-closeicon.ui-state-disabled {
+  color: #267d4b;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-text.ui-state-success .ui-text-closeicon:disabled {
+  color: #267d4b;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-text.ui-state-advantage .ui-text-closeicon.ui-state-default {
+  color: #24638c;
+}
+.ui-text.ui-state-advantage .ui-text-closeicon.ui-state-disabled {
+  color: #24638c;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-text.ui-state-advantage .ui-text-closeicon:disabled {
+  color: #24638c;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-text.ui-state-default .ui-text-input.ui-state-default {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #bdc3c7;
+}
+.ui-text.ui-state-default .ui-text-input.ui-state-hover {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #c9ccce;
+}
+.ui-text.ui-state-default .ui-text-input:hover {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #c9ccce;
+}
+.ui-text.ui-state-default .ui-text-input.ui-state-active {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #a5b0b8;
+}
+.ui-text.ui-state-default .ui-text-input:active {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #a5b0b8;
+}
+.ui-text.ui-state-default .ui-text-input:focus {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #a5b0b8;
+}
+.ui-text.ui-state-default .ui-text-input.ui-state-disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #bdc3c7;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-text.ui-state-default .ui-text-input:disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #bdc3c7;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-text.ui-state-error .ui-text-input.ui-state-default {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #e74c3c;
+}
+.ui-text.ui-state-error .ui-text-input.ui-state-hover {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #d17b73;
+}
+.ui-text.ui-state-error .ui-text-input:hover {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #d17b73;
+}
+.ui-text.ui-state-error .ui-text-input.ui-state-active {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #fd1800;
+}
+.ui-text.ui-state-error .ui-text-input:active {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #fd1800;
+}
+.ui-text.ui-state-error .ui-text-input:focus {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #fd1800;
+}
+.ui-text.ui-state-error .ui-text-input.ui-state-disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #e74c3c;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-text.ui-state-error .ui-text-input:disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #e74c3c;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-text.ui-state-highlight .ui-text-input.ui-state-default {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #f1c40f;
+}
+.ui-text.ui-state-highlight .ui-text-input.ui-state-hover {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #d1b855;
+}
+.ui-text.ui-state-highlight .ui-text-input:hover {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #d1b855;
+}
+.ui-text.ui-state-highlight .ui-text-input.ui-state-active {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #e6c900;
+}
+.ui-text.ui-state-highlight .ui-text-input:active {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #e6c900;
+}
+.ui-text.ui-state-highlight .ui-text-input:focus {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #e6c900;
+}
+.ui-text.ui-state-highlight .ui-text-input.ui-state-disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #f1c40f;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-text.ui-state-highlight .ui-text-input:disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #f1c40f;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-text.ui-state-success .ui-text-input.ui-state-default {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #2ecc71;
+}
+.ui-text.ui-state-success .ui-text-input.ui-state-hover {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #63be89;
+}
+.ui-text.ui-state-success .ui-text-input:hover {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #63be89;
+}
+.ui-text.ui-state-success .ui-text-input.ui-state-active {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #0dd461;
+}
+.ui-text.ui-state-success .ui-text-input:active {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #0dd461;
+}
+.ui-text.ui-state-success .ui-text-input:focus {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #0dd461;
+}
+.ui-text.ui-state-success .ui-text-input.ui-state-disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #2ecc71;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-text.ui-state-success .ui-text-input:disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #2ecc71;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-text.ui-state-advantage .ui-text-input.ui-state-default {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #3498db;
+}
+.ui-text.ui-state-advantage .ui-text-input.ui-state-hover {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #6ba2c8;
+}
+.ui-text.ui-state-advantage .ui-text-input:hover {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #6ba2c8;
+}
+.ui-text.ui-state-advantage .ui-text-input.ui-state-active {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #0392f1;
+}
+.ui-text.ui-state-advantage .ui-text-input:active {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #0392f1;
+}
+.ui-text.ui-state-advantage .ui-text-input:focus {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #0392f1;
+}
+.ui-text.ui-state-advantage .ui-text-input.ui-state-disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #3498db;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-text.ui-state-advantage .ui-text-input:disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.5s, border 0.5s, background 0.5s, box-shadow 0.25s;
+  color: #111;
+  background: #fff;
+  border-color: #3498db;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-tooltip-content strong {
+  font-weight: bold;
+}
+.ui-tooltip-content em {
+  font-style: italic;
+}
+.ui-tooltip-right {
+  color: #222;
+  position: absolute;
+  z-index: 999;
+  width: 0;
+  height: 0;
+  overflow: visible;
+}
+.ui-tooltip-right .ui-tooltip-content {
+  box-shadow: -2px 2px 4px 1px rgba(0,0,0,0.2);
+  position: relative;
+  background: #fff;
+  border: 1px solid #bdc3c7;
+  width: 350px;
+  height: 180px;
+  top: -100px;
+  left: 36px;
+  padding: 13px;
+}
+.ui-tooltip-right .ui-tooltip-content ul li {
+  height: auto;
+  padding: 6.5px;
+}
+.ui-tooltip-right .ui-tooltip-content:after,
+.ui-tooltip-right .ui-tooltip-content:before {
+  right: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+.ui-tooltip-right .ui-tooltip-content:after {
+  border-color: rgba(255,255,255,0);
+  border-right-color: #fff;
+  border-width: 17px;
+  margin-top: -17px;
+}
+.ui-tooltip-right .ui-tooltip-content:before {
+  border-color: rgba(165,176,184,0);
+  border-right-color: #bdc3c7;
+  border-width: 18px;
+  margin-top: -18px;
+}
+.ui-tooltip-left {
+  color: #222;
+  position: absolute;
+  z-index: 999;
+  width: 0;
+  height: 0;
+  overflow: visible;
+}
+.ui-tooltip-left .ui-tooltip-content {
+  box-shadow: -2px 2px 4px 1px rgba(0,0,0,0.2);
+  position: relative;
+  background: #fff;
+  border: 1px solid #bdc3c7;
+  width: 350px;
+  height: 180px;
+  top: -100px;
+  left: 36px;
+  padding: 13px;
+}
+.ui-tooltip-left .ui-tooltip-content ul li {
+  height: auto;
+  padding: 6.5px;
+}
+.ui-tooltip-left .ui-tooltip-content:after,
+.ui-tooltip-left .ui-tooltip-content:before {
+  left: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+.ui-tooltip-left .ui-tooltip-content:after {
+  border-color: rgba(255,255,255,0);
+  border-left-color: #fff;
+  border-width: 17px;
+  margin-top: -17px;
+}
+.ui-tooltip-left .ui-tooltip-content:before {
+  border-color: rgba(165,176,184,0);
+  border-left-color: #bdc3c7;
+  border-width: 18px;
+  margin-top: -18px;
 }
 .ui-picklist .ui-picklist-label {
   min-height: 26px;

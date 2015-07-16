@@ -6,7 +6,10 @@ var gulp = require('gulp'),
   Scaffold = require('./scaffold')
   ;
 
-  var options = {};
+  var options = {
+    appName: 'PicklistDemoApp'
+
+  };
 
 
   var questions = new Questions(options);

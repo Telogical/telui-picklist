@@ -38,7 +38,7 @@ function defaultStateProvider($stateProvider) {
   };
 
   $stateProvider
-    .state('picklistdemo', PicklistDemo);
+    .state('PicklistDemoApp', PicklistDemo);
 }
 
 function debug($rootScope) {

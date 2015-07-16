@@ -6,14 +6,20 @@ var gulp = require('gulp'),
   source = require('vinyl-source-stream'),
   streamify = require('gulp-streamify'),
   size = require('gulp-size'),
-  ngAnnotate = require('gulp-ng-annotate');
+  ngAnnotate = require('gulp-ng-annotate'),
+  concat = require('gulp-concat'),
+  htmlmin = require('gulp-htmlmin'),
+  html2js = require('gulp-ng-html2js'),
+  uglify = require('gulp-uglify'),
+  debug = require('gulp-debug')
 
 
   var options = {
     argv: {
       minify: false
     },
-    appOutput: './docs/build/'
+    appOutput: './docs/build/',
+    appName: 'PicklistDemoApp'
   };
 
   var uglyOpts = {
@@ -25,6 +31,15 @@ var gulp = require('gulp'),
 
   var bundleOpts = {
     debug: !gutil.env.production
+  };
+
+  var htmlMinOpts = {
+    collapseWhitespace: true
+  };
+
+  var html2JsOpts = {
+    moduleName: options.appName + 'Partials',
+    stripPrefix: 'src/public/features/'
   };
 
   function generateCoreJs() {
@@ -50,6 +65,18 @@ var gulp = require('gulp'),
       .pipe(gulp.dest(options.appOutput));
   }
 
+  function generatePartials(){
+    return gulp
+       .src('./docs/features/**/*-partial.html')
+       .pipe(debug({verbose: true}))
+       .pipe(htmlmin(htmlMinOpts))
+       .pipe(html2js(html2JsOpts))
+       .pipe(concat('partials.js'))
+       .pipe(uglify())
+       .pipe(gulp.dest(options.appOutput));
+  }
+
   gulp.task('build-docs-scripts-core', generateCoreJs);
   gulp.task('build-docs-scripts-app', generateAppJs);
-  gulp.task('build-docs-scripts', ['build-docs-scripts-core','build-docs-scripts-app'])
+  gulp.task('build-docs-scripts-partials', generatePartials);
+  gulp.task('build-docs-scripts', ['build-docs-scripts-core','build-docs-scripts-app', 'build-docs-scripts-partials'])

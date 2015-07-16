@@ -9,8 +9,8 @@ var gulp = require('gulp'),
 
 function Scaffold(options, answers) {
 
-  var root = './',
-    featureTemplatesRoot = root + 'gulp/scaffold/feature/templates/',
+
+  var featureTemplatesRoot = './gulp/scaffold/feature/templates/',
     featureTemplates;
 
   //console.log('answers', answers);
@@ -38,8 +38,11 @@ function Scaffold(options, answers) {
 
   //console.log('opts', opts);
 
-  gulp
+  console.log('featureTemplates : ', featureTemplates)
+
+  return gulp
     .src(featureTemplates)
+    .pipe(debug({verbose: true}))
 //    .pipe(rename({
 //      prefix: prettyNames.featureNameClassify + '-'
 //    }))
@@ -47,7 +50,7 @@ function Scaffold(options, answers) {
     .pipe(debug({
       verbose: true
     }))
-    .pipe(gulp.dest('./src/public/features/' + opts.featureNameSlashKebab));
+    .pipe(gulp.dest('./docs/features/' + opts.featureNameSlashKebab));
 
 }
 

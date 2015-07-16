@@ -1,4 +1,5 @@
 node_modules/
+.publish
 npm-debug.log
 *.swo
 *.swp

@@ -21,6 +21,7 @@ require('./gulp/analysis');
 require('./gulp/test');
 require('./gulp/serve');
 require('./gulp/build');
+require('./gulp/scaffold');
 
 gulp
   .task('help', tasklisting)

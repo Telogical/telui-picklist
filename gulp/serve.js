@@ -3,14 +3,27 @@
 var gulp = require('gulp');
 var webserver = require('gulp-webserver');
 
-function serve() {
-  gulp
-    .src('./docs')
-    .pipe(webserver({
-      livereload: true,
-      //directoryListing: true,
-      open: true
-    }));
+
+
+
+function Serve(options){
+
+  function serve() {
+
+    console.log('serving : ', options.appName);
+
+    gulp
+      .src('./docs')
+      .pipe(webserver({
+        livereload: true,
+        //directoryListing: true,
+        open: true
+      }));
+  }
+
+   gulp.task('serve', serve);
+
+   return gulp;
 }
 
-gulp.task('serve', serve);
+module.exports = Serve;

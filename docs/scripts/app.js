@@ -33,12 +33,12 @@ function stateNotfound(event, unfoundState, fromState, fromParams) {
 
 function defaultStateProvider($stateProvider) {
   var PicklistDemo = {
-    url: '/',
-    templateUrl: './_ChannelComparisonTool/ChannelComparisonTool-app.html'
+    url: '',
+    template: '<div data-ui-view class="waffles"></div>'
   };
 
   $stateProvider
-    .state('PicklistDemoApp', PicklistDemo);
+    .state('PicklistDemo', PicklistDemo);
 }
 
 function debug($rootScope) {
@@ -57,4 +57,4 @@ PicklistDemo
   .config(['$stateProvider', '$urlRouterProvider', defaultStateProvider])
   .run(['$rootScope', run]);
 
-window.PicklistDemo = PicklistDemo;
+module.exports = PicklistDemo;

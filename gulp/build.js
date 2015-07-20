@@ -1,4 +1,12 @@
-var gulp = require('gulp');
-require('./build/docs');
+'use strict';
 
-gulp.task('build', ['build-docs']);
+
+var gulp = require('gulp');
+
+function Build(options) {
+  require('./build/docs')(options);
+  gulp.task('build', ['build-docs']);
+  return gulp;
+}
+
+module.exports = Build;

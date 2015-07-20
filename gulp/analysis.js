@@ -1,4 +1,14 @@
-var gulp = require('gulp');
-require('./analysis/complexity');
+'use strict';
 
-gulp.task('analysis', ['analysis-complexity']);
+var gulp = require('gulp');
+
+
+function Analysis(options) {
+  require('./analysis/complexity')(options);
+  gulp.task('analysis', ['analysis-complexity']);
+
+  return gulp;
+}
+
+
+module.exports = Analysis;

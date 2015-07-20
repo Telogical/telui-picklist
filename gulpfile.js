@@ -16,12 +16,17 @@ function ci(cb) {
   runSequence('test', 'complexity', cb);
 }
 
-require('./gulp/deploy');
-require('./gulp/analysis');
-require('./gulp/test');
-require('./gulp/serve');
-require('./gulp/build');
-require('./gulp/scaffold');
+var options = {
+  appName : 'PicklistDemo',
+  deployfiles: './docs/**/*'
+};
+
+require('./gulp/deploy')(options);
+require('./gulp/analysis')(options);
+require('./gulp/test')(options);
+require('./gulp/serve')(options);
+require('./gulp/build')(options);
+require('./gulp/scaffold')(options);
 
 gulp
   .task('help', tasklisting)

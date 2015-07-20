@@ -3,10 +3,20 @@
 var gulp = require('gulp'),
   ghPages = require('gulp-gh-pages');
 
-function deploy() {
-  return gulp
-    .src('./docs/**/*')
-    .pipe(ghPages());
+
+function Deploy(options) {
+
+
+  function deploy() {
+    return gulp
+      .src(options.deployFiles)
+      .pipe(ghPages());
+  }
+
+  gulp.task('deploy', deploy);
+
+  return gulp;
 }
 
-gulp.task('deploy', deploy);
+
+module.exports = Deploy;

@@ -7,7 +7,7 @@ var gulp = require('gulp'),
   ;
 
   var options = {
-    appName: 'PicklistDemoApp'
+    appName: 'PicklistDemo'
 
   };
 

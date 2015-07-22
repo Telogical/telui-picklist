@@ -11,9 +11,8 @@ function BuildDocs(options) {
   require('./docs/styles')(options);
 
   function cleanDocs(cb) {
-    del([options.appOutput], cb);
+     del([options.appOutput], cb);
   }
-
 
   var buildTargets = [
       'build-docs-scripts',
@@ -21,9 +20,7 @@ function BuildDocs(options) {
       'build-docs-assets'
     ];
 
-
   function buildDocs() {
-
     return runSequence('clean-docs', buildTargets);
   }
 

@@ -29,6 +29,13 @@ require('./gulp/serve')(options);
 require('./gulp/build')(options);
 require('./gulp/scaffold')(options);
 
+function bs(){
+
+  return runSequence('build', 'serve');
+}
+
+gulp.task('bs', bs);
+
 gulp
   .task('help', tasklisting)
   .task('default', ['help'])

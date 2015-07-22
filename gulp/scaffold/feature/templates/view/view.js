@@ -1,5 +1,7 @@
 'use strict';
 
+var <%= appName %> = require('../../scripts/app.js');
+
 <%= appName %>
   .App
   .config(

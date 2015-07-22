@@ -1,25 +1,42 @@
 <!doctype html>
 <html lang="en" id="ng-app" data-ng-app="PicklistDemoApp" xmlns:ng="http://angularjs.org">
-  <head>
+
+<head>
     <title>Telui Picklist</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="PicklistDemoApp" />
     <meta name="author" content="Telogical" />
-  </head>
-  <body>
-    <h1>Picklist</h1>
+</head>
 
-    
-    <telui-text label="i shoudl run"></telui-text>
+<body class="waffles">
 
-    <telui-combobox label="i shoudl run" data="['one', 'two', 'three']"></telui-combobox>
+    <div class="w-12">
+        <h1>Picklist</h1>
+    </div>
+    <div class="w-12 w-v-2">
+        <div class="w-3 w-alpha">
+            <ul>
+                <li>
+                  <a data-ui-sref="PicklistDemo.basic-configuration">basic-configuration</a>
+                </li>
+                <li>
+                  <a data-ui-sref="PicklistDemo.changing-states">changing-states</a>
+                </li>
+            </ul>
+        </div>
 
-    <div data-ui-view class="waffles"></div>
+        <div class="w-9 w-omega">
+            <div data-ui-view class="waffles"></div>
+        </div>
+    </div>
+
+
     <link rel="stylesheet" type="text/css" data-ng-href="build/theme.css">
     <script src="./build/core.js"></script>
     <script src="./build/app.js"></script>
     <script src="./build/partials.js"></script>
-  </body>
+</body>
+
 </html>

@@ -12,7 +12,7 @@ function Serve(options){
 
     console.log('serving : ', options.appName);
 
-    gulp
+    return gulp
       .src('./docs')
       .pipe(webserver({
         livereload: true,

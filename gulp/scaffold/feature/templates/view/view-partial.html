@@ -1,12 +1,11 @@
 <div data-ng-id="<%= featureNameSnake %>" class="waffles ui-view-<%= featureNameClassify %>">
-  <div class="w-12 w-alpha w-omega">
+    <div class="w-12 w-alpha w-omega">
+        <div class="w-12 w-alpha w-omega">
+            <label>Now viewing: <%= featureNameClassify %></label>
+        </div>
+        <div class="w-12 w-alpha w-omega">
+            <div ui-view></div>
+        </div>
 
-    <div class="w-12 w-alpha w-omega">
-        <span><%= featureName %></span>
     </div>
-    <div class="w-12 w-alpha w-omega">
-        <div ui-view></div>
-    </div>
-      
-  </div>
 </div>

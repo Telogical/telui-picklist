@@ -1,5 +1,6 @@
 'use strict';
 var gulp = require('gulp'),
+  _ = require('lodash'),
   gutil = require('gulp-util'),
   uglify = require('gulp-uglify'),
   browserify = require('browserify'),
@@ -16,15 +17,12 @@ var gulp = require('gulp'),
   debug = require('gulp-debug');
 
 
-function BuildDocScripts(options) {
-
-  var options = {
+function BuildDocScripts(globalOptions) {
+  var options = _.extend(globalOptions, {
     argv: {
       minify: false
-    },
-    appOutput: './docs/build/',
-    appNameRoot: 'PicklistDemo'
-  };
+    }
+  });
 
   var uglyOpts = {
     mangle: true,
@@ -101,6 +99,9 @@ function BuildDocScripts(options) {
   }
 
   function generatePartials() {
+
+    console.log('partials : ', options);
+
     return gulp
       .src('./docs/features/**/*-partial.html')
       .pipe(debug({
@@ -112,7 +113,6 @@ function BuildDocScripts(options) {
       .pipe(uglify())
       .pipe(gulp.dest(options.appOutput));
   }
-
 
   gulp.task('build-docs-scripts-core', generateCoreJs);
   gulp.task('build-docs-scripts-app', generateAppJs);

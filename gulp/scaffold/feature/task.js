@@ -7,16 +7,12 @@ var gulp = require('gulp'),
 
 function ScaffoldFeature(options) {
 
-  var opts = {
-    appName: options.appName || 'PicklistDemo'
-  };
-
-  var questions = new Questions(opts);
+  var questions = new Questions(options);
 
   function templateFeature(cb) {
 
     function scaffold(answers) {
-      new Scaffold(opts, answers);
+      new Scaffold(options, answers);
       cb();
     }
 

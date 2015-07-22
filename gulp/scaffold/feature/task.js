@@ -1,27 +1,31 @@
-  'use strict';
+'use strict';
 
 var gulp = require('gulp'),
   inquirer = require('inquirer'),
   Questions = require('./questions'),
-  Scaffold = require('./scaffold')
-  ;
+  Scaffold = require('./scaffold');
 
-  var options = {
-    appName: 'PicklistDemo'
+function ScaffoldFeature(options) {
 
+  var opts = {
+    appName: options.appName || 'PicklistDemo'
   };
 
-
-  var questions = new Questions(options);
+  var questions = new Questions(opts);
 
   function templateFeature(cb) {
 
     function scaffold(answers) {
-      new Scaffold(options, answers);
+      new Scaffold(opts, answers);
       cb();
     }
 
     inquirer.prompt(questions, scaffold);
   }
 
-  return gulp.task('scaffold-feature', templateFeature);
+  gulp.task('scaffold-feature', templateFeature);
+
+  return gulp;
+}
+
+module.exports = ScaffoldFeature;

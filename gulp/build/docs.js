@@ -1,6 +1,15 @@
+'use strict';
+
 var gulp = require('gulp');
 
-require('./docs/scripts');
-require('./docs/styles');
 
-gulp.task('build-docs', ['build-docs-scripts', 'build-docs-styles', 'build-docs-assets']);
+function BuildDocs(options) {
+
+  require('./docs/scripts')(options);
+  require('./docs/styles')(options);
+
+  gulp.task('build-docs', ['build-docs-scripts', 'build-docs-styles', 'build-docs-assets']);
+  return gulp;
+}
+
+module.exports = BuildDocs;

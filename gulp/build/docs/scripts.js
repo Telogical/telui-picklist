@@ -16,102 +16,114 @@ var gulp = require('gulp'),
   debug = require('gulp-debug');
 
 
-var options = {
-  argv: {
-    minify: false
-  },
-  appOutput: './docs/build/',
-  appNameRoot: 'PicklistDemo'
-};
+function BuildDocScripts(options) {
 
-var uglyOpts = {
-  mangle: true,
-  global_defs: {
-    DEBUG: false
-  }
-};
-
-var bundleOpts = {
-  debug: !gutil.env.production
-};
-
-var htmlMinOpts = {
-  collapseWhitespace: true
-};
-
-var html2JsOpts = {
-  moduleName: options.appName + 'Partials',
-  stripPrefix: 'src/public/features/'
-};
-
-function generateCoreJs() {
-
-  //concatFilenames
-  return browserify('./docs/scripts/core.js', bundleOpts)
-    .bundle()
-    .pipe(source('core.js'))
-    .pipe(streamify(size({
-      title: 'raw core.js'
-    })))
-    .pipe(options.argv.minify ? streamify(ngAnnotate()) : gutil.noop())
-    .pipe(options.argv.minify ? streamify(uglify(uglyOpts)) : gutil.noop())
-    .pipe(options.argv.minify ? streamify(size({
-      title: 'min core.js'
-    })) : gutil.noop())
-    .pipe(gulp.dest(options.appOutput));
-}
-
-function generateAppJs() {
-
-  var src = [
-      './docs/scripts/app.js',
-      './docs/features/**/*.js'
-    ];
-
-  var manifestOptions = {
-    root: './',
-    prepend: 'require("./',
-    append: '");'
+  var options = {
+    argv: {
+      minify: false
+    },
+    appOutput: './docs/build/',
+    appNameRoot: 'PicklistDemo'
   };
 
-  function browserifyApp(file) {
-    return browserify(file, bundleOpts)
+  var uglyOpts = {
+    mangle: true,
+    global_defs: {
+      DEBUG: false
+    }
+  };
+
+  var bundleOpts = {
+    debug: !gutil.env.production
+  };
+
+  var htmlMinOpts = {
+    collapseWhitespace: true
+  };
+
+  var html2JsOpts = {
+    moduleName: options.appName + 'Partials',
+    stripPrefix: 'src/public/features/'
+  };
+
+  function generateCoreJs() {
+
+    //concatFilenames
+    return browserify('./docs/scripts/core.js', bundleOpts)
       .bundle()
-      .pipe(source('app.js'))
+      .pipe(source('core.js'))
       .pipe(streamify(size({
-        title: 'raw app.js'
+        title: 'raw core.js'
       })))
       .pipe(options.argv.minify ? streamify(ngAnnotate()) : gutil.noop())
       .pipe(options.argv.minify ? streamify(uglify(uglyOpts)) : gutil.noop())
       .pipe(options.argv.minify ? streamify(size({
-        title: 'min app.js'
+        title: 'min core.js'
       })) : gutil.noop())
       .pipe(gulp.dest(options.appOutput));
   }
 
-  return gulp
-    .src(src)
-    .pipe(debug({
-      title: 'gulp-features : '
-    }))
-    .pipe(manifest('app.js', manifestOptions))
-    .pipe(tap(browserifyApp));
+  function generateAppJs() {
+
+    var src = [
+        './docs/scripts/app.js',
+        './docs/features/**/*.js'
+      ];
+
+    var manifestOptions = {
+      root: './',
+      prepend: 'require("./',
+      append: '");'
+    };
+
+    function browserifyApp(file) {
+      return browserify(file, bundleOpts)
+        .bundle()
+        .pipe(source('app.js'))
+        .pipe(streamify(size({
+          title: 'raw app.js'
+        })))
+        .pipe(options.argv.minify ? streamify(ngAnnotate()) : gutil.noop())
+        .pipe(options.argv.minify ? streamify(uglify(uglyOpts)) : gutil.noop())
+        .pipe(options.argv.minify ? streamify(size({
+          title: 'min app.js'
+        })) : gutil.noop())
+        .pipe(gulp.dest(options.appOutput));
+    }
+
+    return gulp
+      .src(src)
+      .pipe(debug({
+        title: 'gulp-features : '
+      }))
+      .pipe(manifest('app.js', manifestOptions))
+      .pipe(tap(browserifyApp));
+  }
+
+  function generatePartials() {
+    return gulp
+      .src('./docs/features/**/*-partial.html')
+      .pipe(debug({
+        verbose: true
+      }))
+      .pipe(htmlmin(htmlMinOpts))
+      .pipe(html2js(html2JsOpts))
+      .pipe(concat('partials.js'))
+      .pipe(uglify())
+      .pipe(gulp.dest(options.appOutput));
+  }
+
+
+  gulp.task('build-docs-scripts-core', generateCoreJs);
+  gulp.task('build-docs-scripts-app', generateAppJs);
+  gulp.task('build-docs-scripts-partials', generatePartials);
+  gulp.task('build-docs-scripts', [
+    'build-docs-scripts-core',
+    'build-docs-scripts-app',
+    'build-docs-scripts-partials']);
+
+  return gulp;
 }
 
-function generatePartials() {
-  return gulp
-    .src('./docs/features/**/*-partial.html')
-    .pipe(debug({
-      verbose: true
-    }))
-    .pipe(htmlmin(htmlMinOpts))
-    .pipe(html2js(html2JsOpts))
-    .pipe(concat('partials.js'))
-    .pipe(uglify())
-    .pipe(gulp.dest(options.appOutput));
-}
 
-gulp.task('build-docs-scripts-core', generateCoreJs);
-gulp.task('build-docs-scripts-app', generateAppJs);
-gulp.task('build-docs-scripts-partials', generatePartials);
-gulp.task('build-docs-scripts', ['build-docs-scripts-core', 'build-docs-scripts-app', 'build-docs-scripts-partials']);
+module.exports = BuildDocScripts;

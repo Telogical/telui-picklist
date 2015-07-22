@@ -1,6 +1,8 @@
 'use strict';
 
-var gulp = require('gulp');
+var gulp = require('gulp'),
+  del = require('del'),
+  runSequence = require('gulp-run-sequence');
 
 
 function BuildDocs(options) {
@@ -8,7 +10,25 @@ function BuildDocs(options) {
   require('./docs/scripts')(options);
   require('./docs/styles')(options);
 
-  gulp.task('build-docs', ['build-docs-scripts', 'build-docs-styles', 'build-docs-assets']);
+  function cleanDocs(cb) {
+    del([options.appOutput], cb);
+  }
+
+
+  var buildTargets = [
+      'build-docs-scripts',
+      'build-docs-styles',
+      'build-docs-assets'
+    ];
+
+
+  function buildDocs() {
+
+    return runSequence('clean-docs', buildTargets);
+  }
+
+  gulp.task('clean-docs', cleanDocs);
+  gulp.task('build-docs', buildDocs);
   return gulp;
 }
 

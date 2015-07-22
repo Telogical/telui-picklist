@@ -19,7 +19,7 @@ function ci(cb) {
 var options = {
   appName : 'PicklistDemo',
   deployfiles: './docs/**/*',
-  appOutput: './docs/build/',
+  appOutput: './docs/build',
 };
 
 require('./gulp/deploy')(options);

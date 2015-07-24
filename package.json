@@ -75,6 +75,7 @@
     "gulp-util": "^3.0.6",
     "gulp-webserver": "^0.9.1",
     "inquirer": "^0.9.0",
+    "json-schema-mock": "0.0.8",
     "lodash": "^3.10.0",
     "nib": "^1.1.0",
     "partialify": "^3.1.3",

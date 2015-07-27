@@ -4,7 +4,7 @@
 /*asdfasdfsadf*/
 /*debugging and layout*/
 .brick {
-  height: 26px;
+  height: 26px /*Worldspace Brick Size. Change this to anything.*/;
   width: 100%;
   float: left;
   background-color: #ffc0cb;
@@ -482,7 +482,7 @@
   bottom: 24.102000000000004px;
 }
 .waffles .w-6.w-fix {
-  width: 26px;
+  width: 26px /*Worldspace Brick Size. Change this to anything.*/;
 }
 .waffles .w-6.w-fix.w-alpha {
   float: left;
@@ -507,16 +507,16 @@
   margin-right: 34.666666666666664px;
 }
 .waffles .w-v-6 {
-  margin-top: 26px;
+  margin-top: 26px /*Worldspace Brick Size. Change this to anything.*/;
 }
 .waffles .w-v_6 {
-  margin-bottom: 26px;
+  margin-bottom: 26px /*Worldspace Brick Size. Change this to anything.*/;
 }
 .waffles .w-freeze.w-v-6 {
-  top: 26px;
+  top: 26px /*Worldspace Brick Size. Change this to anything.*/;
 }
 .waffles .w-freeze.w-v_6 {
-  bottom: 26px;
+  bottom: 26px /*Worldspace Brick Size. Change this to anything.*/;
 }
 .waffles .w-7.w-fix {
   width: 42.068px;
@@ -1850,12 +1850,12 @@ dt {
   text-align: right;
   margin: 0 4.465999999999999px;
   color: #596369;
-  min-height: 26px;
+  min-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
 }
 dd {
   margin: 0 0 0 186.466px;
   padding: 4.465999999999999px;
-  min-height: 26px;
+  min-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
 }
 dd > ul {
   list-style: none;
@@ -1889,17 +1889,17 @@ dd > ul >li:before {
   font-weight: normal;
   font-family: 'Open Sans', sans-serif;
   width: 100%;
-  line-height: 26px;
+  line-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
   display: block;
   float: left;
 }
 .ui-combobox .ui-combobox-label {
-  min-height: 26px;
-  line-height: 26px;
+  min-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
+  line-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
   font-size: 16.068px;
 }
 .ui-combobox .ui-combobox-input {
-  min-height: 26px;
+  min-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
   transition: color 0.5s, border 0.5s, background 0.5s;
 }
 .ui-combobox .ui-combobox-dropdown {
@@ -2510,8 +2510,8 @@ dd > ul >li:before {
   filter: alpha(opacity=50);
 }
 .ui-label {
-  min-height: 26px;
-  line-height: 26px;
+  min-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
+  line-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
   font-size: 16.068px;
 }
 input:focus,
@@ -2613,7 +2613,7 @@ authors: Jesse Harlin, Joe Hare
   text-indent: -26px;
 }
 .ui-appearance-button.ui-appearance-button-has-text.ui-appearance-button-has-icon-secondary .ui-appearance-button-text {
-  text-indent: 26px;
+  text-indent: 26px /*Worldspace Brick Size. Change this to anything.*/;
 }
 .ui-appearance-button.ui-appearance-button-has-text.ui-appearance-button-has-icon-secondary.ui-appearance-button-has-icon-primary {
   width: 100%;
@@ -2978,15 +2978,15 @@ authors: Jesse Harlin, Joe Hare
   font-size: 16.068px;
 }
 .ui-appearance-checkbox .ui-appearance-checkbox-label-frame.w-auto {
-  margin-left: 26px;
+  margin-left: 26px /*Worldspace Brick Size. Change this to anything.*/;
   width: auto !important;
 }
 .ui-appearance-checkbox .ui-appearance-checkbox-label-frame.w-auto .ui-appearance-checkbox-label {
   text-align: left;
 }
 .ui-appearance-checkbox .ui-appearance-checkbox-sprite-frame {
-  width: 26px;
-  height: 26px;
+  width: 26px /*Worldspace Brick Size. Change this to anything.*/;
+  height: 26px /*Worldspace Brick Size. Change this to anything.*/;
   float: left;
   margin-left: 0px;
   margin-right: 0px;
@@ -3435,294 +3435,6 @@ authors: Jesse Harlin, Joe Hare
   filter: alpha(opacity=50);
   cursor: default;
 }
-/*widget*/
-.ui-radio {
-  width: 100%;
-  display: inline-block;
-  position: relative;
-  padding: 0;
-  line-height: normal;
-  margin: 0 auto;
-  cursor: pointer;
-  vertical-align: middle;
-  text-align: center;
-  overflow: visible;
-}
-.ui-appearance-radio {
-  line-height: 25px;
-  font-size: 16.068px;
-}
-.ui-appearance-radio .ui-appearance-radio-label-frame.w-auto {
-  margin-left: 26px;
-  width: auto;
-}
-.ui-appearance-radio .ui-appearance-radio-label-frame.w-auto .ui-appearance-radio-label {
-  text-align: left;
-}
-.ui-appearance-radio .ui-appearance-radio-sprite-frame {
-  width: 26px;
-  height: 26px;
-  float: left;
-  margin-left: 0px;
-  margin-right: 0px;
-}
-.ui-appearance-radio .ui-appearance-radio-sprite-frame .ui-appearance-radio-sprite {
-  display: block;
-  width: 16.068px;
-  height: 16.068px;
-  border-radius: 4px;
-  margin: 4.465999999999999px auto;
-}
-.ui-appearance-radio.ui-state-default .ui-appearance-radio-label.ui-state-default {
-  color: #000;
-}
-.ui-appearance-radio.ui-state-default .ui-appearance-radio-label.ui-state-disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-default .ui-appearance-radio-label:disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-error .ui-appearance-radio-label.ui-state-default {
-  color: #9d2b20;
-}
-.ui-appearance-radio.ui-state-error .ui-appearance-radio-label.ui-state-disabled {
-  color: #9d2b20;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-error .ui-appearance-radio-label:disabled {
-  color: #9d2b20;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-label.ui-state-default {
-  color: #927914;
-}
-.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-label.ui-state-disabled {
-  color: #927914;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-label:disabled {
-  color: #927914;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-success .ui-appearance-radio-label.ui-state-default {
-  color: #267d4b;
-}
-.ui-appearance-radio.ui-state-success .ui-appearance-radio-label.ui-state-disabled {
-  color: #267d4b;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-success .ui-appearance-radio-label:disabled {
-  color: #267d4b;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-label.ui-state-default {
-  color: #24638c;
-}
-.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-label.ui-state-disabled {
-  color: #24638c;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-label:disabled {
-  color: #24638c;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite.ui-state-default {
-  color: #000;
-}
-.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite.ui-state-hover {
-  color: #c9ccce;
-}
-.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite:hover {
-  color: #c9ccce;
-}
-.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite.ui-state-active {
-  color: #a5b0b8;
-}
-.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite:active {
-  color: #a5b0b8;
-}
-.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite.ui-state-disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite:disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite.ui-state-default {
-  color: #9d2b20;
-}
-.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite.ui-state-hover {
-  color: #d17b73;
-}
-.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite:hover {
-  color: #d17b73;
-}
-.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite.ui-state-active {
-  color: #fd1800;
-}
-.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite:active {
-  color: #fd1800;
-}
-.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite.ui-state-disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite:disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite.ui-state-default {
-  color: #927914;
-}
-.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite.ui-state-hover {
-  color: #d1b855;
-}
-.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite:hover {
-  color: #d1b855;
-}
-.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite.ui-state-active {
-  color: #e6c900;
-}
-.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite:active {
-  color: #e6c900;
-}
-.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite.ui-state-disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite:disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite.ui-state-default {
-  color: #267d4b;
-}
-.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite.ui-state-hover {
-  color: #63be89;
-}
-.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite:hover {
-  color: #63be89;
-}
-.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite.ui-state-active {
-  color: #0dd461;
-}
-.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite:active {
-  color: #0dd461;
-}
-.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite.ui-state-disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite:disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite.ui-state-default {
-  color: #24638c;
-}
-.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite.ui-state-hover {
-  color: #6ba2c8;
-}
-.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite:hover {
-  color: #6ba2c8;
-}
-.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite.ui-state-active {
-  color: #0392f1;
-}
-.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite:active {
-  color: #0392f1;
-}
-.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite.ui-state-disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite:disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
 .ui-menu {
   background: rgba(255,255,255,0.85);
   list-style: none;
@@ -3738,7 +3450,7 @@ authors: Jesse Harlin, Joe Hare
   background: #fff;
 }
 .ui-menu-item {
-  min-height: 26px;
+  min-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -3769,7 +3481,7 @@ authors: Jesse Harlin, Joe Hare
   color: #eee;
 }
 .ui-appearance-menuitem {
-  min-height: 26px;
+  min-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -4085,13 +3797,301 @@ authors: Jesse Harlin, Joe Hare
   filter: alpha(opacity=50);
   cursor: default;
 }
+/*widget*/
+.ui-radio {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  padding: 0;
+  line-height: normal;
+  margin: 0 auto;
+  cursor: pointer;
+  vertical-align: middle;
+  text-align: center;
+  overflow: visible;
+}
+.ui-appearance-radio {
+  line-height: 25px;
+  font-size: 16.068px;
+}
+.ui-appearance-radio .ui-appearance-radio-label-frame.w-auto {
+  margin-left: 26px /*Worldspace Brick Size. Change this to anything.*/;
+  width: auto;
+}
+.ui-appearance-radio .ui-appearance-radio-label-frame.w-auto .ui-appearance-radio-label {
+  text-align: left;
+}
+.ui-appearance-radio .ui-appearance-radio-sprite-frame {
+  width: 26px /*Worldspace Brick Size. Change this to anything.*/;
+  height: 26px /*Worldspace Brick Size. Change this to anything.*/;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.ui-appearance-radio .ui-appearance-radio-sprite-frame .ui-appearance-radio-sprite {
+  display: block;
+  width: 16.068px;
+  height: 16.068px;
+  border-radius: 4px;
+  margin: 4.465999999999999px auto;
+}
+.ui-appearance-radio.ui-state-default .ui-appearance-radio-label.ui-state-default {
+  color: #000;
+}
+.ui-appearance-radio.ui-state-default .ui-appearance-radio-label.ui-state-disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-default .ui-appearance-radio-label:disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-error .ui-appearance-radio-label.ui-state-default {
+  color: #9d2b20;
+}
+.ui-appearance-radio.ui-state-error .ui-appearance-radio-label.ui-state-disabled {
+  color: #9d2b20;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-error .ui-appearance-radio-label:disabled {
+  color: #9d2b20;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-label.ui-state-default {
+  color: #927914;
+}
+.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-label.ui-state-disabled {
+  color: #927914;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-label:disabled {
+  color: #927914;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-success .ui-appearance-radio-label.ui-state-default {
+  color: #267d4b;
+}
+.ui-appearance-radio.ui-state-success .ui-appearance-radio-label.ui-state-disabled {
+  color: #267d4b;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-success .ui-appearance-radio-label:disabled {
+  color: #267d4b;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-label.ui-state-default {
+  color: #24638c;
+}
+.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-label.ui-state-disabled {
+  color: #24638c;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-label:disabled {
+  color: #24638c;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite.ui-state-default {
+  color: #000;
+}
+.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite.ui-state-hover {
+  color: #c9ccce;
+}
+.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite:hover {
+  color: #c9ccce;
+}
+.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite.ui-state-active {
+  color: #a5b0b8;
+}
+.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite:active {
+  color: #a5b0b8;
+}
+.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite.ui-state-disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite:disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite.ui-state-default {
+  color: #9d2b20;
+}
+.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite.ui-state-hover {
+  color: #d17b73;
+}
+.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite:hover {
+  color: #d17b73;
+}
+.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite.ui-state-active {
+  color: #fd1800;
+}
+.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite:active {
+  color: #fd1800;
+}
+.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite.ui-state-disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite:disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite.ui-state-default {
+  color: #927914;
+}
+.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite.ui-state-hover {
+  color: #d1b855;
+}
+.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite:hover {
+  color: #d1b855;
+}
+.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite.ui-state-active {
+  color: #e6c900;
+}
+.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite:active {
+  color: #e6c900;
+}
+.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite.ui-state-disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite:disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite.ui-state-default {
+  color: #267d4b;
+}
+.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite.ui-state-hover {
+  color: #63be89;
+}
+.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite:hover {
+  color: #63be89;
+}
+.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite.ui-state-active {
+  color: #0dd461;
+}
+.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite:active {
+  color: #0dd461;
+}
+.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite.ui-state-disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite:disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite.ui-state-default {
+  color: #24638c;
+}
+.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite.ui-state-hover {
+  color: #6ba2c8;
+}
+.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite:hover {
+  color: #6ba2c8;
+}
+.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite.ui-state-active {
+  color: #0392f1;
+}
+.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite:active {
+  color: #0392f1;
+}
+.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite.ui-state-disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite:disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
 .ui-text .ui-text-label {
-  min-height: 26px;
+  min-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
   line-height: 25px;
   font-size: 16.068px;
 }
 .ui-text .ui-text-input {
-  min-height: 26px;
+  min-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
 }
 .ui-text .ui-text-closeicon-frame {
   overflow: visible;
@@ -4765,12 +4765,12 @@ authors: Jesse Harlin, Joe Hare
   margin-top: -18px;
 }
 .ui-picklist .ui-picklist-label {
-  min-height: 26px;
-  line-height: 26px;
+  min-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
+  line-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
   font-size: 16.068px;
 }
 .ui-picklist .ui-picklist-input {
-  min-height: 26px;
+  min-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
   transition: color 0.5s, border 0.5s, background 0.5s;
 }
 .ui-picklist .ui-picklist-dropdown {

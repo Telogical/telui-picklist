@@ -11,22 +11,20 @@ var flatten = require('gulp-flatten');
 
 function BuildDocStyles(options) {
 
-  
-
-  var stylusMiddleware = [
+    var stylusMiddleware = [
     nib(),
     autoprefixer({
-      browsers: ['ie 7', 'ie 8']
-    }),
+            browsers: ['ie 7', 'ie 8']
+        }),
     waffles()];
 
-  var stylusConfig = {
-    use: stylusMiddleware
-  };
+    var stylusConfig = {
+        use: stylusMiddleware
+    };
 
-  var themesRoot = 'node_modules/@telogical/';
+    var themesRoot = 'node_modules/@telogical/';
 
-  var src = [
+    var src = [
     './docs/global.styl',
     themesRoot + 'telui-core/theme/**/_*.styl',
     themesRoot + 'telui-*/theme/**/_*.styl',
@@ -35,32 +33,32 @@ function BuildDocStyles(options) {
     'theme/**/*.styl',
   ];
 
-  function buildStyles() {
-    return gulp
-      .src(src)
-      .pipe(concat('theme.styl', {}))
-      .pipe(debug({
-        verbose: true
-      }))
-      .pipe(stylus(stylusConfig))
-      .pipe(gulp.dest('docs/build/'));
-  }
+    function buildStyles() {
+        return gulp
+            .src(src)
+            .pipe(concat('theme.styl', {}))
+            .pipe(debug({
+                verbose: true
+            }))
+            .pipe(stylus(stylusConfig))
+            .pipe(gulp.dest('docs/build/'));
+    }
 
-  function buildAssets() {
-    var assetsSrc = [
+    function buildAssets() {
+        var assetsSrc = [
       themesRoot + 'telui-*/theme/fonts/**/*.{ttf,woff,eof,svg,eot}'
     ];
 
-    return gulp
-      .src(assetsSrc)
-      .pipe(flatten())
-      .pipe(gulp.dest('docs/build/fonts'));
-  }
+        return gulp
+            .src(assetsSrc)
+            .pipe(flatten())
+            .pipe(gulp.dest('docs/build/fonts'));
+    }
 
-  gulp.task('build-docs-assets', buildAssets);
-  gulp.task('build-docs-styles', buildStyles);
+    gulp.task('build-docs-assets', buildAssets);
+    gulp.task('build-docs-styles', buildStyles);
 
-  return gulp;
+    return gulp;
 }
 
 

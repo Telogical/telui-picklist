@@ -1,21 +1,20 @@
 'use strict';
 
 var gulp = require('gulp'),
-  ghPages = require('gulp-gh-pages');
+    ghPages = require('gulp-gh-pages');
 
 
 function Deploy(options) {
 
+    function deploy() {
+        return gulp
+            .src(options.deployFiles)
+            .pipe(ghPages());
+    }
 
-  function deploy() {
-    return gulp
-      .src(options.deployFiles)
-      .pipe(ghPages());
-  }
+    gulp.task('deploy', deploy);
 
-  gulp.task('deploy', deploy);
-
-  return gulp;
+    return gulp;
 }
 
 

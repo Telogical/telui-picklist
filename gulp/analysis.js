@@ -4,10 +4,10 @@ var gulp = require('gulp');
 
 
 function Analysis(options) {
-  require('./analysis/complexity')(options);
-  gulp.task('analysis', ['analysis-complexity']);
+    require('./analysis/complexity')(options);
+    gulp.task('analysis', ['analysis-complexity']);
 
-  return gulp;
+    return gulp;
 }
 
 

@@ -3,85 +3,89 @@ var _ = require('lodash');
 
 function Casing() {
 
-  function camelCase(str) {
-    return str
-      .replace(/\s(.)/g, function($1) {
-        return $1.toUpperCase();
-      })
-      .replace(/\s/g, '')
-      .replace(/^(.)/, function($1) {
-        return $1.toLowerCase();
-      });
-  }
+    function camelCase(str) {
+        return str
+            .replace(/\s(.)/g, function($1) {
+                return $1.toUpperCase();
+            })
+            .replace(/\s/g, '')
+            .replace(/^(.)/, function($1) {
+                return $1.toLowerCase();
+            });
+    }
 
-  function caseIt(st) {
-    return st
-      .charAt(0)
-      .toUpperCase() + st.slice(1);
-  }
+    function caseIt(st) {
+        return st
+            .charAt(0)
+            .toUpperCase() + st.slice(1);
+    }
 
-  function varNameCase(str) {
-    var stringList = str.split('.'),
-      lastStr = stringList[stringList.length - 1];
-    return varCase(lastStr);
-  }
+    function varNameCase(str) {
+        var stringList = str.split('.'),
+            lastStr = stringList[stringList.length - 1];
+        return varCase(lastStr);
+    }
 
-  function varCase(str) {
-    var stringList = str.split('.');
-    var newString = _.map(stringList, caseIt);
-    newString = newString.join('')
-      .split('-');
-    newString = _.map(newString, caseIt);
-    return newString.join('')
-      .replace(/^(.)/, function($1) {
-        return $1.toLowerCase();
-      });
-  }
+    function varCase(str) {
+        var stringList = str.split('.');
+        var newString = _.map(stringList, caseIt);
 
-  function kebabCase(str) {
-    return str
-      .split(' ')
-      .join('-')
-      .toLowerCase();
-  }
+        newString = newString
+            .join('')
+            .split('-');
 
-  function folderCase(str) {
-    return kebabCase(str)
-      .split('.')
-      .join('/');
-  }
+        newString = _.map(newString, caseIt);
 
-  function classifyCase(str) {
-    return kebabCase(str)
-      .split('.')
-      .join('-');
-  }
+        return newString
+            .join('')
+            .replace(/^(.)/, function($1) {
+                return $1.toLowerCase();
+            });
+    }
 
-  function snakeCase(str) {
-    return classifyCase(str)
-      .split('-')
-      .join('_');
-  }
+    function kebabCase(str) {
+        return str
+            .split(' ')
+            .join('-')
+            .toLowerCase();
+    }
 
-  function folderCaseLast(str) {
-    var segments = folderCase(str)
-      .split('/'),
-      segLength = segments.length;
+    function folderCase(str) {
+        return kebabCase(str)
+            .split('.')
+            .join('/');
+    }
 
-    return segments[segLength - 1];
-  }
+    function classifyCase(str) {
+        return kebabCase(str)
+            .split('.')
+            .join('-');
+    }
 
+    function snakeCase(str) {
+        return classifyCase(str)
+            .split('-')
+            .join('_');
+    }
 
-  return {
-    camel: camelCase,
-    kebab: kebabCase,
-    folder: folderCase,
-    var: varCase,
-    varName: varNameCase,
-    classify: classifyCase,
-    folderName: folderCaseLast,
-    snake: snakeCase
-  };
+    function folderCaseLast(str) {
+        var segments = folderCase(str)
+            .split('/'),
+            segLength = segments.length;
+
+        return segments[segLength - 1];
+    }
+
+    return {
+        camel: camelCase,
+        kebab: kebabCase,
+        folder: folderCase,
+        var: varCase,
+        varName: varNameCase,
+        classify: classifyCase,
+        folderName: folderCaseLast,
+        snake: snakeCase
+    };
 
 }
 

@@ -1,9 +1,60 @@
 {
+
     "title": "Example People Schema",
     "type": "array",
-    "minItems": "5",
+    "minItems": 25,
+    "maxItems" : 600,
     "items": {
+        "id": "#person",
+        "title": "Person",
         "type": "object",
-        "properties": {"$ref: person.json"}
+        "properties": {
+            "id": {
+                "$ref": "#/definitions/positiveInt"
+            },
+            "email": {
+                "type": "string",
+                "format": "email",
+                "faker": "internet.email"
+            },
+            "phone": {
+                "type": "string",
+                "format": "phone",
+                "faker": "phone.phoneNumberFormat"
+            },
+            "name": {
+                "$ref": "#/definitions/name"
+            },
+            "quote": {
+                "type": "string",
+                "faker": "hacker.phrase"
+            }
+        },
+        "required": ["id", "email", "name"]
+    },
+    "definitions": {
+        "positiveInt": {
+            "type": "integer",
+            "minimum": 0,
+            "exclusiveMinimum": true
+        },
+        "name": {
+            "type": "object",
+            "properties": {
+                "prefix": {
+                    "type": "string",
+                    "faker": "name.prefix"
+                },
+                "first": {
+                    "type": "string",
+                    "faker": "name.firstName"
+                },
+                "last": {
+                    "type": "string",
+                    "faker": "name.lastName"
+                }
+            },
+            "required": ["first", "last"]
+        }
     }
 }

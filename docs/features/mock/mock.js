@@ -2,26 +2,22 @@
 
 var PicklistDemo = require('../../scripts/app.js');
 var jsf = require('json-schema-faker');
-
-console.log('PicklistDemo', PicklistDemo);
-
 var schemas = {
-  people: require('./schemas/people'),
-  person : require('./schemas/person')
+    people: require('./schemas/people')
 };
 
 PicklistDemo
-  .Services
-  .service('mock', function mockList(){
+    .Services
+    .service('mock', function mockList() {
 
-    function mockEntity(entityName){
+      console.log(schemas)
 
-      var peeper = jsf(schemas.people);
+        function mockEntity(entityName) {
 
-      console.log(peeper);
-    }
+            entityName = entityName || 'people';
 
+            return jsf(schemas[entityName]);
+        }
 
-    this.entity = mockEntity;
-
-  });
+        this.entity = mockEntity;
+    });

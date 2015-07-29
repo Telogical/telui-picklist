@@ -3,11 +3,14 @@
 var PicklistDemo = require('../../scripts/app.js');
 
 PicklistDemo
-  .Controllers
-  .controller('basicConfigurationViewCtrl', function basicConfigurationCtrl($scope, mock) {
-
-      
-      var people = mock.entity('people');
-  
-      console.log(people);
-  });
+    .Controllers
+    .controller('basicConfigurationViewCtrl', function basicConfigurationCtrl($scope, mock) {
+        
+        var people = mock.entity('people');
+    
+    
+        console.log('people', people.length);
+    
+        $scope.disabled = false;
+        $scope.people = people;
+    });

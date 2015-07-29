@@ -18,7 +18,11 @@ angular
                 scope.clearable = _.isUndefined(scope.clearable) ?
                     false :
                     scope.clearable;
-
+                
+                
+                scope.dataMenu = scope.$new(true);
+               
+                
                 function render( /*newValue, oldValue*/ ) {
 
                     $el.removeAttr('disabled');
@@ -26,12 +30,19 @@ angular
                     var model = {
                         //scopes
                         scope: scope,
+                        dataMenuScope: scope.dataMenu,
 
                         //attrs
                         id: id,
                         label: scope.label,
                         iconPrimary: scope.iconPrimary,
                         iconSecondary: scope.iconSecondary,
+                        
+                        labelPrimary: scope.labelPrimary,
+                        labelSecondary: scope.labelSecondary,
+                        
+                        labelProp: scope.labelProp || 'label',
+                        
                         cssClass: scope.cssClass,
                         text: scope.text,
                         disabled: scope.disabled,
@@ -41,7 +52,7 @@ angular
                         clearable: scope.clearable,
                         uiState: scope.state || 'default',
                         maxHeight: scope.maxHeight || 'auto',
-                        labelProp: scope.labelProp || 'label'
+                        
                     };
 
                     React.renderComponent(UI.PickList(model), $el[0]);

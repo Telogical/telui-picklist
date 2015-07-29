@@ -10,7 +10,7 @@
         "type": "object",
         "properties": {
             "id": {
-                "$ref": "#/definitions/positiveInt"
+                "$ref": "#/definitions/uuid"
             },
             "email": {
                 "type": "string",
@@ -33,10 +33,9 @@
         "required": ["id", "email", "name"]
     },
     "definitions": {
-        "positiveInt": {
-            "type": "integer",
-            "minimum": 0,
-            "exclusiveMinimum": true
+        "uuid": {
+            "type": "string",
+            "faker" : "random.uuid"
         },
         "name": {
             "type": "object",

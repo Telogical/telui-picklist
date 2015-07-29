@@ -4764,6 +4764,11 @@ authors: Jesse Harlin, Joe Hare
   border-width: 18px;
   margin-top: -18px;
 }
+.ui-picklist-frame {
+  width: 100%;
+  min-height: 600px;
+  background: #333;
+}
 .ui-picklist .ui-picklist-label {
   min-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
   line-height: 26px /*Worldspace Brick Size. Change this to anything.*/;

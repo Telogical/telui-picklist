@@ -23,6 +23,9 @@ function PickList(ui) {
         },
         render: function render() {
 
+
+            console.log(ui);
+
             var cx = React.addons.classSet,
                 domx = React.DOM,
                 model = this.props,
@@ -50,15 +53,15 @@ function PickList(ui) {
                 labelTemplateString = isTemplate ? labelProp : '<%= ' + labelProp + '%>',
                 labelTemplate = _.template(labelTemplateString);
 
-            
+
             //note very similar to a functioni the combobox.
             function dataToSelectList(datum) {
                 var selectListModel = {
                     label: _.isObject(datum) ? labelTemplate(datum) : datum,
                     value: datum
                 };
-                
-                if(datum.id){
+
+                if (datum.id) {
                     selectListModel.id = datum.id;
                 }
 
@@ -71,42 +74,112 @@ function PickList(ui) {
                 .value();
 
             var dataMenuModel = {
-                id: key + '_menu',
+                id: key + '_data_menu',
                 data: _data || [],
                 value: this.state.value,
                 disabled: model.disabled,
                 labelProp: 'label',
-                scope: model.menuScope,
+                scope: model.dataMenuScope,
                 uiState: model.uiState,
                 ref: 'menu',
                 name: key + '_menu',
                 change: this.__onMenuChange,
-                maxHeight: model.maxHeight,
+                maxHeight: 300,
                 focusable: false,
                 appearance: 'menuitem'
             };
-            
+
             var primaryFilterModel = {
-                
+                id: key + '_data_filter'
             };
-            
+
             var dataMenu = ui.Menu(dataMenuModel);
-            
-            
+
+
+            var dataZoneAttrs = {
+                id: key + '_zone_data',
+                className: cx({
+                    'ui-picklist-zone': true,
+                    'ui-picklist-data': true
+                }),
+            };
+
+            var controlZoneAttrs = {
+                id: key + '_zone_controls',
+                className: cx({
+                    'ui-picklist-zone': true,
+                    'ui-picklist-controls': true
+                }),
+            };
+
+
+            var selectionZoneAttrs = {
+                id: key + '_zone_selection',
+                className: cx({
+                    'ui-picklist-zone': true,
+                    'ui-picklist-selection': true
+                }),
+            };
+
             var dataZoneContents = [];
-            
             dataZoneContents.push(ui.Text(primaryFilterModel));
-            
             dataZoneContents.push(dataMenu);
-            
-            var dataZone = domx.div({}, dataZoneContents),
-                controlZone = domx.div(),
-                selectionZone = domx.div();
-            
-            var contents = [
-                dataZone,
-                controlZone,
-                selectionZone];
+
+
+            var controlZoneContents = [];
+
+            var selectAllButton = ui.Button({
+                    id: key + '_controls_select_all',
+                    text: true,
+                    label: '>>',
+                    //iconPrimary: 'circle-arrow-1-w'
+                }),
+                selectOneButton = ui.Button({
+                    id: key + '_controls_select_one',
+                    label: '>',
+                    text: true,
+                }),
+                clearOneButton = ui.Button({
+                    id: key + '_controls_clear_one',
+                    label: '<',
+                    text: true,
+                }),
+                clearAllButton = ui.Button({
+                    id: key + '_controls_clear_all',
+                    label: '<<',
+                    text: true,
+                });
+
+            controlZoneContents.push(selectAllButton);
+            controlZoneContents.push(selectOneButton);
+            controlZoneContents.push(clearOneButton);
+            controlZoneContents.push(clearAllButton);
+
+
+            var dataZone = domx.div(dataZoneAttrs, dataZoneContents),
+                controlZone = domx.div(controlZoneAttrs, controlZoneContents),
+                selectionZone = domx.div(selectionZoneAttrs, []);
+
+            var contents = [];
+
+
+            if (model.label) {
+
+                var labelModel = {
+                    id: key + '_label',
+                    label: model.label,
+                    uiState: model.uiState,
+                    appearance: 'label'
+                };
+
+                contents.push(ui.Label(labelModel));
+            }
+
+
+            contents.push(domx.div({
+                className: 'ui-picklist-zone-frame'
+            }, [dataZone, controlZone, selectionZone]));
+
 
             return domx.div(frameAttrs, contents);
         }

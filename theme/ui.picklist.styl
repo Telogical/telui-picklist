@@ -3,8 +3,6 @@ _trannySpeed = $transitionSpeed;
 
 .ui-picklist-frame
     width: 100%
-    min-height: 600px
-    background: #333
 
 .ui-picklist
   .ui-picklist-label
@@ -14,51 +12,21 @@ _trannySpeed = $transitionSpeed;
   .ui-picklist-input
     min-height: $brick;
     transition: color _trannySpeed, border _trannySpeed, background _trannySpeed;
-  .ui-picklist-dropdown
-    position:absolute
-    z-index: 9999
+  .ui-picklist-zone-frame
+    display:table
+    width: 100%
+    table-layout: fixed
+  .ui-picklist-zone
+    display: table-cell
+    vertical-align: middle
+  .ui-picklist-data
+    min-height: 100px
+  .ui-picklist-controls
+    width: 50px
+    min-height: 100px
+  .ui-picklist-selection
+    min-height: 100px
+    
 
-  .ui-picklist-closeicon-frame
-    overflow: visible;
-    position: relative;
-    width: $line;
-    height: 0px;
-    right: $line-margin;
-    top: $line-margin + $border-width;
-    float: right;
-    bottom: $line-margin;
-    .ui-icon
-      cursor: pointer;
-
-.ui-picklist-input-frame
-  margin-right: $brick + ($border-width * 2)
-  float:none
-  width:auto
-  input
-    float:right
-    width:100%;
-    border-top-left-radius: $border-radius;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: $border-radius;
-    border-right-width:0px;
-
-.ui-picklist-dropdownbutton-frame
-  float: right;
-  margin-left: 0px;
-  margin-right: 0px;
-  width: $brick + ($border-width * 2)
-  .ui-appearance-button
-    position:relative;
-    right:$border-width;
-    top:0;
-    bottom:0;
-    border-top-left-radius: 0px;
-    border-top-right-radius: $border-radius;
-    border-bottom-right-radius: $border-radius;
-    border-bottom-left-radius: 0px;
-
-
-ui-states('.ui-picklist', '.ui-picklist-closeicon', $ui-states, iLabel, $interactivityTolerance)
 ui-states('.ui-picklist', '.ui-picklist-label', $ui-states, iLabel, $interactivityTolerance)
 ui-states('.ui-picklist', '.ui-picklist-input', $ui-states, iInput, $interactivityTolerance)

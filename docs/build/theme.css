@@ -4766,8 +4766,6 @@ authors: Jesse Harlin, Joe Hare
 }
 .ui-picklist-frame {
   width: 100%;
-  min-height: 600px;
-  background: #333;
 }
 .ui-picklist .ui-picklist-label {
   min-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
@@ -4778,147 +4776,24 @@ authors: Jesse Harlin, Joe Hare
   min-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
   transition: color 0.5s, border 0.5s, background 0.5s;
 }
-.ui-picklist .ui-picklist-dropdown {
-  position: absolute;
-  z-index: 9999;
-}
-.ui-picklist .ui-picklist-closeicon-frame {
-  overflow: visible;
-  position: relative;
-  width: 16.068px;
-  height: 0px;
-  right: 4.465999999999999px;
-  top: 5.465999999999999px;
-  float: right;
-  bottom: 4.465999999999999px;
-}
-.ui-picklist .ui-picklist-closeicon-frame .ui-icon {
-  cursor: pointer;
-}
-.ui-picklist-input-frame {
-  margin-right: 28px;
-  float: none;
-  width: auto;
-}
-.ui-picklist-input-frame input {
-  float: right;
+.ui-picklist .ui-picklist-zone-frame {
+  display: table;
   width: 100%;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 4px;
-  border-right-width: 0px;
+  table-layout: fixed;
 }
-.ui-picklist-dropdownbutton-frame {
-  float: right;
-  margin-left: 0px;
-  margin-right: 0px;
-  width: 28px;
+.ui-picklist .ui-picklist-zone {
+  display: table-cell;
+  vertical-align: middle;
 }
-.ui-picklist-dropdownbutton-frame .ui-appearance-button {
-  position: relative;
-  right: 1px;
-  top: 0;
-  bottom: 0;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 4px;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 0px;
+.ui-picklist .ui-picklist-data {
+  min-height: 100px;
 }
-.ui-picklist.ui-state-default .ui-picklist-closeicon.ui-state-default {
-  color: #000;
+.ui-picklist .ui-picklist-controls {
+  width: 50px;
+  min-height: 100px;
 }
-.ui-picklist.ui-state-default .ui-picklist-closeicon.ui-state-disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-picklist.ui-state-default .ui-picklist-closeicon:disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-picklist.ui-state-error .ui-picklist-closeicon.ui-state-default {
-  color: #9d2b20;
-}
-.ui-picklist.ui-state-error .ui-picklist-closeicon.ui-state-disabled {
-  color: #9d2b20;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-picklist.ui-state-error .ui-picklist-closeicon:disabled {
-  color: #9d2b20;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-picklist.ui-state-highlight .ui-picklist-closeicon.ui-state-default {
-  color: #927914;
-}
-.ui-picklist.ui-state-highlight .ui-picklist-closeicon.ui-state-disabled {
-  color: #927914;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-picklist.ui-state-highlight .ui-picklist-closeicon:disabled {
-  color: #927914;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-picklist.ui-state-success .ui-picklist-closeicon.ui-state-default {
-  color: #267d4b;
-}
-.ui-picklist.ui-state-success .ui-picklist-closeicon.ui-state-disabled {
-  color: #267d4b;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-picklist.ui-state-success .ui-picklist-closeicon:disabled {
-  color: #267d4b;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-picklist.ui-state-advantage .ui-picklist-closeicon.ui-state-default {
-  color: #24638c;
-}
-.ui-picklist.ui-state-advantage .ui-picklist-closeicon.ui-state-disabled {
-  color: #24638c;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-picklist.ui-state-advantage .ui-picklist-closeicon:disabled {
-  color: #24638c;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
+.ui-picklist .ui-picklist-selection {
+  min-height: 100px;
 }
 .ui-picklist.ui-state-default .ui-picklist-label.ui-state-default {
   color: #000;

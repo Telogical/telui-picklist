@@ -4764,6 +4764,9 @@ authors: Jesse Harlin, Joe Hare
   border-width: 18px;
   margin-top: -18px;
 }
+.ui-checkboxlist-frame {
+  width: 100%;
+}
 .ui-picklist-frame {
   width: 100%;
 }

@@ -20,6 +20,21 @@
                             label-prop="email"
                             ></telui-Picklist>
         </div>
+        <div class="w-12 w-alpha w-omega w-v-4">
+            <telui-checkbox-list
+                            data="people"
+                            label="People Selector Checkboxlist"
+                            value="checkboxlistValue"
+                            label-primary="input list"
+                            label-secondary="output list"
+                            label-prop="email"
+                            ></telui-checkbox-list>
+        </div>
+        
+        <div class="w-12 w-alpha w-omega w-v-4">
+          {{checkboxlistValue}}
+        </div>
+      
         <div class="w-12 w-alpha w-omega">
             <div ui-view></div>
         </div>

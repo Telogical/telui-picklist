@@ -4,7 +4,7 @@
 /*asdfasdfsadf*/
 /*debugging and layout*/
 .brick {
-  height: 26px /*Worldspace Brick Size. Change this to anything.*/;
+  height: 26px;
   width: 100%;
   float: left;
   background-color: #ffc0cb;
@@ -482,7 +482,7 @@
   bottom: 24.102000000000004px;
 }
 .waffles .w-6.w-fix {
-  width: 26px /*Worldspace Brick Size. Change this to anything.*/;
+  width: 26px;
 }
 .waffles .w-6.w-fix.w-alpha {
   float: left;
@@ -507,16 +507,16 @@
   margin-right: 34.666666666666664px;
 }
 .waffles .w-v-6 {
-  margin-top: 26px /*Worldspace Brick Size. Change this to anything.*/;
+  margin-top: 26px;
 }
 .waffles .w-v_6 {
-  margin-bottom: 26px /*Worldspace Brick Size. Change this to anything.*/;
+  margin-bottom: 26px;
 }
 .waffles .w-freeze.w-v-6 {
-  top: 26px /*Worldspace Brick Size. Change this to anything.*/;
+  top: 26px;
 }
 .waffles .w-freeze.w-v_6 {
-  bottom: 26px /*Worldspace Brick Size. Change this to anything.*/;
+  bottom: 26px;
 }
 .waffles .w-7.w-fix {
   width: 42.068px;
@@ -1850,12 +1850,12 @@ dt {
   text-align: right;
   margin: 0 4.465999999999999px;
   color: #596369;
-  min-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
+  min-height: 26px;
 }
 dd {
   margin: 0 0 0 186.466px;
   padding: 4.465999999999999px;
-  min-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
+  min-height: 26px;
 }
 dd > ul {
   list-style: none;
@@ -1889,17 +1889,17 @@ dd > ul >li:before {
   font-weight: normal;
   font-family: 'Open Sans', sans-serif;
   width: 100%;
-  line-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
+  line-height: 26px;
   display: block;
   float: left;
 }
 .ui-combobox .ui-combobox-label {
-  min-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
-  line-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
+  min-height: 26px;
+  line-height: 26px;
   font-size: 16.068px;
 }
 .ui-combobox .ui-combobox-input {
-  min-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
+  min-height: 26px;
   transition: color 0.5s, border 0.5s, background 0.5s;
 }
 .ui-combobox .ui-combobox-dropdown {
@@ -2510,8 +2510,8 @@ dd > ul >li:before {
   filter: alpha(opacity=50);
 }
 .ui-label {
-  min-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
-  line-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
+  min-height: 26px;
+  line-height: 26px;
   font-size: 16.068px;
 }
 input:focus,
@@ -2613,7 +2613,7 @@ authors: Jesse Harlin, Joe Hare
   text-indent: -26px;
 }
 .ui-appearance-button.ui-appearance-button-has-text.ui-appearance-button-has-icon-secondary .ui-appearance-button-text {
-  text-indent: 26px /*Worldspace Brick Size. Change this to anything.*/;
+  text-indent: 26px;
 }
 .ui-appearance-button.ui-appearance-button-has-text.ui-appearance-button-has-icon-secondary.ui-appearance-button-has-icon-primary {
   width: 100%;
@@ -2978,15 +2978,15 @@ authors: Jesse Harlin, Joe Hare
   font-size: 16.068px;
 }
 .ui-appearance-checkbox .ui-appearance-checkbox-label-frame.w-auto {
-  margin-left: 26px /*Worldspace Brick Size. Change this to anything.*/;
+  margin-left: 26px;
   width: auto !important;
 }
 .ui-appearance-checkbox .ui-appearance-checkbox-label-frame.w-auto .ui-appearance-checkbox-label {
   text-align: left;
 }
 .ui-appearance-checkbox .ui-appearance-checkbox-sprite-frame {
-  width: 26px /*Worldspace Brick Size. Change this to anything.*/;
-  height: 26px /*Worldspace Brick Size. Change this to anything.*/;
+  width: 26px;
+  height: 26px;
   float: left;
   margin-left: 0px;
   margin-right: 0px;
@@ -3453,7 +3453,7 @@ authors: Jesse Harlin, Joe Hare
   background: #fff;
 }
 .ui-menu-item {
-  min-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
+  min-height: 26px;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -3484,7 +3484,7 @@ authors: Jesse Harlin, Joe Hare
   color: #eee;
 }
 .ui-appearance-menuitem {
-  min-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
+  min-height: 26px;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -3818,15 +3818,15 @@ authors: Jesse Harlin, Joe Hare
   font-size: 16.068px;
 }
 .ui-appearance-radio .ui-appearance-radio-label-frame.w-auto {
-  margin-left: 26px /*Worldspace Brick Size. Change this to anything.*/;
+  margin-left: 26px;
   width: auto;
 }
 .ui-appearance-radio .ui-appearance-radio-label-frame.w-auto .ui-appearance-radio-label {
   text-align: left;
 }
 .ui-appearance-radio .ui-appearance-radio-sprite-frame {
-  width: 26px /*Worldspace Brick Size. Change this to anything.*/;
-  height: 26px /*Worldspace Brick Size. Change this to anything.*/;
+  width: 26px;
+  height: 26px;
   float: left;
   margin-left: 0px;
   margin-right: 0px;
@@ -4088,13 +4088,111 @@ authors: Jesse Harlin, Joe Hare
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
   filter: alpha(opacity=50);
 }
+.ui-tooltip-content strong {
+  font-weight: bold;
+}
+.ui-tooltip-content em {
+  font-style: italic;
+}
+.ui-tooltip-right {
+  color: #222;
+  position: absolute;
+  z-index: 999;
+  width: 0;
+  height: 0;
+  overflow: visible;
+}
+.ui-tooltip-right .ui-tooltip-content {
+  box-shadow: -2px 2px 4px 1px rgba(0,0,0,0.2);
+  position: relative;
+  background: #fff;
+  border: 1px solid #bdc3c7;
+  width: 350px;
+  height: 180px;
+  top: -100px;
+  left: 36px;
+  padding: 13px;
+}
+.ui-tooltip-right .ui-tooltip-content ul li {
+  height: auto;
+  padding: 6.5px;
+}
+.ui-tooltip-right .ui-tooltip-content:after,
+.ui-tooltip-right .ui-tooltip-content:before {
+  right: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+.ui-tooltip-right .ui-tooltip-content:after {
+  border-color: rgba(255,255,255,0);
+  border-right-color: #fff;
+  border-width: 17px;
+  margin-top: -17px;
+}
+.ui-tooltip-right .ui-tooltip-content:before {
+  border-color: rgba(165,176,184,0);
+  border-right-color: #bdc3c7;
+  border-width: 18px;
+  margin-top: -18px;
+}
+.ui-tooltip-left {
+  color: #222;
+  position: absolute;
+  z-index: 999;
+  width: 0;
+  height: 0;
+  overflow: visible;
+}
+.ui-tooltip-left .ui-tooltip-content {
+  box-shadow: -2px 2px 4px 1px rgba(0,0,0,0.2);
+  position: relative;
+  background: #fff;
+  border: 1px solid #bdc3c7;
+  width: 350px;
+  height: 180px;
+  top: -100px;
+  left: 36px;
+  padding: 13px;
+}
+.ui-tooltip-left .ui-tooltip-content ul li {
+  height: auto;
+  padding: 6.5px;
+}
+.ui-tooltip-left .ui-tooltip-content:after,
+.ui-tooltip-left .ui-tooltip-content:before {
+  left: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+.ui-tooltip-left .ui-tooltip-content:after {
+  border-color: rgba(255,255,255,0);
+  border-left-color: #fff;
+  border-width: 17px;
+  margin-top: -17px;
+}
+.ui-tooltip-left .ui-tooltip-content:before {
+  border-color: rgba(165,176,184,0);
+  border-left-color: #bdc3c7;
+  border-width: 18px;
+  margin-top: -18px;
+}
 .ui-text .ui-text-label {
-  min-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
+  min-height: 26px;
   line-height: 25px;
   font-size: 16.068px;
 }
 .ui-text .ui-text-input {
-  min-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
+  min-height: 26px;
 }
 .ui-text .ui-text-closeicon-frame {
   overflow: visible;
@@ -4669,114 +4767,16 @@ authors: Jesse Harlin, Joe Hare
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
   filter: alpha(opacity=50);
 }
-.ui-tooltip-content strong {
-  font-weight: bold;
-}
-.ui-tooltip-content em {
-  font-style: italic;
-}
-.ui-tooltip-right {
-  color: #222;
-  position: absolute;
-  z-index: 999;
-  width: 0;
-  height: 0;
-  overflow: visible;
-}
-.ui-tooltip-right .ui-tooltip-content {
-  box-shadow: -2px 2px 4px 1px rgba(0,0,0,0.2);
-  position: relative;
-  background: #fff;
-  border: 1px solid #bdc3c7;
-  width: 350px;
-  height: 180px;
-  top: -100px;
-  left: 36px;
-  padding: 13px;
-}
-.ui-tooltip-right .ui-tooltip-content ul li {
-  height: auto;
-  padding: 6.5px;
-}
-.ui-tooltip-right .ui-tooltip-content:after,
-.ui-tooltip-right .ui-tooltip-content:before {
-  right: 100%;
-  top: 50%;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-}
-.ui-tooltip-right .ui-tooltip-content:after {
-  border-color: rgba(255,255,255,0);
-  border-right-color: #fff;
-  border-width: 17px;
-  margin-top: -17px;
-}
-.ui-tooltip-right .ui-tooltip-content:before {
-  border-color: rgba(165,176,184,0);
-  border-right-color: #bdc3c7;
-  border-width: 18px;
-  margin-top: -18px;
-}
-.ui-tooltip-left {
-  color: #222;
-  position: absolute;
-  z-index: 999;
-  width: 0;
-  height: 0;
-  overflow: visible;
-}
-.ui-tooltip-left .ui-tooltip-content {
-  box-shadow: -2px 2px 4px 1px rgba(0,0,0,0.2);
-  position: relative;
-  background: #fff;
-  border: 1px solid #bdc3c7;
-  width: 350px;
-  height: 180px;
-  top: -100px;
-  left: 36px;
-  padding: 13px;
-}
-.ui-tooltip-left .ui-tooltip-content ul li {
-  height: auto;
-  padding: 6.5px;
-}
-.ui-tooltip-left .ui-tooltip-content:after,
-.ui-tooltip-left .ui-tooltip-content:before {
-  left: 100%;
-  top: 50%;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-}
-.ui-tooltip-left .ui-tooltip-content:after {
-  border-color: rgba(255,255,255,0);
-  border-left-color: #fff;
-  border-width: 17px;
-  margin-top: -17px;
-}
-.ui-tooltip-left .ui-tooltip-content:before {
-  border-color: rgba(165,176,184,0);
-  border-left-color: #bdc3c7;
-  border-width: 18px;
-  margin-top: -18px;
-}
 .ui-picklist-frame {
   width: 100%;
 }
 .ui-picklist .ui-picklist-label {
-  min-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
-  line-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
+  min-height: 26px;
+  line-height: 26px;
   font-size: 16.068px;
 }
 .ui-picklist .ui-picklist-input {
-  min-height: 26px /*Worldspace Brick Size. Change this to anything.*/;
+  min-height: 26px;
   transition: color 0.5s, border 0.5s, background 0.5s;
 }
 .ui-picklist .ui-picklist-zone-frame {

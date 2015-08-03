@@ -1,0 +1,59 @@
+<div class="waffles ui-picklist">
+    <div class="w-12 w-alpha w-omega">
+        <telui-label
+                     appearance="label"
+                     label="{{label}}"
+                     ></telui-label>
+    </div>
+    <div class="ui-picklist-zone-frame">
+        <div class="ui-picklist-zone ui-picklist-data">
+          <div class="w-12 w-alpha w-omega">
+            <telui-text
+                        ></telui-text>
+          </div >
+          <div class="w-12 w-alpha w-omega ui-picklist-selectlist-frame">
+             <telui-checkbox-list
+                                  data="filteredData"
+                                  value="dataSelection"
+                                  text="true"
+                                  label=""
+                                  label-prop="{{labelProp}}"
+                                  appearance="menuitem"
+                                  ></telui-checkbox-list>
+          </div>
+        </div>
+        <div class="ui-picklist-zone ui-picklist-controls">
+            <telui-button
+                          label="&#8649;"
+                          ></telui-button>
+            <telui-button
+                          label="&#8594;"
+                          ></telui-button>
+            <telui-button
+                          label="&#8592;"
+                          ></telui-button>
+            <telui-button
+                          label="&#8647;"
+                          ></telui-button>
+        </div>
+        <div class="ui-picklist-zone ui-picklist-data">
+            <div class="w-12 w-alpha w-omega ui-picklist-selectlist-frame">
+               <telui-checkbox-list
+                                    data="dataSelection"
+                                    text="true"
+                                    label=""
+                                    label-prop="{{labelProp}}"
+                                    appearance="menuitem"
+                                    ></telui-checkbox-list>
+            </div>
+        </div>
+        <div class="ui-picklist-zone ui-picklist-controls">
+            <telui-button
+                          label="&#8593;"
+                          ></telui-button>
+            <telui-button
+                          label="&#8595;"
+                          ></telui-button>
+        </div>
+    </div>
+</div>

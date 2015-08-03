@@ -88,5 +88,10 @@
     },
     "dependencies": {
         "uuid": "2.x.x"
+    },
+    "browserify": {
+        "transform": [
+          "partialify"
+        ]
     }
 }

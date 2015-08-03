@@ -4798,11 +4798,9 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist .ui-picklist-selection {
   min-height: 100px;
 }
-.ui-picklist .ui-picklist-list-frame {
+.ui-picklist .ui-picklist-selectlist-frame {
   max-height: 350px;
   overflow: auto;
-  width: 100%;
-  margin: 0;
 }
 .ui-picklist.ui-state-default .ui-picklist-label.ui-state-default {
   color: #000;

@@ -1,7 +1,12 @@
-var UI = require('../react/telui'),
-    React = UI.Core.React,
+var TelUI = require('@telogical/telui-core'),
     uuid = require('uuid'),
-    _ = UI.Core._;
+    _ = TelUI.Core._;
+
+
+require('@telogical/telui-text');
+require('@telogical/telui-button');
+require('@telogical/telui-checkbox');
+require('@telogical/telui-label');
 
 angular
     .module('TelUI')
@@ -14,54 +19,15 @@ angular
                 var id = scope.id ?
                     scope.id :
                     'picklist_' + uuid.v1();
+              
+              
+              scope.filteredData = scope.data;
 
-                scope.clearable = _.isUndefined(scope.clearable) ?
-                    false :
-                    scope.clearable;
-                
-                
-                scope.dataMenu = scope.$new(true);
-               
-                
-                function render( /*newValue, oldValue*/ ) {
+            }
 
-                    $el.removeAttr('disabled');
+            function picklistController() {
 
-                    var model = {
-                        //scopes
-                        scope: scope,
-                        dataMenuScope: scope.dataMenu,
 
-                        //attrs
-                        id: id,
-                        label: scope.label,
-                        iconPrimary: scope.iconPrimary,
-                        iconSecondary: scope.iconSecondary,
-                        
-                        labelPrimary: scope.labelPrimary,
-                        labelSecondary: scope.labelSecondary,
-                        
-                        labelProp: scope.labelProp || 'label',
-                        
-                        cssClass: scope.cssClass,
-                        text: scope.text,
-                        disabled: scope.disabled,
-                        click: scope.click,
-                        value: scope.value,
-                        data: scope.data,
-                        clearable: scope.clearable,
-                        uiState: scope.state || 'default',
-                        maxHeight: scope.maxHeight || 'auto',
-                        appearance: scope.appearance || 'menuitem'
-                        
-                    };
-
-                    React.renderComponent(UI.PickList(model), $el[0]);
-                }
-
-                scope.$watchCollection(
-                    '[value, data, label, labelProp,iconPrimary, iconSecondary, disabled, cssClass, text, click, state, maxHeight, appearance]',
-                    render);
             }
 
             var scopeDefinition = {
@@ -85,8 +51,9 @@ angular
                 restrict: 'E',
                 replace: true,
                 scope: scopeDefinition,
-                template: '<div class="waffles"></div>',
-                link: link
+                link: link,
+                controller: picklistController,
+                template: require('./telui.picklist-partial.html')
             };
     }
 ]);

@@ -19,7 +19,7 @@
                                   text="true"
                                   label=""
                                   label-prop="{{labelProp}}"
-                                  appearance="checkbox"
+                                  appearance="{{appearance}}"
                                   ></telui-checkbox-list>
           </div>
         </div>
@@ -27,18 +27,22 @@
             <telui-button
                           click="selectAll()"
                           label="&#8649;"
+                          appearance="{{appearanceControls}}"
                           ></telui-button>
             <telui-button
                           click="selectDataModel()"
                           label="&#8594;"
+                          appearance="{{appearanceControls}}"
                           ></telui-button>
             <telui-button
                           click="deselectSelectionModel()"
                           label="&#8592;"
+                          appearance="{{appearanceControls}}"
                           ></telui-button>
             <telui-button
                           click="deselectAll()"
                           label="&#8647;"
+                          appearance="{{appearanceControls}}"
                           ></telui-button>
         </div>
         <div class="ui-picklist-zone ui-picklist-data">
@@ -49,16 +53,18 @@
                                     text="true"
                                     label=""
                                     label-prop="{{labelProp}}"
-                                    appearance="checkbox"
+                                    appearance="{{appearance}}"
                                     ></telui-checkbox-list>
             </div>
         </div>
         <div class="ui-picklist-zone ui-picklist-controls">
             <telui-button
                           label="&#8593;"
+                          appearance="{{appearanceControls}}"
                           ></telui-button>
             <telui-button
                           label="&#8595;"
+                          appearance="{{appearanceControls}}"
                           ></telui-button>
         </div>
     </div>

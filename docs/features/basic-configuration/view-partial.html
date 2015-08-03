@@ -20,31 +20,17 @@
         <div class="w-12 w-alpha w-omega w-v-4">
             <telui-Picklist
                             data="people"
+                            value="pickedPeople"
                             label="People Selector"
                             label-primary="input list"
                             label-secondary="output list"
                             label-prop="<%= name.last %>, <%= name.first %>"
                             ></telui-Picklist>
         </div>
-<!--
-      <div class="w-12 w-alpha w-omega">
-          <div class="w-6 w-alpha w-v-4">
-              <telui-checkbox-list
-                              data="people"
-                              label="People Selector Checkboxlist"
-                              value="checkboxlistValue"
-                              label-primary="input list"
-                              label-secondary="output list"
-                              label-prop="email"
-                              ></telui-checkbox-list>
-          </div>
-          <div class="w-6  w-omega w-v-4">
-              <div class="w-12">
-                {{checkboxlistValue}}
-              </div>
-          </div>
-       </div>
--->
+        <div class="w-12 w-alpha w-omega">
+          {{pickedPeople}}
+        </div>
+
         <div class="w-12 w-alpha w-omega">
             <div ui-view></div>
         </div>

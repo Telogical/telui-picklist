@@ -48,17 +48,49 @@ angular
 
                     }
 
-                    function dataBySelectionModel(datum) {
-
-                        return datum;
-                    }
 
                     $scope.filteredData = _
                         .chain($scope.data)
-                        .filter(dataByFilterString)
                         .filter(dataBySelectionModel)
-                        .value();
+                        .filter(dataByFilterString)
+
+                    .value();
                 }
+
+                function dataBySelectionModel(datum) {
+                    if (datum.id) {
+                        return !(_.findWhere($scope.selectionModel, {
+                            id: datum.id
+                        }));
+                    }
+
+                    function toStrings(datum) {
+                        return JSON.stringify(datum);
+                    }
+
+                    var stringsOfSelectedSelectionModel = _.map($scope.selectionModel, toStrings),
+                        stringDatum = JSON.stringify(datum);
+
+                    return !_.contains(stringsOfSelectedSelectionModel, stringDatum);
+                }
+
+                function selectionModelBySelectedItems(datum) {
+                    if (datum.id) {
+                        return !(_.findWhere($scope.selectedSelectionModel, {
+                            id: datum.id
+                        }));
+                    }
+
+                    function toStrings(datum) {
+                        return JSON.stringify(datum);
+                    }
+
+                    var stringsOfSelectedSelectionModel = _.map($scope.selectedSelectionModel, toStrings),
+                        stringDatum = JSON.stringify(datum);
+
+                    return !_.contains(stringsOfSelectedSelectionModel, stringDatum);
+                }
+
 
                 function selectAll() {
                     $scope.selectionModel = $scope.data.slice(0);
@@ -72,7 +104,6 @@ angular
                 }
 
                 function selectDataModel() {
-                    //guard against dupes
                     $scope.selectionModel = _
                         .chain($scope.selectionModel.slice(0))
                         .concat($scope.selectedData.slice(0))
@@ -81,47 +112,34 @@ angular
                 }
 
                 function deselectSelectionModel() {
-                    //$scope.selectedSelectionModel
-
-                    function selectionModelBySelectedItems(datum) {
-                        if (datum.id) {
-                            return !(_.findWhere($scope.selectedSelectionModel, {
-                                id: datum.id
-                            }));
-                        }
-
-                        function toStrings(datum) {
-                            return JSON.stringify(datum);
-                        }
-
-                        var stringsOfSelectedSelectionModel = _.map($scope.selectedSelectionModel, toStrings),
-                            stringDatum = JSON.stringify(datum);
-                      
-                        return !_.contains(stringsOfSelectedSelectionModel, stringDatum);
-                    }
-
                     $scope.selectionModel = _
                         .chain($scope.selectionModel)
                         .filter(selectionModelBySelectedItems)
                         .value();
-
-                    $scope.selectedSelectionModel = [];
+                    //$scope.selectedSelectionModel = [];
                 }
 
                 function deselectAll() {
                     $scope.selectionModel = [];
                 }
 
+                function updateValue() {
+                    filterData($scope.filterBy);
+                    $scope.value = $scope.selectionModel;
+                }
 
+                $scope.appearanceControls = 'button';
+                $scope.appearance = $scope.appearance || 'menuitem';
                 $scope.selectAll = selectAll;
                 $scope.selectDataModel = selectDataModel;
                 $scope.deselectSelectionModel = deselectSelectionModel;
                 $scope.deselectAll = deselectAll;
 
                 $scope.selectionModel = $scope.selectionModel || [];
+                $scope.value = $scope.selectionModel;
                 $scope.filterBy = $scope.filterBy || '';
                 $scope.$watch('filterBy', filterData);
-
+                $scope.$watch('selectionModel', updateValue);
 
             }
 
@@ -151,5 +169,5 @@ angular
                 controller: picklistController,
                 template: require('./telui.picklist-partial.html')
             };
-  }
-]);
+                }
+                ]);

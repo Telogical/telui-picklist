@@ -70,31 +70,37 @@ function PickList(ui) {
 
             var _data = _
                 .chain(model.data)
-                .map(dataToSelectList)
                 .value();
-
+            
+            model.dataMenuScope.data = _data;
+            model.dataMenuScope.value = model.dataMenuScope.value || [];
+            
+            console.log('model.dataMenuScope.data', model.dataMenuScope.data);
+          
             var dataMenuModel = {
                 id: key + '_data_menu',
-                data: _data || [],
-                value: this.state.value,
+                data: model.dataMenuScope.data,
+                value: model.dataMenuScope.value,
                 disabled: model.disabled,
-                labelProp: 'label',
+                labelProp: model.labelProp,
                 scope: model.dataMenuScope,
                 uiState: model.uiState,
-                ref: 'menu',
+                text: (model.text === false) ? false : true,
+                ref: 'data-menu',
                 name: key + '_menu',
-                change: this.__onMenuChange,
-                maxHeight: 300,
-                focusable: false,
-                appearance: 'menuitem'
+                appearance: model.appearance
             };
 
             var primaryFilterModel = {
                 id: key + '_data_filter'
             };
 
-            var dataMenu = ui.Menu(dataMenuModel);
-
+            var dataListFrameAttrs = {
+                className: 'ui-picklist-list-frame'
+            };
+              
+            var dataChecklist = ui.CheckboxList(dataMenuModel)
+            var dataMenu = domx.div(dataListFrameAttrs, dataChecklist);
 
             var dataZoneAttrs = {
                 id: key + '_zone_data',

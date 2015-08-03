@@ -52,6 +52,7 @@ angular
                         clearable: scope.clearable,
                         uiState: scope.state || 'default',
                         maxHeight: scope.maxHeight || 'auto',
+                        appearance: scope.appearance || 'menuitem'
                         
                     };
 
@@ -59,7 +60,7 @@ angular
                 }
 
                 scope.$watchCollection(
-                    '[value, data, label, labelProp,iconPrimary, iconSecondary, disabled, cssClass, text, click, state, maxHeight]',
+                    '[value, data, label, labelProp,iconPrimary, iconSecondary, disabled, cssClass, text, click, state, maxHeight, appearance]',
                     render);
             }
 

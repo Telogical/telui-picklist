@@ -2,8 +2,8 @@
 
     "title": "Example People Schema",
     "type": "array",
-    "minItems": 25,
-    "maxItems" : 600,
+    "minItems": 20,
+    "maxItems" : 50,
     "items": {
         "id": "#person",
         "title": "Person",

@@ -1,3 +1,5 @@
+
+
 'use strict';
 var appDependencies = [
     'ui.router',
@@ -31,30 +33,47 @@ function stateNotfound(event, unfoundState, fromState, fromParams) {
   console.log(unfoundState, fromState, fromParams);
 }
 
-function defaultStateProvider($stateProvider) {
-  var PicklistDemo = {
-    url: '/',
-    templateUrl: './_ChannelComparisonTool/ChannelComparisonTool-app.html'
-  };
-
-  $stateProvider
-    .state('picklistdemo', PicklistDemo);
-}
-
 function debug($rootScope) {
   $rootScope.$on('$stateChangeError',stateChangeError);
   $rootScope.$on('$stateNotFound', stateNotfound);
 }
 
 function run($rootScope) {
-  $rootScope.buildFolder = '_build';
   $rootScope.skin = $rootScope.skin || '_Blank';
   debug($rootScope);
 }
 
 PicklistDemo
   .App
-  .config(['$stateProvider', '$urlRouterProvider', defaultStateProvider])
-  .run(['$rootScope', run]);
+  .run(run);
 
-window.PicklistDemo = PicklistDemo;
+module.exports = PicklistDemo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

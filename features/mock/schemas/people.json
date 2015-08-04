@@ -1,0 +1,59 @@
+{
+
+    "title": "Example People Schema",
+    "type": "array",
+    "minItems": 20,
+    "maxItems" : 50,
+    "items": {
+        "id": "#person",
+        "title": "Person",
+        "type": "object",
+        "properties": {
+            "id": {
+                "$ref": "#/definitions/uuid"
+            },
+            "email": {
+                "type": "string",
+                "format": "email",
+                "faker": "internet.email"
+            },
+            "phone": {
+                "type": "string",
+                "format": "phone",
+                "faker": "phone.phoneNumberFormat"
+            },
+            "name": {
+                "$ref": "#/definitions/name"
+            },
+            "quote": {
+                "type": "string",
+                "faker": "hacker.phrase"
+            }
+        },
+        "required": ["id", "email", "name"]
+    },
+    "definitions": {
+        "uuid": {
+            "type": "string",
+            "faker" : "random.uuid"
+        },
+        "name": {
+            "type": "object",
+            "properties": {
+                "prefix": {
+                    "type": "string",
+                    "faker": "name.prefix"
+                },
+                "first": {
+                    "type": "string",
+                    "faker": "name.firstName"
+                },
+                "last": {
+                    "type": "string",
+                    "faker": "name.lastName"
+                }
+            },
+            "required": ["first", "last"]
+        }
+    }
+}

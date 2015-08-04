@@ -1,7 +1,7 @@
 <div data-ng-id="basic_configuration" class="waffles ui-view-basic-configuration">
     <div class="w-12 w-alpha w-omega">
         <div class="w-12 w-alpha w-omega">
-            #{{people.length}}
+            [{{people.length}}] People. Select a person To programatically set the Picklist
         </div>
         <div class="w-12 w-alpha w-omega">
           <div class="w-6 w-alpha">
@@ -9,11 +9,26 @@
                               data="people"
                               label="People"
                               value="selectedPerson"
+                              max-height="400"
                               label-prop="<%= name.last %>, <%= name.first %>">
               </telui-combobox>
           </div>
           <div class="w-6 w-omega">
               {{selectedPerson}}
+          </div>
+        </div>
+        <div class="w-12 w-alpha w-omega" ng-if="selectedPerson">
+          <div class="w-auto">
+              <telui-label
+                           label="Set Picklist Value to :"
+                           appearance="label"
+                           ></telui-label>
+          </div>
+          <div class="w-auto">
+            <telui-button
+                          label="{{selectedPerson.name}}"
+                          click="setPicklistToPerson(selectedPerson)"
+                          ></telui-button>
           </div>
         </div>
         

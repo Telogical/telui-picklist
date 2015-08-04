@@ -10,7 +10,12 @@ PicklistDemo
     
     
         console.log('people', people.length);
-    
+        
+        function setPicklistToPerson(person){
+          $scope.pickedPeople = [person];
+        }
+  
         $scope.disabled = false;
         $scope.people = people;
+        $scope.setPicklistToPerson = setPicklistToPerson;
     });

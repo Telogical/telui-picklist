@@ -82,9 +82,14 @@ function reactPicklistDirective() {
             return !_.contains(stringsOfSelectedSelectionModel, stringDatum);
         }
 
+        function clearUserSelectionModels() {
+            $scope.selectedSelectionModel = [];
+            $scope.selectedData = [];
+        }
 
         function selectAll() {
             $scope.selectionModel = $scope.data.slice(0);
+            clearUserSelectionModels();
         }
 
         function byIdIfPresent(datum) {
@@ -101,7 +106,7 @@ function reactPicklistDirective() {
                 .uniq(byIdIfPresent)
                 .value();
 
-            $scope.selectedData = [];
+            clearUserSelectionModels();
         }
 
         function deselectSelectionModel() {
@@ -109,17 +114,19 @@ function reactPicklistDirective() {
                 .chain($scope.selectionModel)
                 .filter(selectionModelBySelectedItems)
                 .value();
-            $scope.selectedSelectionModel = [];
+
+            clearUserSelectionModels();
         }
 
         function deselectAll() {
             $scope.selectionModel = [];
-            $scope.selectedData = [];
+            clearUserSelectionModels();
         }
 
         function updateValueFromSelectionModel() {
             filterData($scope.filterBy);
             $scope.value = $scope.selectionModel;
+
         }
 
         function setValue(newValue, oldValue) {
@@ -141,22 +148,34 @@ function reactPicklistDirective() {
             }
         }
 
-        function reorderSelectionModel(direction) {
-          
-            function selectionToIndexes(datum){
-              return _.findIndex(currentList, datum);
+        function moveArrayItem(list, fromIndex, toIndex) {
+            if (toIndex >= list.length || toIndex < 0) {
+               return;
             }
-          
-            var currentList = $scope.selectionModel;
-            var currentSelection = $scope.selectedSelectionModel;
+            list.splice(toIndex, 0, list.splice(fromIndex, 1)[0]);
+            return list;
+        }
 
+        function reorderSelectionModel(direction) {
+
+            function selectionToIndexes(datum) {
+                return _.findIndex(currentList, datum);
+            }
+
+            var currentList = $scope.selectionModel.slice(0);
+            var currentSelection = $scope.selectedSelectionModel;
+          
             var indexes = _
                 .chain(currentSelection)
                 .map(selectionToIndexes)
                 .value();
-            
-            console.log(direction, indexes);
 
+            _.each(indexes, function(indx) {
+                var pos = (direction === 'up') ? -1 : 1;
+                moveArrayItem(currentList, indx, indx + pos);
+            });
+            
+            $scope.selectionModel = currentList;
         }
 
         $scope.appearanceControls = 'button';

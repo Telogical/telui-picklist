@@ -1900,7 +1900,7 @@ dd > ul >li:before {
 }
 .ui-combobox .ui-combobox-input {
   min-height: 26px;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
 }
 .ui-combobox .ui-combobox-dropdown {
   position: absolute;
@@ -2142,7 +2142,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-default .ui-combobox-input.ui-state-default {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #bdc3c7;
@@ -2150,7 +2150,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-default .ui-combobox-input.ui-state-hover {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #c9ccce;
@@ -2158,7 +2158,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-default .ui-combobox-input:hover {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #c9ccce;
@@ -2166,7 +2166,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-default .ui-combobox-input.ui-state-active {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #a5b0b8;
@@ -2174,7 +2174,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-default .ui-combobox-input:active {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #a5b0b8;
@@ -2182,7 +2182,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-default .ui-combobox-input:focus {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #a5b0b8;
@@ -2190,7 +2190,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-default .ui-combobox-input.ui-state-disabled {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #bdc3c7;
@@ -2203,7 +2203,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-default .ui-combobox-input:disabled {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #bdc3c7;
@@ -2216,7 +2216,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-error .ui-combobox-input.ui-state-default {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #e74c3c;
@@ -2224,7 +2224,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-error .ui-combobox-input.ui-state-hover {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #d17b73;
@@ -2232,7 +2232,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-error .ui-combobox-input:hover {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #d17b73;
@@ -2240,7 +2240,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-error .ui-combobox-input.ui-state-active {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #fd1800;
@@ -2248,7 +2248,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-error .ui-combobox-input:active {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #fd1800;
@@ -2256,7 +2256,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-error .ui-combobox-input:focus {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #fd1800;
@@ -2264,7 +2264,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-error .ui-combobox-input.ui-state-disabled {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #e74c3c;
@@ -2277,7 +2277,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-error .ui-combobox-input:disabled {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #e74c3c;
@@ -2290,7 +2290,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-highlight .ui-combobox-input.ui-state-default {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #f1c40f;
@@ -2298,7 +2298,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-highlight .ui-combobox-input.ui-state-hover {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #d1b855;
@@ -2306,7 +2306,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-highlight .ui-combobox-input:hover {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #d1b855;
@@ -2314,7 +2314,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-highlight .ui-combobox-input.ui-state-active {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #e6c900;
@@ -2322,7 +2322,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-highlight .ui-combobox-input:active {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #e6c900;
@@ -2330,7 +2330,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-highlight .ui-combobox-input:focus {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #e6c900;
@@ -2338,7 +2338,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-highlight .ui-combobox-input.ui-state-disabled {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #f1c40f;
@@ -2351,7 +2351,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-highlight .ui-combobox-input:disabled {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #f1c40f;
@@ -2364,7 +2364,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-success .ui-combobox-input.ui-state-default {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #2ecc71;
@@ -2372,7 +2372,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-success .ui-combobox-input.ui-state-hover {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #63be89;
@@ -2380,7 +2380,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-success .ui-combobox-input:hover {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #63be89;
@@ -2388,7 +2388,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-success .ui-combobox-input.ui-state-active {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #0dd461;
@@ -2396,7 +2396,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-success .ui-combobox-input:active {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #0dd461;
@@ -2404,7 +2404,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-success .ui-combobox-input:focus {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #0dd461;
@@ -2412,7 +2412,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-success .ui-combobox-input.ui-state-disabled {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #2ecc71;
@@ -2425,7 +2425,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-success .ui-combobox-input:disabled {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #2ecc71;
@@ -2438,7 +2438,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-advantage .ui-combobox-input.ui-state-default {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #3498db;
@@ -2446,7 +2446,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-advantage .ui-combobox-input.ui-state-hover {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #6ba2c8;
@@ -2454,7 +2454,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-advantage .ui-combobox-input:hover {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #6ba2c8;
@@ -2462,7 +2462,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-advantage .ui-combobox-input.ui-state-active {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #0392f1;
@@ -2470,7 +2470,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-advantage .ui-combobox-input:active {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #0392f1;
@@ -2478,7 +2478,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-advantage .ui-combobox-input:focus {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #0392f1;
@@ -2486,7 +2486,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-advantage .ui-combobox-input.ui-state-disabled {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #3498db;
@@ -2499,7 +2499,7 @@ dd > ul >li:before {
 .ui-combobox.ui-state-advantage .ui-combobox-input:disabled {
   border-width: 1px;
   border-style: $border-style;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #3498db;
@@ -2624,7 +2624,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-default.ui-state-default {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #bdc3c7;
   border-color: #a5b0b8;
@@ -2632,7 +2632,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-default.ui-state-hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #c9ccce;
   border-color: #a5b0b8;
@@ -2640,7 +2640,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-default:hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #c9ccce;
   border-color: #a5b0b8;
@@ -2648,7 +2648,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-default.ui-state-active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #a5b0b8;
   border-color: #a5b0b8;
@@ -2656,7 +2656,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-default:active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #a5b0b8;
   border-color: #a5b0b8;
@@ -2664,7 +2664,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-default.ui-state-disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #bdc3c7;
   border-color: #a5b0b8;
@@ -2678,7 +2678,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-default:disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #bdc3c7;
   border-color: #a5b0b8;
@@ -2692,7 +2692,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-error.ui-state-default {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #e74c3c;
   border-color: #fd1800;
@@ -2700,7 +2700,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-error.ui-state-hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #d17b73;
   border-color: #fd1800;
@@ -2708,7 +2708,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-error:hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #d17b73;
   border-color: #fd1800;
@@ -2716,7 +2716,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-error.ui-state-active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #fd1800;
   border-color: #fd1800;
@@ -2724,7 +2724,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-error:active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #fd1800;
   border-color: #fd1800;
@@ -2732,7 +2732,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-error.ui-state-disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #e74c3c;
   border-color: #fd1800;
@@ -2746,7 +2746,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-error:disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #e74c3c;
   border-color: #fd1800;
@@ -2760,7 +2760,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-highlight.ui-state-default {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #f1c40f;
   border-color: #e6c900;
@@ -2768,7 +2768,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-highlight.ui-state-hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #d1b855;
   border-color: #e6c900;
@@ -2776,7 +2776,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-highlight:hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #d1b855;
   border-color: #e6c900;
@@ -2784,7 +2784,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-highlight.ui-state-active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #e6c900;
   border-color: #e6c900;
@@ -2792,7 +2792,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-highlight:active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #e6c900;
   border-color: #e6c900;
@@ -2800,7 +2800,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-highlight.ui-state-disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #f1c40f;
   border-color: #e6c900;
@@ -2814,7 +2814,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-highlight:disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #f1c40f;
   border-color: #e6c900;
@@ -2828,7 +2828,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-success.ui-state-default {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #2ecc71;
   border-color: #0dd461;
@@ -2836,7 +2836,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-success.ui-state-hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #63be89;
   border-color: #0dd461;
@@ -2844,7 +2844,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-success:hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #63be89;
   border-color: #0dd461;
@@ -2852,7 +2852,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-success.ui-state-active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #0dd461;
   border-color: #0dd461;
@@ -2860,7 +2860,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-success:active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #0dd461;
   border-color: #0dd461;
@@ -2868,7 +2868,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-success.ui-state-disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #2ecc71;
   border-color: #0dd461;
@@ -2882,7 +2882,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-success:disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #2ecc71;
   border-color: #0dd461;
@@ -2896,7 +2896,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-advantage.ui-state-default {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #3498db;
   border-color: #0392f1;
@@ -2904,7 +2904,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-advantage.ui-state-hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #6ba2c8;
   border-color: #0392f1;
@@ -2912,7 +2912,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-advantage:hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #6ba2c8;
   border-color: #0392f1;
@@ -2920,7 +2920,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-advantage.ui-state-active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #0392f1;
   border-color: #0392f1;
@@ -2928,7 +2928,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-advantage:active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #0392f1;
   border-color: #0392f1;
@@ -2936,7 +2936,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-advantage.ui-state-disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #3498db;
   border-color: #0392f1;
@@ -2950,7 +2950,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-button.ui-state-advantage:disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #3498db;
   border-color: #0392f1;
@@ -3098,7 +3098,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-sprite.ui-state-default {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #bdc3c7;
   border-color: #a5b0b8;
@@ -3106,7 +3106,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-sprite.ui-state-hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #c9ccce;
   border-color: #a5b0b8;
@@ -3114,7 +3114,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-sprite:hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #c9ccce;
   border-color: #a5b0b8;
@@ -3122,7 +3122,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-sprite.ui-state-active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #a5b0b8;
   border-color: #a5b0b8;
@@ -3130,7 +3130,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-sprite:active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #a5b0b8;
   border-color: #a5b0b8;
@@ -3138,7 +3138,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-sprite.ui-state-disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #bdc3c7;
   border-color: #a5b0b8;
@@ -3152,7 +3152,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-sprite:disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #bdc3c7;
   border-color: #a5b0b8;
@@ -3166,7 +3166,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-sprite.ui-state-default {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #e74c3c;
   border-color: #fd1800;
@@ -3174,7 +3174,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-sprite.ui-state-hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #d17b73;
   border-color: #fd1800;
@@ -3182,7 +3182,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-sprite:hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #d17b73;
   border-color: #fd1800;
@@ -3190,7 +3190,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-sprite.ui-state-active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #fd1800;
   border-color: #fd1800;
@@ -3198,7 +3198,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-sprite:active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #fd1800;
   border-color: #fd1800;
@@ -3206,7 +3206,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-sprite.ui-state-disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #e74c3c;
   border-color: #fd1800;
@@ -3220,7 +3220,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-sprite:disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #e74c3c;
   border-color: #fd1800;
@@ -3234,7 +3234,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-sprite.ui-state-default {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #f1c40f;
   border-color: #e6c900;
@@ -3242,7 +3242,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-sprite.ui-state-hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #d1b855;
   border-color: #e6c900;
@@ -3250,7 +3250,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-sprite:hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #d1b855;
   border-color: #e6c900;
@@ -3258,7 +3258,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-sprite.ui-state-active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #e6c900;
   border-color: #e6c900;
@@ -3266,7 +3266,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-sprite:active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #e6c900;
   border-color: #e6c900;
@@ -3274,7 +3274,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-sprite.ui-state-disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #f1c40f;
   border-color: #e6c900;
@@ -3288,7 +3288,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-sprite:disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #f1c40f;
   border-color: #e6c900;
@@ -3302,7 +3302,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-sprite.ui-state-default {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #2ecc71;
   border-color: #0dd461;
@@ -3310,7 +3310,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-sprite.ui-state-hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #63be89;
   border-color: #0dd461;
@@ -3318,7 +3318,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-sprite:hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #63be89;
   border-color: #0dd461;
@@ -3326,7 +3326,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-sprite.ui-state-active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #0dd461;
   border-color: #0dd461;
@@ -3334,7 +3334,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-sprite:active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #0dd461;
   border-color: #0dd461;
@@ -3342,7 +3342,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-sprite.ui-state-disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #2ecc71;
   border-color: #0dd461;
@@ -3356,7 +3356,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-sprite:disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #2ecc71;
   border-color: #0dd461;
@@ -3370,7 +3370,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-sprite.ui-state-default {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #3498db;
   border-color: #0392f1;
@@ -3378,7 +3378,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-sprite.ui-state-hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #6ba2c8;
   border-color: #0392f1;
@@ -3386,7 +3386,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-sprite:hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #6ba2c8;
   border-color: #0392f1;
@@ -3394,7 +3394,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-sprite.ui-state-active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #0392f1;
   border-color: #0392f1;
@@ -3402,7 +3402,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-sprite:active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #0392f1;
   border-color: #0392f1;
@@ -3410,7 +3410,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-sprite.ui-state-disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #3498db;
   border-color: #0392f1;
@@ -3424,7 +3424,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-sprite:disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #3498db;
   border-color: #0392f1;
@@ -3437,368 +3437,6 @@ authors: Jesse Harlin, Joe Hare
 }
 .ui-checkboxlist-frame {
   width: 100%;
-}
-.ui-menu {
-  background: rgba(255,255,255,0.85);
-  list-style: none;
-  display: block;
-  outline: none;
-  box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.4);
-  border-bottom-radius: 4px;
-  border-style: solid;
-  border-color: #bdc3c7;
-  border-width: 1px;
-}
-.ui-menu:hover {
-  background: #fff;
-}
-.ui-menu-item {
-  min-height: 26px;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-size: 16.068px;
-  font-family: 'Open Sans', sans-serif;
-}
-.ui-menu-item a {
-  box-sizing: border-box;
-  line-height: 25px;
-  font-size: 16.068px;
-  min-height: 25px;
-  display: block;
-  padding: 4.465999999999999px;
-  margin: 0;
-  cursor: pointer;
-  vertical-align: middle;
-  text-indent: 4.465999999999999px;
-}
-.ui-menu .ui-menu-item > a:hover,
-.ui-menu .ui-menu-item > a.ui-state-hover {
-  background-color: #bdc3c7;
-  color: #eee;
-}
-.ui-menu .ui-menu-item > a:focus,
-.ui-menu .ui-menu-item > a.ui-state-focus,
-.ui-menu .ui-menu-item > a.ui-state-active {
-  background-color: #bdc3c7;
-  color: #eee;
-}
-.ui-appearance-menuitem {
-  min-height: 26px;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-size: 16.068px;
-  font-family: 'Open Sans', sans-serif;
-}
-.ui-appearance-menuitem .ui-appearance-menuitem-text {
-  box-sizing: border-box;
-  line-height: 25px;
-  font-size: 16.068px;
-  min-height: 25px;
-  display: block;
-  padding: 4.465999999999999px;
-  margin: 0;
-  cursor: pointer;
-  vertical-align: middle;
-  text-indent: 4.465999999999999px;
-}
-.ui-appearance-menuitem:hover,
-.ui-appearance-menuitem.ui-state-hover {
-  background-color: #bdc3c7;
-  color: #eee;
-}
-.ui-appearance-menuitem:focus,
-.ui-appearance-menuitem.ui-state-focus,
-.ui-appearance-menuitem.ui-state-active {
-  background-color: #a5b0b8;
-  color: #eee;
-}
-.ui-menu.ui-list-menuitem .ui-radio {
-  display: block;
-}
-.ui-menu.ui-list-menuitem .ui-appearance-menuitem:last-child {
-  margin-bottom: 1px;
-}
-.ui-appearance-menuitem.ui-state-default.ui-state-default {
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  border-color: #a5b0b8;
-}
-.ui-appearance-menuitem.ui-state-default.ui-state-hover {
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  color: #111;
-  background: #c9ccce;
-  border-color: #a5b0b8;
-}
-.ui-appearance-menuitem.ui-state-default:hover {
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  color: #111;
-  background: #c9ccce;
-  border-color: #a5b0b8;
-}
-.ui-appearance-menuitem.ui-state-default.ui-state-active {
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  color: #111;
-  background: #a5b0b8;
-  border-color: #a5b0b8;
-}
-.ui-appearance-menuitem.ui-state-default:active {
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  color: #111;
-  background: #a5b0b8;
-  border-color: #a5b0b8;
-}
-.ui-appearance-menuitem.ui-state-default.ui-state-disabled {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  color: #111;
-  background: #bdc3c7;
-  border-color: #a5b0b8;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-menuitem.ui-state-default:disabled {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  color: #111;
-  background: #bdc3c7;
-  border-color: #a5b0b8;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-menuitem.ui-state-error.ui-state-default {
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  border-color: #fd1800;
-}
-.ui-appearance-menuitem.ui-state-error.ui-state-hover {
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  color: #111;
-  background: #d17b73;
-  border-color: #fd1800;
-}
-.ui-appearance-menuitem.ui-state-error:hover {
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  color: #111;
-  background: #d17b73;
-  border-color: #fd1800;
-}
-.ui-appearance-menuitem.ui-state-error.ui-state-active {
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  color: #eee;
-  background: #fd1800;
-  border-color: #fd1800;
-}
-.ui-appearance-menuitem.ui-state-error:active {
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  color: #eee;
-  background: #fd1800;
-  border-color: #fd1800;
-}
-.ui-appearance-menuitem.ui-state-error.ui-state-disabled {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  color: #111;
-  background: #e74c3c;
-  border-color: #fd1800;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-menuitem.ui-state-error:disabled {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  color: #111;
-  background: #e74c3c;
-  border-color: #fd1800;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-menuitem.ui-state-highlight.ui-state-default {
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  border-color: #e6c900;
-}
-.ui-appearance-menuitem.ui-state-highlight.ui-state-hover {
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  color: #111;
-  background: #d1b855;
-  border-color: #e6c900;
-}
-.ui-appearance-menuitem.ui-state-highlight:hover {
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  color: #111;
-  background: #d1b855;
-  border-color: #e6c900;
-}
-.ui-appearance-menuitem.ui-state-highlight.ui-state-active {
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  color: #eee;
-  background: #e6c900;
-  border-color: #e6c900;
-}
-.ui-appearance-menuitem.ui-state-highlight:active {
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  color: #eee;
-  background: #e6c900;
-  border-color: #e6c900;
-}
-.ui-appearance-menuitem.ui-state-highlight.ui-state-disabled {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  color: #111;
-  background: #f1c40f;
-  border-color: #e6c900;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-menuitem.ui-state-highlight:disabled {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  color: #111;
-  background: #f1c40f;
-  border-color: #e6c900;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-menuitem.ui-state-success.ui-state-default {
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  border-color: #0dd461;
-}
-.ui-appearance-menuitem.ui-state-success.ui-state-hover {
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  color: #111;
-  background: #63be89;
-  border-color: #0dd461;
-}
-.ui-appearance-menuitem.ui-state-success:hover {
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  color: #111;
-  background: #63be89;
-  border-color: #0dd461;
-}
-.ui-appearance-menuitem.ui-state-success.ui-state-active {
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  color: #eee;
-  background: #0dd461;
-  border-color: #0dd461;
-}
-.ui-appearance-menuitem.ui-state-success:active {
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  color: #eee;
-  background: #0dd461;
-  border-color: #0dd461;
-}
-.ui-appearance-menuitem.ui-state-success.ui-state-disabled {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  color: #eee;
-  background: #2ecc71;
-  border-color: #0dd461;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-menuitem.ui-state-success:disabled {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  color: #eee;
-  background: #2ecc71;
-  border-color: #0dd461;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-menuitem.ui-state-advantage.ui-state-default {
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  border-color: #0392f1;
-}
-.ui-appearance-menuitem.ui-state-advantage.ui-state-hover {
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  color: #111;
-  background: #6ba2c8;
-  border-color: #0392f1;
-}
-.ui-appearance-menuitem.ui-state-advantage:hover {
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  color: #111;
-  background: #6ba2c8;
-  border-color: #0392f1;
-}
-.ui-appearance-menuitem.ui-state-advantage.ui-state-active {
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  color: #eee;
-  background: #0392f1;
-  border-color: #0392f1;
-}
-.ui-appearance-menuitem.ui-state-advantage:active {
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  color: #eee;
-  background: #0392f1;
-  border-color: #0392f1;
-}
-.ui-appearance-menuitem.ui-state-advantage.ui-state-disabled {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  color: #111;
-  background: #3498db;
-  border-color: #0392f1;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-menuitem.ui-state-advantage:disabled {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s;
-  color: #111;
-  background: #3498db;
-  border-color: #0392f1;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
 }
 /*widget*/
 .ui-radio {
@@ -4088,6 +3726,368 @@ authors: Jesse Harlin, Joe Hare
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
   filter: alpha(opacity=50);
 }
+.ui-menu {
+  background: rgba(255,255,255,0.85);
+  list-style: none;
+  display: block;
+  outline: none;
+  box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.4);
+  border-bottom-radius: 4px;
+  border-style: solid;
+  border-color: #bdc3c7;
+  border-width: 1px;
+}
+.ui-menu:hover {
+  background: #fff;
+}
+.ui-menu-item {
+  min-height: 26px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16.068px;
+  font-family: 'Open Sans', sans-serif;
+}
+.ui-menu-item a {
+  box-sizing: border-box;
+  line-height: 25px;
+  font-size: 16.068px;
+  min-height: 25px;
+  display: block;
+  padding: 4.465999999999999px;
+  margin: 0;
+  cursor: pointer;
+  vertical-align: middle;
+  text-indent: 4.465999999999999px;
+}
+.ui-menu .ui-menu-item > a:hover,
+.ui-menu .ui-menu-item > a.ui-state-hover {
+  background-color: #bdc3c7;
+  color: #eee;
+}
+.ui-menu .ui-menu-item > a:focus,
+.ui-menu .ui-menu-item > a.ui-state-focus,
+.ui-menu .ui-menu-item > a.ui-state-active {
+  background-color: #bdc3c7;
+  color: #eee;
+}
+.ui-appearance-menuitem {
+  min-height: 26px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16.068px;
+  font-family: 'Open Sans', sans-serif;
+}
+.ui-appearance-menuitem .ui-appearance-menuitem-text {
+  box-sizing: border-box;
+  line-height: 25px;
+  font-size: 16.068px;
+  min-height: 25px;
+  display: block;
+  padding: 4.465999999999999px;
+  margin: 0;
+  cursor: pointer;
+  vertical-align: middle;
+  text-indent: 4.465999999999999px;
+}
+.ui-appearance-menuitem:hover,
+.ui-appearance-menuitem.ui-state-hover {
+  background-color: #bdc3c7;
+  color: #eee;
+}
+.ui-appearance-menuitem:focus,
+.ui-appearance-menuitem.ui-state-focus,
+.ui-appearance-menuitem.ui-state-active {
+  background-color: #a5b0b8;
+  color: #eee;
+}
+.ui-menu.ui-list-menuitem .ui-radio {
+  display: block;
+}
+.ui-menu.ui-list-menuitem .ui-appearance-menuitem:last-child {
+  margin-bottom: 1px;
+}
+.ui-appearance-menuitem.ui-state-default.ui-state-default {
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  border-color: #a5b0b8;
+}
+.ui-appearance-menuitem.ui-state-default.ui-state-hover {
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #c9ccce;
+  border-color: #a5b0b8;
+}
+.ui-appearance-menuitem.ui-state-default:hover {
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #c9ccce;
+  border-color: #a5b0b8;
+}
+.ui-appearance-menuitem.ui-state-default.ui-state-active {
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #a5b0b8;
+  border-color: #a5b0b8;
+}
+.ui-appearance-menuitem.ui-state-default:active {
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #a5b0b8;
+  border-color: #a5b0b8;
+}
+.ui-appearance-menuitem.ui-state-default.ui-state-disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #bdc3c7;
+  border-color: #a5b0b8;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-menuitem.ui-state-default:disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #bdc3c7;
+  border-color: #a5b0b8;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-menuitem.ui-state-error.ui-state-default {
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  border-color: #fd1800;
+}
+.ui-appearance-menuitem.ui-state-error.ui-state-hover {
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #d17b73;
+  border-color: #fd1800;
+}
+.ui-appearance-menuitem.ui-state-error:hover {
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #d17b73;
+  border-color: #fd1800;
+}
+.ui-appearance-menuitem.ui-state-error.ui-state-active {
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #eee;
+  background: #fd1800;
+  border-color: #fd1800;
+}
+.ui-appearance-menuitem.ui-state-error:active {
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #eee;
+  background: #fd1800;
+  border-color: #fd1800;
+}
+.ui-appearance-menuitem.ui-state-error.ui-state-disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #e74c3c;
+  border-color: #fd1800;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-menuitem.ui-state-error:disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #e74c3c;
+  border-color: #fd1800;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-menuitem.ui-state-highlight.ui-state-default {
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  border-color: #e6c900;
+}
+.ui-appearance-menuitem.ui-state-highlight.ui-state-hover {
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #d1b855;
+  border-color: #e6c900;
+}
+.ui-appearance-menuitem.ui-state-highlight:hover {
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #d1b855;
+  border-color: #e6c900;
+}
+.ui-appearance-menuitem.ui-state-highlight.ui-state-active {
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #eee;
+  background: #e6c900;
+  border-color: #e6c900;
+}
+.ui-appearance-menuitem.ui-state-highlight:active {
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #eee;
+  background: #e6c900;
+  border-color: #e6c900;
+}
+.ui-appearance-menuitem.ui-state-highlight.ui-state-disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #f1c40f;
+  border-color: #e6c900;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-menuitem.ui-state-highlight:disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #f1c40f;
+  border-color: #e6c900;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-menuitem.ui-state-success.ui-state-default {
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  border-color: #0dd461;
+}
+.ui-appearance-menuitem.ui-state-success.ui-state-hover {
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #63be89;
+  border-color: #0dd461;
+}
+.ui-appearance-menuitem.ui-state-success:hover {
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #63be89;
+  border-color: #0dd461;
+}
+.ui-appearance-menuitem.ui-state-success.ui-state-active {
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #eee;
+  background: #0dd461;
+  border-color: #0dd461;
+}
+.ui-appearance-menuitem.ui-state-success:active {
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #eee;
+  background: #0dd461;
+  border-color: #0dd461;
+}
+.ui-appearance-menuitem.ui-state-success.ui-state-disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #eee;
+  background: #2ecc71;
+  border-color: #0dd461;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-menuitem.ui-state-success:disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #eee;
+  background: #2ecc71;
+  border-color: #0dd461;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-menuitem.ui-state-advantage.ui-state-default {
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  border-color: #0392f1;
+}
+.ui-appearance-menuitem.ui-state-advantage.ui-state-hover {
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #6ba2c8;
+  border-color: #0392f1;
+}
+.ui-appearance-menuitem.ui-state-advantage:hover {
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #6ba2c8;
+  border-color: #0392f1;
+}
+.ui-appearance-menuitem.ui-state-advantage.ui-state-active {
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #eee;
+  background: #0392f1;
+  border-color: #0392f1;
+}
+.ui-appearance-menuitem.ui-state-advantage:active {
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #eee;
+  background: #0392f1;
+  border-color: #0392f1;
+}
+.ui-appearance-menuitem.ui-state-advantage.ui-state-disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #3498db;
+  border-color: #0392f1;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-menuitem.ui-state-advantage:disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #3498db;
+  border-color: #0392f1;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
 .ui-text .ui-text-label {
   min-height: 26px;
   line-height: 25px;
@@ -4302,7 +4302,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-default .ui-text-input.ui-state-default {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #bdc3c7;
@@ -4310,7 +4310,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-default .ui-text-input.ui-state-hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #c9ccce;
@@ -4318,7 +4318,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-default .ui-text-input:hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #c9ccce;
@@ -4326,7 +4326,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-default .ui-text-input.ui-state-active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #a5b0b8;
@@ -4334,7 +4334,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-default .ui-text-input:active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #a5b0b8;
@@ -4342,7 +4342,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-default .ui-text-input:focus {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #a5b0b8;
@@ -4350,7 +4350,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-default .ui-text-input.ui-state-disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #bdc3c7;
@@ -4363,7 +4363,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-default .ui-text-input:disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #bdc3c7;
@@ -4376,7 +4376,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-error .ui-text-input.ui-state-default {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #e74c3c;
@@ -4384,7 +4384,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-error .ui-text-input.ui-state-hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #d17b73;
@@ -4392,7 +4392,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-error .ui-text-input:hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #d17b73;
@@ -4400,7 +4400,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-error .ui-text-input.ui-state-active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #fd1800;
@@ -4408,7 +4408,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-error .ui-text-input:active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #fd1800;
@@ -4416,7 +4416,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-error .ui-text-input:focus {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #fd1800;
@@ -4424,7 +4424,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-error .ui-text-input.ui-state-disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #e74c3c;
@@ -4437,7 +4437,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-error .ui-text-input:disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #e74c3c;
@@ -4450,7 +4450,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-highlight .ui-text-input.ui-state-default {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #f1c40f;
@@ -4458,7 +4458,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-highlight .ui-text-input.ui-state-hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #d1b855;
@@ -4466,7 +4466,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-highlight .ui-text-input:hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #d1b855;
@@ -4474,7 +4474,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-highlight .ui-text-input.ui-state-active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #e6c900;
@@ -4482,7 +4482,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-highlight .ui-text-input:active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #e6c900;
@@ -4490,7 +4490,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-highlight .ui-text-input:focus {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #e6c900;
@@ -4498,7 +4498,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-highlight .ui-text-input.ui-state-disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #f1c40f;
@@ -4511,7 +4511,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-highlight .ui-text-input:disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #f1c40f;
@@ -4524,7 +4524,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-success .ui-text-input.ui-state-default {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #2ecc71;
@@ -4532,7 +4532,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-success .ui-text-input.ui-state-hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #63be89;
@@ -4540,7 +4540,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-success .ui-text-input:hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #63be89;
@@ -4548,7 +4548,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-success .ui-text-input.ui-state-active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #0dd461;
@@ -4556,7 +4556,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-success .ui-text-input:active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #0dd461;
@@ -4564,7 +4564,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-success .ui-text-input:focus {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #0dd461;
@@ -4572,7 +4572,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-success .ui-text-input.ui-state-disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #2ecc71;
@@ -4585,7 +4585,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-success .ui-text-input:disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #2ecc71;
@@ -4598,7 +4598,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-advantage .ui-text-input.ui-state-default {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #3498db;
@@ -4606,7 +4606,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-advantage .ui-text-input.ui-state-hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #6ba2c8;
@@ -4614,7 +4614,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-advantage .ui-text-input:hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #6ba2c8;
@@ -4622,7 +4622,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-advantage .ui-text-input.ui-state-active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #0392f1;
@@ -4630,7 +4630,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-advantage .ui-text-input:active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #0392f1;
@@ -4638,7 +4638,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-advantage .ui-text-input:focus {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #0392f1;
@@ -4646,7 +4646,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-advantage .ui-text-input.ui-state-disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #3498db;
@@ -4659,7 +4659,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-text.ui-state-advantage .ui-text-input:disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #3498db;
@@ -4777,7 +4777,7 @@ authors: Jesse Harlin, Joe Hare
 }
 .ui-picklist .ui-picklist-input {
   min-height: 26px;
-  transition: color 0.2s, border 0.2s, background 0.2s;
+  transition: color 0.3s, border 0.3s, background 0.3s;
 }
 .ui-picklist .ui-picklist-zone-frame {
   display: table;
@@ -4910,7 +4910,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-default .ui-picklist-input.ui-state-default {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #bdc3c7;
@@ -4918,7 +4918,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-default .ui-picklist-input.ui-state-hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #c9ccce;
@@ -4926,7 +4926,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-default .ui-picklist-input:hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #c9ccce;
@@ -4934,7 +4934,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-default .ui-picklist-input.ui-state-active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #a5b0b8;
@@ -4942,7 +4942,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-default .ui-picklist-input:active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #a5b0b8;
@@ -4950,7 +4950,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-default .ui-picklist-input:focus {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #a5b0b8;
@@ -4958,7 +4958,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-default .ui-picklist-input.ui-state-disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #bdc3c7;
@@ -4971,7 +4971,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-default .ui-picklist-input:disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #bdc3c7;
@@ -4984,7 +4984,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-error .ui-picklist-input.ui-state-default {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #e74c3c;
@@ -4992,7 +4992,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-error .ui-picklist-input.ui-state-hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #d17b73;
@@ -5000,7 +5000,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-error .ui-picklist-input:hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #d17b73;
@@ -5008,7 +5008,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-error .ui-picklist-input.ui-state-active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #fd1800;
@@ -5016,7 +5016,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-error .ui-picklist-input:active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #fd1800;
@@ -5024,7 +5024,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-error .ui-picklist-input:focus {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #fd1800;
@@ -5032,7 +5032,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-error .ui-picklist-input.ui-state-disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #e74c3c;
@@ -5045,7 +5045,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-error .ui-picklist-input:disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #e74c3c;
@@ -5058,7 +5058,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-highlight .ui-picklist-input.ui-state-default {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #f1c40f;
@@ -5066,7 +5066,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-highlight .ui-picklist-input.ui-state-hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #d1b855;
@@ -5074,7 +5074,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-highlight .ui-picklist-input:hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #d1b855;
@@ -5082,7 +5082,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-highlight .ui-picklist-input.ui-state-active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #e6c900;
@@ -5090,7 +5090,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-highlight .ui-picklist-input:active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #e6c900;
@@ -5098,7 +5098,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-highlight .ui-picklist-input:focus {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #e6c900;
@@ -5106,7 +5106,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-highlight .ui-picklist-input.ui-state-disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #f1c40f;
@@ -5119,7 +5119,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-highlight .ui-picklist-input:disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #f1c40f;
@@ -5132,7 +5132,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-success .ui-picklist-input.ui-state-default {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #2ecc71;
@@ -5140,7 +5140,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-success .ui-picklist-input.ui-state-hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #63be89;
@@ -5148,7 +5148,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-success .ui-picklist-input:hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #63be89;
@@ -5156,7 +5156,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-success .ui-picklist-input.ui-state-active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #0dd461;
@@ -5164,7 +5164,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-success .ui-picklist-input:active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #0dd461;
@@ -5172,7 +5172,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-success .ui-picklist-input:focus {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #0dd461;
@@ -5180,7 +5180,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-success .ui-picklist-input.ui-state-disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #2ecc71;
@@ -5193,7 +5193,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-success .ui-picklist-input:disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #2ecc71;
@@ -5206,7 +5206,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-advantage .ui-picklist-input.ui-state-default {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #3498db;
@@ -5214,7 +5214,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-advantage .ui-picklist-input.ui-state-hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #6ba2c8;
@@ -5222,7 +5222,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-advantage .ui-picklist-input:hover {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #6ba2c8;
@@ -5230,7 +5230,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-advantage .ui-picklist-input.ui-state-active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #0392f1;
@@ -5238,7 +5238,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-advantage .ui-picklist-input:active {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #0392f1;
@@ -5246,7 +5246,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-advantage .ui-picklist-input:focus {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #0392f1;
@@ -5254,7 +5254,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-advantage .ui-picklist-input.ui-state-disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #3498db;
@@ -5267,7 +5267,7 @@ authors: Jesse Harlin, Joe Hare
 .ui-picklist.ui-state-advantage .ui-picklist-input:disabled {
   border-width: 1px;
   border-style: solid;
-  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s;
+  transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
   border-color: #3498db;

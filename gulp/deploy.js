@@ -5,8 +5,9 @@ var gulp = require('gulp'),
 
 
 function Deploy(options) {
-
+    
     function deploy() {
+        console.log('start deploy', options.deployFiles);
         return gulp
             .src(options.deployFiles)
             .pipe(ghPages());

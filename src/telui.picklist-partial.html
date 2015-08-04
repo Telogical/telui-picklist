@@ -46,7 +46,7 @@
                           ></telui-button>
         </div>
         <div class="ui-picklist-zone ui-picklist-data">
-            <div class="w-12 w-alpha w-omega ui-picklist-selectlist-frame">
+            <div class="w-12 w-alpha w-omega ui-picklist-selectlist-frame ui-picklist-selectlist-frame-selectionmodel">
                <telui-checkbox-list
                                     data="selectionModel"
                                     value="selectedSelectionModel"
@@ -60,10 +60,12 @@
         <div class="ui-picklist-zone ui-picklist-controls">
             <telui-button
                           label="&#8593;"
+                          click="reorderSelectionModel('up')"
                           appearance="{{appearanceControls}}"
                           ></telui-button>
             <telui-button
                           label="&#8595;"
+                          click="reorderSelectionModel('down')"
                           appearance="{{appearanceControls}}"
                           ></telui-button>
         </div>

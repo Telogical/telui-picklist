@@ -22,6 +22,7 @@ _trannySpeed = $transitionSpeed;
   .ui-picklist-data
     min-height: 100px
     vertical-align:top
+    
   .ui-picklist-controls
     width: $brick
     min-width: $brick
@@ -31,7 +32,11 @@ _trannySpeed = $transitionSpeed;
     min-height: 100px
   .ui-picklist-selectlist-frame
     max-height: 350px
+    border: $border-width solid $color-default
+    height:100%
     overflow: auto
+  .ui-picklist-selectlist-frame-selectionmodel
+    margin-top: $brick - ($border-width*2)
 
 
 ui-states('.ui-picklist', '.ui-picklist-label', $ui-states, iLabel, $interactivityTolerance)

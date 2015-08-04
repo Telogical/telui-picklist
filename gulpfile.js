@@ -18,7 +18,7 @@ function ci(cb) {
 
 var options = {
     appName: 'PicklistDemo',
-    deployfiles: './docs/**/*',
+    deployFiles: './docs/**/*',
     appOutput: './docs/build',
 };
 

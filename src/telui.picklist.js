@@ -100,8 +100,8 @@ function reactPicklistDirective() {
                 .concat($scope.selectedData.slice(0))
                 .uniq(byIdIfPresent)
                 .value();
-          
-            $scope.selectedData =[];
+
+            $scope.selectedData = [];
         }
 
         function deselectSelectionModel() {
@@ -114,7 +114,7 @@ function reactPicklistDirective() {
 
         function deselectAll() {
             $scope.selectionModel = [];
-            $scope.selectedData =[];
+            $scope.selectedData = [];
         }
 
         function updateValueFromSelectionModel() {
@@ -137,8 +137,26 @@ function reactPicklistDirective() {
             if (_.isArray(newValue)) {
                 $scope.selectionModel = newValue.slice(0);
                 filterData($scope.filterBy);
-                $scope.selectedData =[];
+                $scope.selectedData = [];
             }
+        }
+
+        function reorderSelectionModel(direction) {
+          
+            function selectionToIndexes(datum){
+              return _.findIndex(currentList, datum);
+            }
+          
+            var currentList = $scope.selectionModel;
+            var currentSelection = $scope.selectedSelectionModel;
+
+            var indexes = _
+                .chain(currentSelection)
+                .map(selectionToIndexes)
+                .value();
+            
+            console.log(direction, indexes);
+
         }
 
         $scope.appearanceControls = 'button';
@@ -154,6 +172,7 @@ function reactPicklistDirective() {
         $scope.$watch('filterBy', filterData);
         $scope.$watch('selectionModel', updateValueFromSelectionModel);
         $scope.$watch('value', setValue);
+        $scope.reorderSelectionModel = reorderSelectionModel;
 
     }
 

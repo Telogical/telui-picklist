@@ -182,7 +182,8 @@ function reactPicklistDirective() {
             
             $scope.selectionModel = currentList;
         }
-
+          
+        
         $scope.appearanceControls = 'button';
         $scope.appearance = $scope.appearance || 'menuitem';
         $scope.selectAll = selectAll;
@@ -214,7 +215,6 @@ function reactPicklistDirective() {
         text: '=?',
         state: '@',
         clearable: '=?',
-        maxHeight: '@',
         labelProp: '@'
     };
 

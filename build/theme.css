@@ -3438,6 +3438,294 @@ authors: Jesse Harlin, Joe Hare
 .ui-checkboxlist-frame {
   width: 100%;
 }
+/*widget*/
+.ui-radio {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  padding: 0;
+  line-height: normal;
+  margin: 0 auto;
+  cursor: pointer;
+  vertical-align: middle;
+  text-align: center;
+  overflow: visible;
+}
+.ui-appearance-radio {
+  line-height: 25px;
+  font-size: 16.068px;
+}
+.ui-appearance-radio .ui-appearance-radio-label-frame.w-auto {
+  margin-left: 26px;
+  width: auto;
+}
+.ui-appearance-radio .ui-appearance-radio-label-frame.w-auto .ui-appearance-radio-label {
+  text-align: left;
+}
+.ui-appearance-radio .ui-appearance-radio-sprite-frame {
+  width: 26px;
+  height: 26px;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.ui-appearance-radio .ui-appearance-radio-sprite-frame .ui-appearance-radio-sprite {
+  display: block;
+  width: 16.068px;
+  height: 16.068px;
+  border-radius: 4px;
+  margin: 4.465999999999999px auto;
+}
+.ui-appearance-radio.ui-state-default .ui-appearance-radio-label.ui-state-default {
+  color: #000;
+}
+.ui-appearance-radio.ui-state-default .ui-appearance-radio-label.ui-state-disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-default .ui-appearance-radio-label:disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-error .ui-appearance-radio-label.ui-state-default {
+  color: #9d2b20;
+}
+.ui-appearance-radio.ui-state-error .ui-appearance-radio-label.ui-state-disabled {
+  color: #9d2b20;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-error .ui-appearance-radio-label:disabled {
+  color: #9d2b20;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-label.ui-state-default {
+  color: #927914;
+}
+.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-label.ui-state-disabled {
+  color: #927914;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-label:disabled {
+  color: #927914;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-success .ui-appearance-radio-label.ui-state-default {
+  color: #267d4b;
+}
+.ui-appearance-radio.ui-state-success .ui-appearance-radio-label.ui-state-disabled {
+  color: #267d4b;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-success .ui-appearance-radio-label:disabled {
+  color: #267d4b;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-label.ui-state-default {
+  color: #24638c;
+}
+.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-label.ui-state-disabled {
+  color: #24638c;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-label:disabled {
+  color: #24638c;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite.ui-state-default {
+  color: #000;
+}
+.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite.ui-state-hover {
+  color: #c9ccce;
+}
+.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite:hover {
+  color: #c9ccce;
+}
+.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite.ui-state-active {
+  color: #a5b0b8;
+}
+.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite:active {
+  color: #a5b0b8;
+}
+.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite.ui-state-disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite:disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite.ui-state-default {
+  color: #9d2b20;
+}
+.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite.ui-state-hover {
+  color: #d17b73;
+}
+.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite:hover {
+  color: #d17b73;
+}
+.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite.ui-state-active {
+  color: #fd1800;
+}
+.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite:active {
+  color: #fd1800;
+}
+.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite.ui-state-disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite:disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite.ui-state-default {
+  color: #927914;
+}
+.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite.ui-state-hover {
+  color: #d1b855;
+}
+.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite:hover {
+  color: #d1b855;
+}
+.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite.ui-state-active {
+  color: #e6c900;
+}
+.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite:active {
+  color: #e6c900;
+}
+.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite.ui-state-disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite:disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite.ui-state-default {
+  color: #267d4b;
+}
+.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite.ui-state-hover {
+  color: #63be89;
+}
+.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite:hover {
+  color: #63be89;
+}
+.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite.ui-state-active {
+  color: #0dd461;
+}
+.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite:active {
+  color: #0dd461;
+}
+.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite.ui-state-disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite:disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite.ui-state-default {
+  color: #24638c;
+}
+.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite.ui-state-hover {
+  color: #6ba2c8;
+}
+.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite:hover {
+  color: #6ba2c8;
+}
+.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite.ui-state-active {
+  color: #0392f1;
+}
+.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite:active {
+  color: #0392f1;
+}
+.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite.ui-state-disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite:disabled {
+  color: #000;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
 .ui-menu {
   background: rgba(255,255,255,0.85);
   list-style: none;
@@ -3799,294 +4087,6 @@ authors: Jesse Harlin, Joe Hare
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
   filter: alpha(opacity=50);
   cursor: default;
-}
-/*widget*/
-.ui-radio {
-  width: 100%;
-  display: inline-block;
-  position: relative;
-  padding: 0;
-  line-height: normal;
-  margin: 0 auto;
-  cursor: pointer;
-  vertical-align: middle;
-  text-align: center;
-  overflow: visible;
-}
-.ui-appearance-radio {
-  line-height: 25px;
-  font-size: 16.068px;
-}
-.ui-appearance-radio .ui-appearance-radio-label-frame.w-auto {
-  margin-left: 26px;
-  width: auto;
-}
-.ui-appearance-radio .ui-appearance-radio-label-frame.w-auto .ui-appearance-radio-label {
-  text-align: left;
-}
-.ui-appearance-radio .ui-appearance-radio-sprite-frame {
-  width: 26px;
-  height: 26px;
-  float: left;
-  margin-left: 0px;
-  margin-right: 0px;
-}
-.ui-appearance-radio .ui-appearance-radio-sprite-frame .ui-appearance-radio-sprite {
-  display: block;
-  width: 16.068px;
-  height: 16.068px;
-  border-radius: 4px;
-  margin: 4.465999999999999px auto;
-}
-.ui-appearance-radio.ui-state-default .ui-appearance-radio-label.ui-state-default {
-  color: #000;
-}
-.ui-appearance-radio.ui-state-default .ui-appearance-radio-label.ui-state-disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-default .ui-appearance-radio-label:disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-error .ui-appearance-radio-label.ui-state-default {
-  color: #9d2b20;
-}
-.ui-appearance-radio.ui-state-error .ui-appearance-radio-label.ui-state-disabled {
-  color: #9d2b20;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-error .ui-appearance-radio-label:disabled {
-  color: #9d2b20;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-label.ui-state-default {
-  color: #927914;
-}
-.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-label.ui-state-disabled {
-  color: #927914;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-label:disabled {
-  color: #927914;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-success .ui-appearance-radio-label.ui-state-default {
-  color: #267d4b;
-}
-.ui-appearance-radio.ui-state-success .ui-appearance-radio-label.ui-state-disabled {
-  color: #267d4b;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-success .ui-appearance-radio-label:disabled {
-  color: #267d4b;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-label.ui-state-default {
-  color: #24638c;
-}
-.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-label.ui-state-disabled {
-  color: #24638c;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-label:disabled {
-  color: #24638c;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite.ui-state-default {
-  color: #000;
-}
-.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite.ui-state-hover {
-  color: #c9ccce;
-}
-.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite:hover {
-  color: #c9ccce;
-}
-.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite.ui-state-active {
-  color: #a5b0b8;
-}
-.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite:active {
-  color: #a5b0b8;
-}
-.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite.ui-state-disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-default .ui-appearance-radio-sprite:disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite.ui-state-default {
-  color: #9d2b20;
-}
-.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite.ui-state-hover {
-  color: #d17b73;
-}
-.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite:hover {
-  color: #d17b73;
-}
-.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite.ui-state-active {
-  color: #fd1800;
-}
-.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite:active {
-  color: #fd1800;
-}
-.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite.ui-state-disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-error .ui-appearance-radio-sprite:disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite.ui-state-default {
-  color: #927914;
-}
-.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite.ui-state-hover {
-  color: #d1b855;
-}
-.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite:hover {
-  color: #d1b855;
-}
-.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite.ui-state-active {
-  color: #e6c900;
-}
-.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite:active {
-  color: #e6c900;
-}
-.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite.ui-state-disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-highlight .ui-appearance-radio-sprite:disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite.ui-state-default {
-  color: #267d4b;
-}
-.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite.ui-state-hover {
-  color: #63be89;
-}
-.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite:hover {
-  color: #63be89;
-}
-.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite.ui-state-active {
-  color: #0dd461;
-}
-.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite:active {
-  color: #0dd461;
-}
-.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite.ui-state-disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-success .ui-appearance-radio-sprite:disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite.ui-state-default {
-  color: #24638c;
-}
-.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite.ui-state-hover {
-  color: #6ba2c8;
-}
-.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite:hover {
-  color: #6ba2c8;
-}
-.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite.ui-state-active {
-  color: #0392f1;
-}
-.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite:active {
-  color: #0392f1;
-}
-.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite.ui-state-disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-}
-.ui-appearance-radio.ui-state-advantage .ui-appearance-radio-sprite:disabled {
-  color: #000;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
 }
 .ui-text .ui-text-label {
   min-height: 26px;
@@ -4802,7 +4802,12 @@ authors: Jesse Harlin, Joe Hare
 }
 .ui-picklist .ui-picklist-selectlist-frame {
   max-height: 350px;
+  border: 1px solid #bdc3c7;
+  height: 100%;
   overflow: auto;
+}
+.ui-picklist .ui-picklist-selectlist-frame-selectionmodel {
+  margin-top: 24px;
 }
 .ui-picklist.ui-state-default .ui-picklist-label.ui-state-default {
   color: #000;

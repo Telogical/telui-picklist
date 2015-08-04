@@ -168,10 +168,15 @@ function reactPicklistDirective() {
             var indexes = _
                 .chain(currentSelection)
                 .map(selectionToIndexes)
-                .value();
-
+                .value()
+                .sort();
+            
+            if(direction === 'up'){
+              indexes = indexes.reverse();
+            }
+          
             _.each(indexes, function(indx) {
-                var pos = (direction === 'up') ? -1 : 1;
+                var pos = (direction === 'up') ? 1 : -1;
                 moveArrayItem(currentList, indx, indx + pos);
             });
             

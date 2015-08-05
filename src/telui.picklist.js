@@ -215,7 +215,9 @@ function reactPicklistDirective() {
         text: '=?',
         state: '@',
         clearable: '=?',
-        labelProp: '@'
+        labelProp: '@',
+      
+        filterPlaceholder: '@'
     };
 
     return {

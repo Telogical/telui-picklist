@@ -2558,6 +2558,409 @@ input:focus:disabled,
 textarea:focus:disabled {
   border-color: $color-stateless;
 }
+/*
+TelUI-button
+authors: Jesse Harlin, Joe Hare
+ */
+.ui-button,
+.ui-button:link,
+.ui-button:visited,
+.ui-button:hover,
+.ui-button:active {
+  text-decoration: none;
+}
+.ui-appearance-button {
+  box-sizing: border-box;
+  line-height: 25px;
+  font-size: 16.068px;
+  min-height: 25px;
+  border-radius: 4px;
+  display: block;
+  padding: 0;
+  margin: 0 auto;
+  cursor: pointer;
+  vertical-align: middle;
+  text-align: center;
+  overflow: visible;
+}
+.ui-appearance-button .ui-icon-primary,
+.ui-appearance-button .ui-icon-secondary {
+  margin: 4.465999999999999px 4.465999999999999px;
+}
+.ui-appearance-button.ui-appearance-button-has-icon-primary {
+  width: 27px;
+  height: 27px;
+}
+.ui-appearance-button.ui-appearance-button-has-icon-primary .ui-icon-secondary {
+  margin-right: auto;
+}
+.ui-appearance-button.ui-appearance-button-has-icon-secondary {
+  width: 27px;
+  height: 27px;
+}
+.ui-appearance-button.ui-appearance-button-has-icon-secondary .ui-icon-secondary {
+  margin-left: auto;
+}
+.ui-appearance-button.ui-appearance-button-has-icon-primary.ui-appearance-button-has-icon-secondary {
+  width: 54px;
+  height: 27px;
+}
+.ui-appearance-button.ui-appearance-button-has-text {
+  width: 100%;
+  height: auto;
+}
+.ui-appearance-button.ui-appearance-button-has-text.ui-appearance-button-has-icon-primary .ui-appearance-button-text {
+  text-indent: -26px;
+}
+.ui-appearance-button.ui-appearance-button-has-text.ui-appearance-button-has-icon-secondary .ui-appearance-button-text {
+  text-indent: 26px;
+}
+.ui-appearance-button.ui-appearance-button-has-text.ui-appearance-button-has-icon-secondary.ui-appearance-button-has-icon-primary {
+  width: 100%;
+}
+.ui-appearance-button.ui-appearance-button-has-text.ui-appearance-button-has-icon-secondary.ui-appearance-button-has-icon-primary .ui-appearance-button-text {
+  text-indent: 0px;
+}
+.ui-appearance-button.ui-state-default.ui-state-default {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #bdc3c7;
+  border-color: #a5b0b8;
+}
+.ui-appearance-button.ui-state-default.ui-state-hover {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #c9ccce;
+  border-color: #a5b0b8;
+}
+.ui-appearance-button.ui-state-default:hover {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #c9ccce;
+  border-color: #a5b0b8;
+}
+.ui-appearance-button.ui-state-default.ui-state-active {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #a5b0b8;
+  border-color: #a5b0b8;
+}
+.ui-appearance-button.ui-state-default:active {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #a5b0b8;
+  border-color: #a5b0b8;
+}
+.ui-appearance-button.ui-state-default.ui-state-disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #bdc3c7;
+  border-color: #a5b0b8;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-button.ui-state-default:disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #bdc3c7;
+  border-color: #a5b0b8;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-button.ui-state-error.ui-state-default {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #e74c3c;
+  border-color: #fd1800;
+}
+.ui-appearance-button.ui-state-error.ui-state-hover {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #d17b73;
+  border-color: #fd1800;
+}
+.ui-appearance-button.ui-state-error:hover {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #d17b73;
+  border-color: #fd1800;
+}
+.ui-appearance-button.ui-state-error.ui-state-active {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #eee;
+  background: #fd1800;
+  border-color: #fd1800;
+}
+.ui-appearance-button.ui-state-error:active {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #eee;
+  background: #fd1800;
+  border-color: #fd1800;
+}
+.ui-appearance-button.ui-state-error.ui-state-disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #e74c3c;
+  border-color: #fd1800;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-button.ui-state-error:disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #e74c3c;
+  border-color: #fd1800;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-button.ui-state-highlight.ui-state-default {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #f1c40f;
+  border-color: #e6c900;
+}
+.ui-appearance-button.ui-state-highlight.ui-state-hover {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #d1b855;
+  border-color: #e6c900;
+}
+.ui-appearance-button.ui-state-highlight:hover {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #d1b855;
+  border-color: #e6c900;
+}
+.ui-appearance-button.ui-state-highlight.ui-state-active {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #eee;
+  background: #e6c900;
+  border-color: #e6c900;
+}
+.ui-appearance-button.ui-state-highlight:active {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #eee;
+  background: #e6c900;
+  border-color: #e6c900;
+}
+.ui-appearance-button.ui-state-highlight.ui-state-disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #f1c40f;
+  border-color: #e6c900;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-button.ui-state-highlight:disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #f1c40f;
+  border-color: #e6c900;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-button.ui-state-success.ui-state-default {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #eee;
+  background: #2ecc71;
+  border-color: #0dd461;
+}
+.ui-appearance-button.ui-state-success.ui-state-hover {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #63be89;
+  border-color: #0dd461;
+}
+.ui-appearance-button.ui-state-success:hover {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #63be89;
+  border-color: #0dd461;
+}
+.ui-appearance-button.ui-state-success.ui-state-active {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #eee;
+  background: #0dd461;
+  border-color: #0dd461;
+}
+.ui-appearance-button.ui-state-success:active {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #eee;
+  background: #0dd461;
+  border-color: #0dd461;
+}
+.ui-appearance-button.ui-state-success.ui-state-disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #eee;
+  background: #2ecc71;
+  border-color: #0dd461;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-button.ui-state-success:disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #eee;
+  background: #2ecc71;
+  border-color: #0dd461;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-button.ui-state-advantage.ui-state-default {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #3498db;
+  border-color: #0392f1;
+}
+.ui-appearance-button.ui-state-advantage.ui-state-hover {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #6ba2c8;
+  border-color: #0392f1;
+}
+.ui-appearance-button.ui-state-advantage:hover {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #6ba2c8;
+  border-color: #0392f1;
+}
+.ui-appearance-button.ui-state-advantage.ui-state-active {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #eee;
+  background: #0392f1;
+  border-color: #0392f1;
+}
+.ui-appearance-button.ui-state-advantage:active {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #eee;
+  background: #0392f1;
+  border-color: #0392f1;
+}
+.ui-appearance-button.ui-state-advantage.ui-state-disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #3498db;
+  border-color: #0392f1;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+.ui-appearance-button.ui-state-advantage:disabled {
+  border-width: 1px;
+  border-style: solid;
+  transition: color 0.3s, border 0.3s, background 0.3s;
+  color: #111;
+  background: #3498db;
+  border-color: #0392f1;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  cursor: default;
+}
 .ui-checkbox {
   width: 100%;
   display: inline-block;
@@ -2694,7 +3097,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-sprite.ui-state-default {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #bdc3c7;
@@ -2702,7 +3105,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-sprite.ui-state-hover {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #c9ccce;
@@ -2710,7 +3113,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-sprite:hover {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #c9ccce;
@@ -2718,7 +3121,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-sprite.ui-state-active {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #a5b0b8;
@@ -2726,7 +3129,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-sprite:active {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #a5b0b8;
@@ -2734,7 +3137,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-sprite.ui-state-disabled {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #bdc3c7;
@@ -2748,7 +3151,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-default .ui-appearance-checkbox-sprite:disabled {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #bdc3c7;
@@ -2762,7 +3165,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-sprite.ui-state-default {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #e74c3c;
@@ -2770,7 +3173,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-sprite.ui-state-hover {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #d17b73;
@@ -2778,7 +3181,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-sprite:hover {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #d17b73;
@@ -2786,7 +3189,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-sprite.ui-state-active {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #fd1800;
@@ -2794,7 +3197,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-sprite:active {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #fd1800;
@@ -2802,7 +3205,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-sprite.ui-state-disabled {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #e74c3c;
@@ -2816,7 +3219,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-error .ui-appearance-checkbox-sprite:disabled {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #e74c3c;
@@ -2830,7 +3233,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-sprite.ui-state-default {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #f1c40f;
@@ -2838,7 +3241,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-sprite.ui-state-hover {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #d1b855;
@@ -2846,7 +3249,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-sprite:hover {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #d1b855;
@@ -2854,7 +3257,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-sprite.ui-state-active {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #e6c900;
@@ -2862,7 +3265,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-sprite:active {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #e6c900;
@@ -2870,7 +3273,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-sprite.ui-state-disabled {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #f1c40f;
@@ -2884,7 +3287,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-highlight .ui-appearance-checkbox-sprite:disabled {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #f1c40f;
@@ -2898,7 +3301,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-sprite.ui-state-default {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #2ecc71;
@@ -2906,7 +3309,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-sprite.ui-state-hover {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #63be89;
@@ -2914,7 +3317,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-sprite:hover {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #63be89;
@@ -2922,7 +3325,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-sprite.ui-state-active {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #0dd461;
@@ -2930,7 +3333,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-sprite:active {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #0dd461;
@@ -2938,7 +3341,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-sprite.ui-state-disabled {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #2ecc71;
@@ -2952,7 +3355,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-success .ui-appearance-checkbox-sprite:disabled {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #2ecc71;
@@ -2966,7 +3369,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-sprite.ui-state-default {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #3498db;
@@ -2974,7 +3377,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-sprite.ui-state-hover {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #6ba2c8;
@@ -2982,7 +3385,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-sprite:hover {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #6ba2c8;
@@ -2990,7 +3393,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-sprite.ui-state-active {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #0392f1;
@@ -2998,7 +3401,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-sprite:active {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #0392f1;
@@ -3006,7 +3409,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-sprite.ui-state-disabled {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #3498db;
@@ -3020,7 +3423,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-checkbox.ui-state-advantage .ui-appearance-checkbox-sprite:disabled {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #3498db;
@@ -3090,7 +3493,6 @@ textarea:focus:disabled {
 }
 .ui-appearance-menuitem .ui-appearance-menuitem-text {
   box-sizing: border-box;
-  line-height: 25px;
   font-size: 16.068px;
   height: 28px;
   display: block;
@@ -3146,7 +3548,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-menuitem.ui-state-default.ui-state-disabled {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #bdc3c7;
@@ -3160,7 +3562,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-menuitem.ui-state-default:disabled {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #bdc3c7;
@@ -3202,7 +3604,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-menuitem.ui-state-error.ui-state-disabled {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #e74c3c;
@@ -3216,7 +3618,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-menuitem.ui-state-error:disabled {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #e74c3c;
@@ -3258,7 +3660,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-menuitem.ui-state-highlight.ui-state-disabled {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #f1c40f;
@@ -3272,7 +3674,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-menuitem.ui-state-highlight:disabled {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #f1c40f;
@@ -3314,7 +3716,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-menuitem.ui-state-success.ui-state-disabled {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #2ecc71;
@@ -3328,7 +3730,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-menuitem.ui-state-success:disabled {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #eee;
   background: #2ecc71;
@@ -3370,7 +3772,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-menuitem.ui-state-advantage.ui-state-disabled {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #3498db;
@@ -3384,7 +3786,7 @@ textarea:focus:disabled {
 }
 .ui-appearance-menuitem.ui-state-advantage:disabled {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s;
   color: #111;
   background: #3498db;
@@ -3897,7 +4299,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-default .ui-text-input.ui-state-default {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -3905,7 +4307,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-default .ui-text-input.ui-state-hover {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -3913,7 +4315,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-default .ui-text-input:hover {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -3921,7 +4323,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-default .ui-text-input.ui-state-active {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -3929,7 +4331,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-default .ui-text-input:active {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -3937,7 +4339,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-default .ui-text-input:focus {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -3945,7 +4347,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-default .ui-text-input.ui-state-disabled {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -3958,7 +4360,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-default .ui-text-input:disabled {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -3971,7 +4373,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-error .ui-text-input.ui-state-default {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -3979,7 +4381,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-error .ui-text-input.ui-state-hover {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -3987,7 +4389,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-error .ui-text-input:hover {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -3995,7 +4397,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-error .ui-text-input.ui-state-active {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -4003,7 +4405,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-error .ui-text-input:active {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -4011,7 +4413,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-error .ui-text-input:focus {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -4019,7 +4421,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-error .ui-text-input.ui-state-disabled {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -4032,7 +4434,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-error .ui-text-input:disabled {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -4045,7 +4447,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-highlight .ui-text-input.ui-state-default {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -4053,7 +4455,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-highlight .ui-text-input.ui-state-hover {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -4061,7 +4463,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-highlight .ui-text-input:hover {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -4069,7 +4471,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-highlight .ui-text-input.ui-state-active {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -4077,7 +4479,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-highlight .ui-text-input:active {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -4085,7 +4487,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-highlight .ui-text-input:focus {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -4093,7 +4495,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-highlight .ui-text-input.ui-state-disabled {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -4106,7 +4508,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-highlight .ui-text-input:disabled {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -4119,7 +4521,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-success .ui-text-input.ui-state-default {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -4127,7 +4529,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-success .ui-text-input.ui-state-hover {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -4135,7 +4537,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-success .ui-text-input:hover {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -4143,7 +4545,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-success .ui-text-input.ui-state-active {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -4151,7 +4553,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-success .ui-text-input:active {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -4159,7 +4561,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-success .ui-text-input:focus {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -4167,7 +4569,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-success .ui-text-input.ui-state-disabled {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -4180,7 +4582,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-success .ui-text-input:disabled {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -4193,7 +4595,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-advantage .ui-text-input.ui-state-default {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -4201,7 +4603,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-advantage .ui-text-input.ui-state-hover {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -4209,7 +4611,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-advantage .ui-text-input:hover {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -4217,7 +4619,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-advantage .ui-text-input.ui-state-active {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -4225,7 +4627,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-advantage .ui-text-input:active {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -4233,7 +4635,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-advantage .ui-text-input:focus {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -4241,7 +4643,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-advantage .ui-text-input.ui-state-disabled {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -4254,7 +4656,7 @@ textarea:focus:disabled {
 }
 .ui-text.ui-state-advantage .ui-text-input:disabled {
   border-width: 1px;
-  border-style: $border-style;
+  border-style: solid;
   transition: color 0.3s, border 0.3s, background 0.3s, box-shadow 0.15s;
   color: #111;
   background: #fff;
@@ -4363,409 +4765,6 @@ textarea:focus:disabled {
   border-width: 18px;
   margin-top: -18px;
 }
-/*
-TelUI-button
-authors: Jesse Harlin, Joe Hare
- */
-.ui-button,
-.ui-button:link,
-.ui-button:visited,
-.ui-button:hover,
-.ui-button:active {
-  text-decoration: none;
-}
-.ui-appearance-button {
-  box-sizing: border-box;
-  line-height: 25px;
-  font-size: 16.068px;
-  min-height: 25px;
-  border-radius: 4px;
-  display: block;
-  padding: 0;
-  margin: 0 auto;
-  cursor: pointer;
-  vertical-align: middle;
-  text-align: center;
-  overflow: visible;
-}
-.ui-appearance-button .ui-icon-primary,
-.ui-appearance-button .ui-icon-secondary {
-  margin: 4.465999999999999px 4.465999999999999px;
-}
-.ui-appearance-button.ui-appearance-button-has-icon-primary {
-  width: 27px;
-  height: 27px;
-}
-.ui-appearance-button.ui-appearance-button-has-icon-primary .ui-icon-secondary {
-  margin-right: auto;
-}
-.ui-appearance-button.ui-appearance-button-has-icon-secondary {
-  width: 27px;
-  height: 27px;
-}
-.ui-appearance-button.ui-appearance-button-has-icon-secondary .ui-icon-secondary {
-  margin-left: auto;
-}
-.ui-appearance-button.ui-appearance-button-has-icon-primary.ui-appearance-button-has-icon-secondary {
-  width: 54px;
-  height: 27px;
-}
-.ui-appearance-button.ui-appearance-button-has-text {
-  width: 100%;
-  height: auto;
-}
-.ui-appearance-button.ui-appearance-button-has-text.ui-appearance-button-has-icon-primary .ui-appearance-button-text {
-  text-indent: -26px;
-}
-.ui-appearance-button.ui-appearance-button-has-text.ui-appearance-button-has-icon-secondary .ui-appearance-button-text {
-  text-indent: 26px;
-}
-.ui-appearance-button.ui-appearance-button-has-text.ui-appearance-button-has-icon-secondary.ui-appearance-button-has-icon-primary {
-  width: 100%;
-}
-.ui-appearance-button.ui-appearance-button-has-text.ui-appearance-button-has-icon-secondary.ui-appearance-button-has-icon-primary .ui-appearance-button-text {
-  text-indent: 0px;
-}
-.ui-appearance-button.ui-state-default.ui-state-default {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #111;
-  background: #bdc3c7;
-  border-color: #a5b0b8;
-}
-.ui-appearance-button.ui-state-default.ui-state-hover {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #111;
-  background: #c9ccce;
-  border-color: #a5b0b8;
-}
-.ui-appearance-button.ui-state-default:hover {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #111;
-  background: #c9ccce;
-  border-color: #a5b0b8;
-}
-.ui-appearance-button.ui-state-default.ui-state-active {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #111;
-  background: #a5b0b8;
-  border-color: #a5b0b8;
-}
-.ui-appearance-button.ui-state-default:active {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #111;
-  background: #a5b0b8;
-  border-color: #a5b0b8;
-}
-.ui-appearance-button.ui-state-default.ui-state-disabled {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #111;
-  background: #bdc3c7;
-  border-color: #a5b0b8;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-button.ui-state-default:disabled {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #111;
-  background: #bdc3c7;
-  border-color: #a5b0b8;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-button.ui-state-error.ui-state-default {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #111;
-  background: #e74c3c;
-  border-color: #fd1800;
-}
-.ui-appearance-button.ui-state-error.ui-state-hover {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #111;
-  background: #d17b73;
-  border-color: #fd1800;
-}
-.ui-appearance-button.ui-state-error:hover {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #111;
-  background: #d17b73;
-  border-color: #fd1800;
-}
-.ui-appearance-button.ui-state-error.ui-state-active {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #eee;
-  background: #fd1800;
-  border-color: #fd1800;
-}
-.ui-appearance-button.ui-state-error:active {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #eee;
-  background: #fd1800;
-  border-color: #fd1800;
-}
-.ui-appearance-button.ui-state-error.ui-state-disabled {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #111;
-  background: #e74c3c;
-  border-color: #fd1800;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-button.ui-state-error:disabled {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #111;
-  background: #e74c3c;
-  border-color: #fd1800;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-button.ui-state-highlight.ui-state-default {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #111;
-  background: #f1c40f;
-  border-color: #e6c900;
-}
-.ui-appearance-button.ui-state-highlight.ui-state-hover {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #111;
-  background: #d1b855;
-  border-color: #e6c900;
-}
-.ui-appearance-button.ui-state-highlight:hover {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #111;
-  background: #d1b855;
-  border-color: #e6c900;
-}
-.ui-appearance-button.ui-state-highlight.ui-state-active {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #eee;
-  background: #e6c900;
-  border-color: #e6c900;
-}
-.ui-appearance-button.ui-state-highlight:active {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #eee;
-  background: #e6c900;
-  border-color: #e6c900;
-}
-.ui-appearance-button.ui-state-highlight.ui-state-disabled {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #111;
-  background: #f1c40f;
-  border-color: #e6c900;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-button.ui-state-highlight:disabled {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #111;
-  background: #f1c40f;
-  border-color: #e6c900;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-button.ui-state-success.ui-state-default {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #eee;
-  background: #2ecc71;
-  border-color: #0dd461;
-}
-.ui-appearance-button.ui-state-success.ui-state-hover {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #111;
-  background: #63be89;
-  border-color: #0dd461;
-}
-.ui-appearance-button.ui-state-success:hover {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #111;
-  background: #63be89;
-  border-color: #0dd461;
-}
-.ui-appearance-button.ui-state-success.ui-state-active {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #eee;
-  background: #0dd461;
-  border-color: #0dd461;
-}
-.ui-appearance-button.ui-state-success:active {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #eee;
-  background: #0dd461;
-  border-color: #0dd461;
-}
-.ui-appearance-button.ui-state-success.ui-state-disabled {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #eee;
-  background: #2ecc71;
-  border-color: #0dd461;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-button.ui-state-success:disabled {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #eee;
-  background: #2ecc71;
-  border-color: #0dd461;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-button.ui-state-advantage.ui-state-default {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #111;
-  background: #3498db;
-  border-color: #0392f1;
-}
-.ui-appearance-button.ui-state-advantage.ui-state-hover {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #111;
-  background: #6ba2c8;
-  border-color: #0392f1;
-}
-.ui-appearance-button.ui-state-advantage:hover {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #111;
-  background: #6ba2c8;
-  border-color: #0392f1;
-}
-.ui-appearance-button.ui-state-advantage.ui-state-active {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #eee;
-  background: #0392f1;
-  border-color: #0392f1;
-}
-.ui-appearance-button.ui-state-advantage:active {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #eee;
-  background: #0392f1;
-  border-color: #0392f1;
-}
-.ui-appearance-button.ui-state-advantage.ui-state-disabled {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #111;
-  background: #3498db;
-  border-color: #0392f1;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
-.ui-appearance-button.ui-state-advantage:disabled {
-  border-width: 1px;
-  border-style: solid;
-  transition: color 0.3s, border 0.3s, background 0.3s;
-  color: #111;
-  background: #3498db;
-  border-color: #0392f1;
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  cursor: default;
-}
 .ui-picklist-frame {
   width: 100%;
 }
@@ -4788,7 +4787,6 @@ authors: Jesse Harlin, Joe Hare
 }
 .ui-picklist .ui-picklist-data {
   min-height: 100px;
-  vertical-align: top;
 }
 .ui-picklist .ui-picklist-controls {
   width: 26px;

@@ -1,6 +1,6 @@
 {
     "name": "@telogical/telui-picklist",
-    "version": "0.0.9",
+    "version": "0.0.10",
     "description": "A component that takes in input list of items and produces a sublist or subset from the input, built with the telui component system",
     "main": "index.js",
     "scripts": {
